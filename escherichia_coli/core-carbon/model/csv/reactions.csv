@@ -1,0 +1,20 @@
+Tc1,,Tc1,Carbon1 -> A
+Tc2,,Tc2,Carbon2 -> A
+To2,,To2,Oxygen -> O2
+Td,,Td,D -> Dext
+Te,,Te,E -> Eext
+Tf,,Tf,Fext -> F
+Th,,Th,Hext -> H
+Growth,,Growth,H + C + F + 10 ATP -> Biomass
+Rres,,Rres,O2 + NADH -> ATP
+R1,,R1,A + ATP -> B
+R2a,,R2a,B -> 2 ATP + 2 NADH + C
+R2b,,R2b,C + 2 ATP + 2 NADH -> B
+R3,,R3,B -> F
+R4,,R4,C -> G
+R5a,,R5a,G -> 0.8 C + 2 NADH
+R5b,,R5b,G -> 0.8 C + 2 NADH
+R6,,R6,C -> 2 ATP + 3 D
+R7,,R7,C + 4 NADH -> 3 E
+R8a,,R8a,ATP + 2 NADH + G -> H
+R8b,,R8b,H -> G + ATP + 2 NADH

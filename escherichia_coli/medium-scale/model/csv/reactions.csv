@@ -1,0 +1,113 @@
+ACEA, aceA, Isocitrate lyase, ICIT -> GLX + SUCC
+ACEB, aceB, Malate synthase A, ACCOA + GLX -> COA + MAL
+ACEE, aceEF lpdA, Pyruvate dehydrogenase, PYR + COA + NAD -> NADH + CO2 + ACCOA
+ACKAR, ackA, Acetate kinase A, ACTP + ADP <-> ATP + AC
+ACNAR, acnA, Aconitase A, CIT <-> ICIT
+ACNBR, acnB, Aconitase B, CIT <-> ICIT
+ACS, acs, Acetyl-CoA synthetase, ATP + AC + COA -> AMP + PPI + ACCOA
+ADHER, adhE, Acetaldehyde dehydrogenase, ACCOA + 2 NADH <-> ETH + 2 NAD + COA
+ADK, adk, Adenylate kinase, ATP + AMP <-> 2 ADP
+ATPAR, atpABCDEFGHI, F0F1-ATPase, ATP <-> ADP + PI + 4 HEXT
+CYDA, cydAB, Cytochrome oxidase bd, QH2 + 0.5 O2 -> Q + 2 HEXT
+CYOA, cyoABCD, Cytochrome oxidase bo3, QH2 + 0.5 O2 -> Q + 2.5 HEXT
+DLD1R, dld, D-Lactate dehydrogenase 1, NAD + LAC <-> PYR + NADH
+DLD2, dld, D-Lactate dehydrogenase (cyctochrome), LAC + Q -> PYR + QH2
+ENOR, eno, Enolase, _2PG <-> PEP
+FBAR, fba, Fructose-1-6-bisphosphatase aldolase, FDP <-> T3P1 + T3P2
+FBP, fbp, Fructose-1-6-bisphosphatase, FDP -> F6P + PI
+FDNG, fdnGHI, Formate dehydrogenase-N, FOR + Q -> QH2 + CO2 + 2 HEXT
+FDOH, fdolHG, Formate dehydrogenase-O, FOR + Q -> QH2 + CO2 + 2 HEXT
+FRDA, frdABCD, Fumarate reductase, FUM + FADH -> SUCC + FAD
+FUMAR, fumA, Fumarase A, FUM <-> MAL
+FUMBR, fumB, Fumarase B, FUM <-> MAL
+FUMCR, fumC, Fumarase C, FUM <-> MAL
+GALER, galE, UDP-glucose 4-epimerase, UDPGAL <-> UDPG
+GALKR, galK, Galactokinase, GLAC + ATP <-> GAL1P + ADP
+GALM1R, galM, Aldose 1-epimerase (mutorotase), bDGLAC <-> GLAC
+GALM2R, galM, Aldose 1-epimerase (mutorotase), bDGLC <-> GLC
+GALTR, galT, Galactose-1-phosphate uridylyltransferase, GAL1P + UTP <-> PPI + UDPGAL
+GALUR, galU, UDP-glucose-1-phosphate uridylyltransferase, G1P + UTP <-> UDPG + PPI
+GAPAR, gapA, Glyceraldehyde-3-phosphate dehydrogenase-A complex, T3P1 + PI + NAD <-> NADH + _13PDG
+GLK, glk, Glucokinase, GLC + ATP -> G6P + ADP
+GLPA, glpABC, Glycerol-3-phosphate dehydrogenase (anaerobic), GL3P + Q -> T3P2 + QH2
+GLPD, glpD, Glycerol-3-phosphate dehydrogenase (aerobic), GL3P + Q -> T3P2 + QH2
+GLPK, glpK, Glycerol kinase, GL + ATP -> GL3P + ADP
+GLTA, gltA, Citrate synthase, ACCOA + OA -> COA + CIT
+GND, gnd, 6-Phosphogluconate dehydrogenase (decarboxylating), D6PGC + NADP -> NADPH + CO2 + RL5P
+GPMAR, gpmA, Phosphoglycerate mutase 1, _3PG <-> _2PG
+GPMBR, gpmB, Phosphoglycerate mutase 2, _3PG <-> _2PG
+GPSAR, gpsA, Glycerol-3-phosphate-dehydrogenase-[NAD(P)+], GL3P + NADP <-> T3P2 + NADPH
+ICDAR, icdA, Isocitrate dehydrogenase, ICIT + NADP <-> CO2 + NADPH + AKG
+LACZ, lacZ, Beta-galactosidase (LACTase), LCTS -> GLC + bDGLAC
+MAEB, maeB, Malic enzyme (NADP), MAL + NADP -> CO2 + NADPH + PYR
+MDHR, mdh, Malate dehydrogenase, MAL + NAD <-> NADH + OA
+NDH, ndh, NADH dehydrogenase II, NADH + Q -> NAD + QH2
+NUOA, nuoABEFGHIJKLMN, NADH dehydrogenase I, NADH + Q -> NAD + QH2 + 3.5 HEXT
+PCKA, pckA, Phosphoenolpyruvate carboxykinase, OA + ATP -> PEP + CO2 + ADP
+PFKA, pfkA, Phosphofructokinase, F6P + ATP -> FDP + ADP
+PFKB, pfkB, Phosphofructokinase B, F6P + ATP -> FDP + ADP
+PFLA, pflAB, Pyruvate formate lyase 1, PYR + COA -> ACCOA + FOR
+PFLC, pflCD, Pyruvate formate lyase 2, PYR + COA -> ACCOA + FOR
+PGIR, pgi, Phosphoglucose isomerase, G6P <-> F6P
+PGKR, pgk, Phosphoglycerate kinase, _13PDG + ADP <-> _3PG + ATP
+PGL, pgl, 6-Phosphogluconolactonase, D6PGL -> D6PGC
+PGMR, pgm, Phosphoglucomutase, G1P <-> G6P
+PNTA1, pntAB, Pyridine nucleotide transhydrogenase, NADPH + NAD -> NADP + NADH
+PNTA2, pntAB, Pyridine nucleotide transhydrogenase, NADP + NADH + 2 HEXT -> NADPH + NAD
+PPA, ppa, Inorganic pyrophosphatase, PPI -> 2 PI
+PPC, ppc, Phosphoenolpyruvate carboxylase, PEP + CO2 -> OA + PI
+PPSA, ppsA, Phosphoenolpyruvate synthase, PYR + ATP -> PEP + AMP + PI
+PTAR, pta, Phosphotransacetylase, ACCOA + PI <-> ACTP + COA
+PYKA, pykA, Pyruvate Kinase II, PEP + ADP -> PYR + ATP
+PYKF, pykF, Pyruvate Kinase I, PEP + ADP -> PYR + ATP
+RBSK, rbsK, Ribokinase, RIB + ATP -> R5P + ADP
+RPER, rpe, Ribulose phosphate 3-epimerase, RL5P <-> X5P
+RPIAR, rpiA, Ribose-5-phosphate isomerase A, RL5P <-> R5P
+RPIBR, rpiB, Ribose-5-phosphate isomerase B, RL5P <-> R5P
+SDHA1, sdhABCD, Succinate dehydrogenase, SUCC + FAD -> FADH + FUM
+SDHA2, sdhABCD, Succinate dehydrogenase complex, FADH + Q <-> FAD + QH2
+SFCA, sfcA, Malic enzyme (NAD), MAL + NAD -> CO2 + NADH + PYR
+SUCA, sucAB lpdA, 2-Ketoglutarate dehyrogenase, AKG + NAD + COA -> CO2 + NADH + SUCCOA
+SUCCR, sucCD, Succinyl-CoA synthetase, SUCCOA + ADP + PI <-> ATP + COA + SUCC
+TALAR, talA, Transaldolase A, T3P1 + S7P <-> E4P + F6P
+TALBR, talB, Transaldolase B, T3P1 + S7P <-> E4P + F6P
+TKTA1R, tktA, Transketolase I, R5P + X5P <-> T3P1 + S7P
+TKTA2R, tktA, Transketolase I, X5P + E4P <-> F6P + T3P1
+TKTB1R, tktB, Transketolase II, R5P + X5P <-> T3P1 + S7P
+TKTB2R, tktB, Transketolase II, X5P + E4P <-> F6P + T3P1
+TPIAR, tpiA, Triosphosphate Isomerase, T3P1 <-> T3P2
+ZWFR, zwf, Glucose 6-phosphate-1-dehydrogenase, G6P + NADP <-> D6PGL + NADPH
+ACUPR, , Acetate transport, ACxt + HEXT <-> AC
+COZTXR, , Carbon dioxide transport, CO2xt <-> CO2
+ETHUPR, , Ethanol transport, ETHxt + HEXT <-> ETH
+FORUPR, focA, Formate transport, FORxt <-> FOR
+GLCPTS, ptsGHI crr, Glucose transport, GLCxt + PEP -> G6P + PYR
+GLCUP, galP, Glucose transport (low affinity), GLCxt + HEXT -> GLC
+GLUPR, glpF, Glycerol transporter, GLxt <-> GL
+LACUP, , Lactate uptake, LACxt + HEXT -> LAC
+LACDN, , Lactate secretion, LAC -> LACxt + HEXT
+LACYR, lacY, Lactose permease, LCTSxt + HEXT <-> LCTS
+O2TXR, , Oxygen transport, O2xt <-> O2
+PIUP2R, pitAB, Phosphate transport, PIxt + HEXT <-> PI
+PYRUPR, , Pyruvate transport, PYRxt + HEXT <-> PYR
+RIBUPR, rbsABCD, Ribose transport, RIBxt + ATP -> RIB + ADP + PI
+DCTAR, dctA, Succinate transport, SUCCxt + HEXT <-> SUCC
+DCUAR, dcuA, Succinate transport, SUCCxt + HEXT <-> SUCC
+DCUBR, dcuB, Succinate transport, SUCCxt + HEXT <-> SUCC
+DCUC, dcuC, Succinate efflux, SUCC -> SUCCxt + HEXT
+ATPM, , ATP non-growth associated maintenance flux, ATP -> ADP + PI
+VGRO, , Biomass production flux, 41.25 ATP + 3.54 NAD + 18.22 NADPH + 0.2 G6P + 0.07 F6P + 0.89 R5P + 0.36 E4P + 0.12 T3P1 + 1.49 _3PG + 0.51 PEP + 2.83 PYR + 3.74 ACCOA + 1.78 OA + 1.07 AKG -> 3.74 COA + 41.25 ADP + 41.25 PI + 3.54 NADH + 18.22 NADP + 1 Biomass
+Growth, , Biomass exchange (growth), Biomass + 13 ATP -> 13 ADP + 13 PI
+ACex, , Acetate exchange, ACxt <-> ACxt_b
+CO2ex, , Carbon dioxide exchange, CO2xt <-> CO2xt_b
+ETHex, , Ethanol exchange, ETHxt <-> ETHxt_b
+FORex, , Formate exchange, FORxt <-> FORxt_b
+GLCex, , Glucose exchange, GLCxt <-> GLCxt_b
+GLex, , Glycerol exchange, GLxt <-> GLxt_b
+LACex, , Lactate exchange, LACxt <-> LACxt_b
+LCTSex, , Lactose exchange, LCTSxt <-> LCTSxt_b
+O2ex, , Oxygen exchange, O2xt <-> O2xt_b
+PIex, , Phosphate exchange, PIxt <-> PIxt_b
+PYRex, , Pyruvate exchange, PYRxt <-> PYRxt_b
+RIBex, , Ribose exchange, RIBxt <-> RIBxt_b
+SUCCex, , Succinate exchange, SUCCxt <-> SUCCxt_b

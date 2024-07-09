@@ -1,0 +1,45 @@
+{
+    "ID": "Fig4",
+    "title": "Anaerobic growth on glucose",
+    "SimulationParameters": {
+        "initBiomass": 0.002,
+        "timeStep": 0.1,
+        "nSteps": 110
+    },
+    "initConcentrations": {
+        "M_glc__D_b": 10.5,
+        "M_co2_b": 15,
+        "M_pi_b": 99999,
+        "M_nh4_b": 99999,
+        "M_so4_b": 10,
+        "M_h_b": 10,
+        "M_h2o_b": 55
+    },
+    "initRegs": {
+        "b4401": 1,
+        "b4124": 0,
+        "b4125": 0,
+        "b1187": 1,
+        "b1334": 1,
+        "b3423": 1,
+        "b4018": 1,
+        "b1594": 0,
+        "b0113": 0,
+        "b3753": 1,
+        "b4089": 1
+    },
+    "initGenes": {},
+    "constraints": {
+        "ko": [],
+        "bounds": {
+            "R_EX_glc__D_e": [
+                -18.5,
+                18.5
+            ],
+            "R_EX_o2_e": [
+                -0,
+                0
+            ]
+        }
+    }
+}

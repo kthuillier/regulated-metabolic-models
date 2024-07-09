@@ -1,0 +1,52 @@
+{
+    "ID": "Fig4",
+    "title": "Anaerobic growth on glucose",
+    "SimulationParameters": {
+        "initBiomass": 0.002,
+        "timeStep": 0.01,
+        "nSteps": 1100
+    },
+    "initConcentrations": {
+        "ACxt_b": 0,
+        "CO2xt_b": 0,
+        "ETHxt_b": 0,
+        "FORxt_b": 0,
+        "GLCxt_b": 10.5,
+        "GLxt_b": 0,
+        "LACxt_b": 0,
+        "LCTSxt_b": 0,
+        "O2xt_b": 0,
+        "PYRxt_b": 0,
+        "PIxt_b": 9999,
+        "RIBxt_b": 0,
+        "SUCCxt_b": 0
+    },
+    "initRegs": {
+        "ArcA": 1,
+        "Cra": 0,
+        "DcuR": 0,
+        "DcuS": 0,
+        "FadR": 1,
+        "Fnr": 1,
+        "GlpR": 1,
+        "IclR": 1,
+        "Mlc": 0,
+        "PdhR": 0,
+        "RbsR": 1,
+        "RpiR": 1
+    },
+    "initGenes": {},
+    "constraints": {
+        "ko": [],
+        "bounds": {
+            "GLCex": [
+                -18.5,
+                18.5
+            ],
+            "O2ex": [
+                -0,
+                0
+            ]
+        }
+    }
+}

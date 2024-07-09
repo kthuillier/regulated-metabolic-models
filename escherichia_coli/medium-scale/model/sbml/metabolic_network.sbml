@@ -1,0 +1,2552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml level="3" version="1" fbc:required="false" xmlns="http://www.sbml.org/sbml/level3/version1/core" xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2">
+    <model name="covert2002" id="covert2002" fbc:strict="true">
+    <listOfUnitDefinitions>
+        <unitDefinition name="mmol_per_gDW_per_hr" id="mmol_per_gDW_per_hr">
+            <listOfUnits>
+                <unit scale="0" kind="gram" multiplier="1" exponent="-1"/>
+                <unit scale="0" kind="second" multiplier="0.00027778" exponent="-1"/>
+                <unit scale="-3" kind="mole" multiplier="1" exponent="1"/>
+            </listOfUnits>
+        </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+        <compartment name="ext" constant="true" id="ext" size="1" spatialDimensions="3"/>
+        <compartment name="cell" constant="true" id="cell" size="1" spatialDimensions="3"/>
+        <compartment name="boundary" constant="true" id="boundary" size="1" spatialDimensions="3"/>
+    </listOfCompartments>
+    <listOfParameters>
+        <parameter constant="true" id="UPPER_BOUND_99999_0" units="mmol_per_gDW_per_hr" value="99999"/>
+        <parameter constant="true" id="LOWER_BOUND_0_0" units="mmol_per_gDW_per_hr" value="0"/>
+        <parameter constant="true" id="LOWER_BOUND_99999_0" units="mmol_per_gDW_per_hr" value="-99999"/>
+    </listOfParameters>
+    <listOfSpecies>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="1-3-bis-Phosphoglycerate" id="_13PDG">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="2-Phosphoglycerate" id="_2PG">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="3-Phosphoglycerate" id="_3PG">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Acetate" id="AC">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Acetyl-CoA" id="ACCOA">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Acetyl-phosphate" id="ACTP">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="ext" name="External acetate" id="ACxt">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="boundary" name="External acetate (out)" id="ACxt_b">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Adenosine diphosphate" id="ADP">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="a-Ketoglutarate" id="AKG">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Adenosine monophosphate" id="AMP">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Adenosine triphosphate" id="ATP">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="b-D-Galactose" id="bDGLAC">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="b-D-Glucose" id="bDGLC">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Cell biomass" id="Biomass">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Citrate" id="CIT">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Carbon dioxide" id="CO2">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="ext" name="External carbon dioxide" id="CO2xt">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="boundary" name="External carbon dioxide (out)" id="CO2xt_b">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Coenzyme A" id="COA">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="D-6-Phosphate-gluconate" id="D6PGC">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="D-6-Phosphate-glucono-delta-lactone" id="D6PGL">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Erythrose 4-phosphate" id="E4P">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Ethanol" id="ETH">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="ext" name="External ethanol" id="ETHxt">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="boundary" name="External ethanol (out)" id="ETHxt_b">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Fructose 6-phosphate" id="F6P">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Flavin adenine dinucleotide" id="FAD">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Flavin adenine dinucleotide reduced" id="FADH">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Fructose 1-6-diphosphate" id="FDP">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Formate" id="FOR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="ext" name="External formate" id="FORxt">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="boundary" name="External formate (out)" id="FORxt_b">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Fumarate" id="FUM">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Glucose 1-phosphate" id="G1P">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Glucose 6-phosphate" id="G6P">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Galactose 1-phosphate" id="GAL1P">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Glycerol" id="GL">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Glycerol 3-phosphate" id="GL3P">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Galactose" id="GLAC">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="a-D-glucose" id="GLC">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="ext" name="External glucose" id="GLCxt">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="boundary" name="External glucose (out)" id="GLCxt_b">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Glyoxylate" id="GLX">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="ext" name="External glycerol" id="GLxt">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="boundary" name="External glycerol (out)" id="GLxt_b">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="External H+" id="HEXT">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Isocitrate" id="ICIT">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="D-lactate" id="LAC">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="ext" name="External lactate" id="LACxt">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="boundary" name="External lactate (out)" id="LACxt_b">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Lactose" id="LCTS">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="ext" name="External lactose" id="LCTSxt">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="boundary" name="External lactose (out)" id="LCTSxt_b">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Malate" id="MAL">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Nicotinamide adenine dinucleotide" id="NAD">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Nicotinamide adenine dinucleotide reduced" id="NADH">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Nicotinamide adenine dinucleotide phosphate" id="NADP">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Dihydronicotinamide adenine dinucleotide phosphate reduced" id="NADPH">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Oxygen" id="O2">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="ext" name="External oxygen" id="O2xt">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="boundary" name="External oxygen (out)" id="O2xt_b">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Oxaloacetate" id="OA">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Phosphoenolpyruvate" id="PEP">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Phosphatidyl glycerol" id="PG">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Phosphate (inorganic)" id="PI">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="ext" name="External phosphate" id="PIxt">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="boundary" name="External phosphate (out)" id="PIxt_b">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Pyrophosphate" id="PPI">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Pyruvate" id="PYR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="ext" name="External pyruvate" id="PYRxt">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="boundary" name="External pyruvate (out)" id="PYRxt_b">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Ubiquinone" id="Q">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Ubiquinol" id="QH2">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Ribose 5-phosphate" id="R5P">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Ribose" id="RIB">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="ext" name="External ribose" id="RIBxt">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="boundary" name="External ribose (out)" id="RIBxt_b">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Ribulose 5-phosphate" id="RL5P">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Sedo-heptulose" id="S7P">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Succinate" id="SUCC">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Succinate CoA" id="SUCCOA">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="ext" name="External succinate" id="SUCCxt">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="true" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="boundary" name="External succinate (out)" id="SUCCxt_b">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Glyceraldehyde 3-phosphate" id="T3P1">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Dihydroxyacetone phosphate" id="T3P2">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="UDP Glucose" id="UDPG">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="UDP Galactose" id="UDPGAL">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Uridine triphosphate" id="UTP">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+        <species boundaryCondition="false" constant="false" hasOnlySubstanceUnits="false" sboTerm="SBO:0000299" compartment="cell" name="Xylulose-5-phosphate" id="X5P">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>CHARGE: 0</p>
+                </body>
+            </notes>
+        </species>
+    </listOfSpecies>
+    <fbc:listOfGeneProducts>
+        <fbc:geneProduct fbc:id="pgi" fbc:label="pgi" fbc:name="pgi" metaid="pgi"/>
+        <fbc:geneProduct fbc:id="glpD" fbc:label="glpD" fbc:name="glpD" metaid="glpD"/>
+        <fbc:geneProduct fbc:id="talB" fbc:label="talB" fbc:name="talB" metaid="talB"/>
+        <fbc:geneProduct fbc:id="maeB" fbc:label="maeB" fbc:name="maeB" metaid="maeB"/>
+        <fbc:geneProduct fbc:id="nuoABEFGHIJKLMN" fbc:label="nuoABEFGHIJKLMN" fbc:name="nuoABEFGHIJKLMN" metaid="nuoABEFGHIJKLMN"/>
+        <fbc:geneProduct fbc:id="cyoABCD" fbc:label="cyoABCD" fbc:name="cyoABCD" metaid="cyoABCD"/>
+        <fbc:geneProduct fbc:id="sdhABCD" fbc:label="sdhABCD" fbc:name="sdhABCD" metaid="sdhABCD"/>
+        <fbc:geneProduct fbc:id="dctA" fbc:label="dctA" fbc:name="dctA" metaid="dctA"/>
+        <fbc:geneProduct fbc:id="ptsGHI" fbc:label="ptsGHI" fbc:name="ptsGHI" metaid="ptsGHI"/>
+        <fbc:geneProduct fbc:id="pta" fbc:label="pta" fbc:name="pta" metaid="pta"/>
+        <fbc:geneProduct fbc:id="gpsA" fbc:label="gpsA" fbc:name="gpsA" metaid="gpsA"/>
+        <fbc:geneProduct fbc:id="pgm" fbc:label="pgm" fbc:name="pgm" metaid="pgm"/>
+        <fbc:geneProduct fbc:id="ppsA" fbc:label="ppsA" fbc:name="ppsA" metaid="ppsA"/>
+        <fbc:geneProduct fbc:id="atpABCDEFGHI" fbc:label="atpABCDEFGHI" fbc:name="atpABCDEFGHI" metaid="atpABCDEFGHI"/>
+        <fbc:geneProduct fbc:id="gltA" fbc:label="gltA" fbc:name="gltA" metaid="gltA"/>
+        <fbc:geneProduct fbc:id="acs" fbc:label="acs" fbc:name="acs" metaid="acs"/>
+        <fbc:geneProduct fbc:id="pfkA" fbc:label="pfkA" fbc:name="pfkA" metaid="pfkA"/>
+        <fbc:geneProduct fbc:id="talA" fbc:label="talA" fbc:name="talA" metaid="talA"/>
+        <fbc:geneProduct fbc:id="aceB" fbc:label="aceB" fbc:name="aceB" metaid="aceB"/>
+        <fbc:geneProduct fbc:id="pflCD" fbc:label="pflCD" fbc:name="pflCD" metaid="pflCD"/>
+        <fbc:geneProduct fbc:id="pgl" fbc:label="pgl" fbc:name="pgl" metaid="pgl"/>
+        <fbc:geneProduct fbc:id="ackA" fbc:label="ackA" fbc:name="ackA" metaid="ackA"/>
+        <fbc:geneProduct fbc:id="lacZ" fbc:label="lacZ" fbc:name="lacZ" metaid="lacZ"/>
+        <fbc:geneProduct fbc:id="pgk" fbc:label="pgk" fbc:name="pgk" metaid="pgk"/>
+        <fbc:geneProduct fbc:id="ndh" fbc:label="ndh" fbc:name="ndh" metaid="ndh"/>
+        <fbc:geneProduct fbc:id="acnB" fbc:label="acnB" fbc:name="acnB" metaid="acnB"/>
+        <fbc:geneProduct fbc:id="focA" fbc:label="focA" fbc:name="focA" metaid="focA"/>
+        <fbc:geneProduct fbc:id="pckA" fbc:label="pckA" fbc:name="pckA" metaid="pckA"/>
+        <fbc:geneProduct fbc:id="glpK" fbc:label="glpK" fbc:name="glpK" metaid="glpK"/>
+        <fbc:geneProduct fbc:id="aceEF" fbc:label="aceEF" fbc:name="aceEF" metaid="aceEF"/>
+        <fbc:geneProduct fbc:id="pntAB" fbc:label="pntAB" fbc:name="pntAB" metaid="pntAB"/>
+        <fbc:geneProduct fbc:id="sfcA" fbc:label="sfcA" fbc:name="sfcA" metaid="sfcA"/>
+        <fbc:geneProduct fbc:id="glpF" fbc:label="glpF" fbc:name="glpF" metaid="glpF"/>
+        <fbc:geneProduct fbc:id="adhE" fbc:label="adhE" fbc:name="adhE" metaid="adhE"/>
+        <fbc:geneProduct fbc:id="tpiA" fbc:label="tpiA" fbc:name="tpiA" metaid="tpiA"/>
+        <fbc:geneProduct fbc:id="adk" fbc:label="adk" fbc:name="adk" metaid="adk"/>
+        <fbc:geneProduct fbc:id="rbsABCD" fbc:label="rbsABCD" fbc:name="rbsABCD" metaid="rbsABCD"/>
+        <fbc:geneProduct fbc:id="gnd" fbc:label="gnd" fbc:name="gnd" metaid="gnd"/>
+        <fbc:geneProduct fbc:id="pykF" fbc:label="pykF" fbc:name="pykF" metaid="pykF"/>
+        <fbc:geneProduct fbc:id="frdABCD" fbc:label="frdABCD" fbc:name="frdABCD" metaid="frdABCD"/>
+        <fbc:geneProduct fbc:id="glpABC" fbc:label="glpABC" fbc:name="glpABC" metaid="glpABC"/>
+        <fbc:geneProduct fbc:id="galM" fbc:label="galM" fbc:name="galM" metaid="galM"/>
+        <fbc:geneProduct fbc:id="fdolHG" fbc:label="fdolHG" fbc:name="fdolHG" metaid="fdolHG"/>
+        <fbc:geneProduct fbc:id="rbsK" fbc:label="rbsK" fbc:name="rbsK" metaid="rbsK"/>
+        <fbc:geneProduct fbc:id="gpmA" fbc:label="gpmA" fbc:name="gpmA" metaid="gpmA"/>
+        <fbc:geneProduct fbc:id="fumA" fbc:label="fumA" fbc:name="fumA" metaid="fumA"/>
+        <fbc:geneProduct fbc:id="rpiA" fbc:label="rpiA" fbc:name="rpiA" metaid="rpiA"/>
+        <fbc:geneProduct fbc:id="sucAB" fbc:label="sucAB" fbc:name="sucAB" metaid="sucAB"/>
+        <fbc:geneProduct fbc:id="lpdA" fbc:label="lpdA" fbc:name="lpdA" metaid="lpdA"/>
+        <fbc:geneProduct fbc:id="mdh" fbc:label="mdh" fbc:name="mdh" metaid="mdh"/>
+        <fbc:geneProduct fbc:id="fdnGHI" fbc:label="fdnGHI" fbc:name="fdnGHI" metaid="fdnGHI"/>
+        <fbc:geneProduct fbc:id="pitAB" fbc:label="pitAB" fbc:name="pitAB" metaid="pitAB"/>
+        <fbc:geneProduct fbc:id="cydAB" fbc:label="cydAB" fbc:name="cydAB" metaid="cydAB"/>
+        <fbc:geneProduct fbc:id="fumB" fbc:label="fumB" fbc:name="fumB" metaid="fumB"/>
+        <fbc:geneProduct fbc:id="fba" fbc:label="fba" fbc:name="fba" metaid="fba"/>
+        <fbc:geneProduct fbc:id="pflAB" fbc:label="pflAB" fbc:name="pflAB" metaid="pflAB"/>
+        <fbc:geneProduct fbc:id="fumC" fbc:label="fumC" fbc:name="fumC" metaid="fumC"/>
+        <fbc:geneProduct fbc:id="fbp" fbc:label="fbp" fbc:name="fbp" metaid="fbp"/>
+        <fbc:geneProduct fbc:id="galU" fbc:label="galU" fbc:name="galU" metaid="galU"/>
+        <fbc:geneProduct fbc:id="lacY" fbc:label="lacY" fbc:name="lacY" metaid="lacY"/>
+        <fbc:geneProduct fbc:id="rpiB" fbc:label="rpiB" fbc:name="rpiB" metaid="rpiB"/>
+        <fbc:geneProduct fbc:id="icdA" fbc:label="icdA" fbc:name="icdA" metaid="icdA"/>
+        <fbc:geneProduct fbc:id="gpmB" fbc:label="gpmB" fbc:name="gpmB" metaid="gpmB"/>
+        <fbc:geneProduct fbc:id="sucCD" fbc:label="sucCD" fbc:name="sucCD" metaid="sucCD"/>
+        <fbc:geneProduct fbc:id="zwf" fbc:label="zwf" fbc:name="zwf" metaid="zwf"/>
+        <fbc:geneProduct fbc:id="aceA" fbc:label="aceA" fbc:name="aceA" metaid="aceA"/>
+        <fbc:geneProduct fbc:id="rpe" fbc:label="rpe" fbc:name="rpe" metaid="rpe"/>
+        <fbc:geneProduct fbc:id="dld" fbc:label="dld" fbc:name="dld" metaid="dld"/>
+        <fbc:geneProduct fbc:id="gapA" fbc:label="gapA" fbc:name="gapA" metaid="gapA"/>
+        <fbc:geneProduct fbc:id="tktB" fbc:label="tktB" fbc:name="tktB" metaid="tktB"/>
+        <fbc:geneProduct fbc:id="dcuC" fbc:label="dcuC" fbc:name="dcuC" metaid="dcuC"/>
+        <fbc:geneProduct fbc:id="crr" fbc:label="crr" fbc:name="crr" metaid="crr"/>
+        <fbc:geneProduct fbc:id="tktA" fbc:label="tktA" fbc:name="tktA" metaid="tktA"/>
+        <fbc:geneProduct fbc:id="ppa" fbc:label="ppa" fbc:name="ppa" metaid="ppa"/>
+        <fbc:geneProduct fbc:id="galK" fbc:label="galK" fbc:name="galK" metaid="galK"/>
+        <fbc:geneProduct fbc:id="dcuB" fbc:label="dcuB" fbc:name="dcuB" metaid="dcuB"/>
+        <fbc:geneProduct fbc:id="glk" fbc:label="glk" fbc:name="glk" metaid="glk"/>
+        <fbc:geneProduct fbc:id="galT" fbc:label="galT" fbc:name="galT" metaid="galT"/>
+        <fbc:geneProduct fbc:id="pykA" fbc:label="pykA" fbc:name="pykA" metaid="pykA"/>
+        <fbc:geneProduct fbc:id="acnA" fbc:label="acnA" fbc:name="acnA" metaid="acnA"/>
+        <fbc:geneProduct fbc:id="galE" fbc:label="galE" fbc:name="galE" metaid="galE"/>
+        <fbc:geneProduct fbc:id="ppc" fbc:label="ppc" fbc:name="ppc" metaid="ppc"/>
+        <fbc:geneProduct fbc:id="galP" fbc:label="galP" fbc:name="galP" metaid="galP"/>
+        <fbc:geneProduct fbc:id="eno" fbc:label="eno" fbc:name="eno" metaid="eno"/>
+        <fbc:geneProduct fbc:id="pfkB" fbc:label="pfkB" fbc:name="pfkB" metaid="pfkB"/>
+        <fbc:geneProduct fbc:id="dcuA" fbc:label="dcuA" fbc:name="dcuA" metaid="dcuA"/>
+    </fbc:listOfGeneProducts>
+    <listOfReactions>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Isocitrate lyase" id="ACEA">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: aceA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="aceA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ICIT"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="GLX"/>
+                <speciesReference stoichiometry="1" constant="true" species="SUCC"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Malate synthase A" id="ACEB">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: aceB</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="aceB"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ACCOA"/>
+                <speciesReference stoichiometry="1" constant="true" species="GLX"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="COA"/>
+                <speciesReference stoichiometry="1" constant="true" species="MAL"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Pyruvate dehydrogenase" id="ACEE">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: aceEF AND lpdA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:and>
+                    <fbc:geneProductRef fbc:geneProduct="aceEF"/>
+                    <fbc:geneProductRef fbc:geneProduct="lpdA"/>
+                </fbc:and>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="COA"/>
+                <speciesReference stoichiometry="1" constant="true" species="NAD"/>
+                <speciesReference stoichiometry="1" constant="true" species="PYR"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ACCOA"/>
+                <speciesReference stoichiometry="1" constant="true" species="CO2"/>
+                <speciesReference stoichiometry="1" constant="true" species="NADH"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Acetate kinase A" id="ACKAR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: ackA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="ackA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ACTP"/>
+                <speciesReference stoichiometry="1" constant="true" species="ADP"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="AC"/>
+                <speciesReference stoichiometry="1" constant="true" species="ATP"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Aconitase A" id="ACNAR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: acnA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="acnA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="CIT"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ICIT"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Aconitase B" id="ACNBR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: acnB</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="acnB"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="CIT"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ICIT"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Acetyl-CoA synthetase" id="ACS">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: acs</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="acs"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="AC"/>
+                <speciesReference stoichiometry="1" constant="true" species="ATP"/>
+                <speciesReference stoichiometry="1" constant="true" species="COA"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ACCOA"/>
+                <speciesReference stoichiometry="1" constant="true" species="AMP"/>
+                <speciesReference stoichiometry="1" constant="true" species="PPI"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Acetaldehyde dehydrogenase" id="ADHER">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: adhE</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="adhE"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ACCOA"/>
+                <speciesReference stoichiometry="2" constant="true" species="NADH"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="COA"/>
+                <speciesReference stoichiometry="1" constant="true" species="ETH"/>
+                <speciesReference stoichiometry="2" constant="true" species="NAD"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Adenylate kinase" id="ADK">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: adk</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="adk"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="AMP"/>
+                <speciesReference stoichiometry="1" constant="true" species="ATP"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="2" constant="true" species="ADP"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="F0F1-ATPase" id="ATPAR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: atpABCDEFGHI</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="atpABCDEFGHI"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ATP"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ADP"/>
+                <speciesReference stoichiometry="4" constant="true" species="HEXT"/>
+                <speciesReference stoichiometry="1" constant="true" species="PI"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Cytochrome oxidase bd" id="CYDA">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: cydAB</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="cydAB"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="0.5" constant="true" species="O2"/>
+                <speciesReference stoichiometry="1" constant="true" species="QH2"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="2" constant="true" species="HEXT"/>
+                <speciesReference stoichiometry="1" constant="true" species="Q"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Cytochrome oxidase bo3" id="CYOA">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: cyoABCD</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="cyoABCD"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="0.5" constant="true" species="O2"/>
+                <speciesReference stoichiometry="1" constant="true" species="QH2"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="2.5" constant="true" species="HEXT"/>
+                <speciesReference stoichiometry="1" constant="true" species="Q"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="D-Lactate dehydrogenase 1" id="DLD1R">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: dld</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="dld"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="LAC"/>
+                <speciesReference stoichiometry="1" constant="true" species="NAD"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="NADH"/>
+                <speciesReference stoichiometry="1" constant="true" species="PYR"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="D-Lactate dehydrogenase (cyctochrome)" id="DLD2">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: dld</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="dld"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="LAC"/>
+                <speciesReference stoichiometry="1" constant="true" species="Q"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="PYR"/>
+                <speciesReference stoichiometry="1" constant="true" species="QH2"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Enolase" id="ENOR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: eno</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="eno"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="_2PG"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="PEP"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Fructose-1-6-bisphosphatase aldolase" id="FBAR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: fba</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="fba"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="FDP"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="T3P1"/>
+                <speciesReference stoichiometry="1" constant="true" species="T3P2"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Fructose-1-6-bisphosphatase" id="FBP">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: fbp</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="fbp"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="FDP"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="F6P"/>
+                <speciesReference stoichiometry="1" constant="true" species="PI"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Formate dehydrogenase-N" id="FDNG">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: fdnGHI</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="fdnGHI"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="FOR"/>
+                <speciesReference stoichiometry="1" constant="true" species="Q"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="CO2"/>
+                <speciesReference stoichiometry="2" constant="true" species="HEXT"/>
+                <speciesReference stoichiometry="1" constant="true" species="QH2"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Formate dehydrogenase-O" id="FDOH">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: fdolHG</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="fdolHG"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="FOR"/>
+                <speciesReference stoichiometry="1" constant="true" species="Q"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="CO2"/>
+                <speciesReference stoichiometry="2" constant="true" species="HEXT"/>
+                <speciesReference stoichiometry="1" constant="true" species="QH2"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Fumarate reductase" id="FRDA">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: frdABCD</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="frdABCD"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="FADH"/>
+                <speciesReference stoichiometry="1" constant="true" species="FUM"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="FAD"/>
+                <speciesReference stoichiometry="1" constant="true" species="SUCC"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Fumarase A" id="FUMAR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: fumA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="fumA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="FUM"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="MAL"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Fumarase B" id="FUMBR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: fumB</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="fumB"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="FUM"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="MAL"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Fumarase C" id="FUMCR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: fumC</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="fumC"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="FUM"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="MAL"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="UDP-glucose 4-epimerase" id="GALER">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: galE</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="galE"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="UDPGAL"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="UDPG"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Galactokinase" id="GALKR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: galK</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="galK"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ATP"/>
+                <speciesReference stoichiometry="1" constant="true" species="GLAC"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ADP"/>
+                <speciesReference stoichiometry="1" constant="true" species="GAL1P"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Aldose 1-epimerase (mutorotase)" id="GALM1R">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: galM</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="galM"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="bDGLAC"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="GLAC"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Aldose 1-epimerase (mutorotase)" id="GALM2R">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: galM</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="galM"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="bDGLC"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="GLC"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Galactose-1-phosphate uridylyltransferase" id="GALTR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: galT</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="galT"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="GAL1P"/>
+                <speciesReference stoichiometry="1" constant="true" species="UTP"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="PPI"/>
+                <speciesReference stoichiometry="1" constant="true" species="UDPGAL"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="UDP-glucose-1-phosphate uridylyltransferase" id="GALUR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: galU</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="galU"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="G1P"/>
+                <speciesReference stoichiometry="1" constant="true" species="UTP"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="PPI"/>
+                <speciesReference stoichiometry="1" constant="true" species="UDPG"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Glyceraldehyde-3-phosphate dehydrogenase-A complex" id="GAPAR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: gapA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="gapA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="NAD"/>
+                <speciesReference stoichiometry="1" constant="true" species="PI"/>
+                <speciesReference stoichiometry="1" constant="true" species="T3P1"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="NADH"/>
+                <speciesReference stoichiometry="1" constant="true" species="_13PDG"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Glucokinase" id="GLK">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: glk</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="glk"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ATP"/>
+                <speciesReference stoichiometry="1" constant="true" species="GLC"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ADP"/>
+                <speciesReference stoichiometry="1" constant="true" species="G6P"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Glycerol-3-phosphate dehydrogenase (anaerobic)" id="GLPA">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: glpABC</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="glpABC"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="GL3P"/>
+                <speciesReference stoichiometry="1" constant="true" species="Q"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="QH2"/>
+                <speciesReference stoichiometry="1" constant="true" species="T3P2"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Glycerol-3-phosphate dehydrogenase (aerobic)" id="GLPD">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: glpD</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="glpD"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="GL3P"/>
+                <speciesReference stoichiometry="1" constant="true" species="Q"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="QH2"/>
+                <speciesReference stoichiometry="1" constant="true" species="T3P2"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Glycerol kinase" id="GLPK">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: glpK</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="glpK"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ATP"/>
+                <speciesReference stoichiometry="1" constant="true" species="GL"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ADP"/>
+                <speciesReference stoichiometry="1" constant="true" species="GL3P"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Citrate synthase" id="GLTA">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: gltA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="gltA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ACCOA"/>
+                <speciesReference stoichiometry="1" constant="true" species="OA"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="CIT"/>
+                <speciesReference stoichiometry="1" constant="true" species="COA"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="6-Phosphogluconate dehydrogenase (decarboxylating)" id="GND">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: gnd</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="gnd"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="D6PGC"/>
+                <speciesReference stoichiometry="1" constant="true" species="NADP"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="CO2"/>
+                <speciesReference stoichiometry="1" constant="true" species="NADPH"/>
+                <speciesReference stoichiometry="1" constant="true" species="RL5P"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Phosphoglycerate mutase 1" id="GPMAR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: gpmA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="gpmA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="_3PG"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="_2PG"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Phosphoglycerate mutase 2" id="GPMBR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: gpmB</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="gpmB"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="_3PG"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="_2PG"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Glycerol-3-phosphate-dehydrogenase-[NAD(P)+]" id="GPSAR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: gpsA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="gpsA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="GL3P"/>
+                <speciesReference stoichiometry="1" constant="true" species="NADP"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="NADPH"/>
+                <speciesReference stoichiometry="1" constant="true" species="T3P2"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Isocitrate dehydrogenase" id="ICDAR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: icdA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="icdA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ICIT"/>
+                <speciesReference stoichiometry="1" constant="true" species="NADP"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="AKG"/>
+                <speciesReference stoichiometry="1" constant="true" species="CO2"/>
+                <speciesReference stoichiometry="1" constant="true" species="NADPH"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Beta-galactosidase (LACTase)" id="LACZ">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: lacZ</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="lacZ"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="LCTS"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="GLC"/>
+                <speciesReference stoichiometry="1" constant="true" species="bDGLAC"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Malic enzyme (NADP)" id="MAEB">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: maeB</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="maeB"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="MAL"/>
+                <speciesReference stoichiometry="1" constant="true" species="NADP"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="CO2"/>
+                <speciesReference stoichiometry="1" constant="true" species="NADPH"/>
+                <speciesReference stoichiometry="1" constant="true" species="PYR"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Malate dehydrogenase" id="MDHR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: mdh</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="mdh"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="MAL"/>
+                <speciesReference stoichiometry="1" constant="true" species="NAD"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="NADH"/>
+                <speciesReference stoichiometry="1" constant="true" species="OA"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="NADH dehydrogenase II" id="NDH">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: ndh</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="ndh"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="NADH"/>
+                <speciesReference stoichiometry="1" constant="true" species="Q"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="NAD"/>
+                <speciesReference stoichiometry="1" constant="true" species="QH2"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="NADH dehydrogenase I" id="NUOA">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: nuoABEFGHIJKLMN</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="nuoABEFGHIJKLMN"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="NADH"/>
+                <speciesReference stoichiometry="1" constant="true" species="Q"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="3.5" constant="true" species="HEXT"/>
+                <speciesReference stoichiometry="1" constant="true" species="NAD"/>
+                <speciesReference stoichiometry="1" constant="true" species="QH2"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Phosphoenolpyruvate carboxykinase" id="PCKA">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: pckA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="pckA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ATP"/>
+                <speciesReference stoichiometry="1" constant="true" species="OA"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ADP"/>
+                <speciesReference stoichiometry="1" constant="true" species="CO2"/>
+                <speciesReference stoichiometry="1" constant="true" species="PEP"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Phosphofructokinase" id="PFKA">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: pfkA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="pfkA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ATP"/>
+                <speciesReference stoichiometry="1" constant="true" species="F6P"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ADP"/>
+                <speciesReference stoichiometry="1" constant="true" species="FDP"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Phosphofructokinase B" id="PFKB">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: pfkB</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="pfkB"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ATP"/>
+                <speciesReference stoichiometry="1" constant="true" species="F6P"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ADP"/>
+                <speciesReference stoichiometry="1" constant="true" species="FDP"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Pyruvate formate lyase 1" id="PFLA">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: pflAB</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="pflAB"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="COA"/>
+                <speciesReference stoichiometry="1" constant="true" species="PYR"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ACCOA"/>
+                <speciesReference stoichiometry="1" constant="true" species="FOR"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Pyruvate formate lyase 2" id="PFLC">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: pflCD</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="pflCD"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="COA"/>
+                <speciesReference stoichiometry="1" constant="true" species="PYR"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ACCOA"/>
+                <speciesReference stoichiometry="1" constant="true" species="FOR"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Phosphoglucose isomerase" id="PGIR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: pgi</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="pgi"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="G6P"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="F6P"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Phosphoglycerate kinase" id="PGKR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: pgk</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="pgk"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ADP"/>
+                <speciesReference stoichiometry="1" constant="true" species="_13PDG"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ATP"/>
+                <speciesReference stoichiometry="1" constant="true" species="_3PG"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="6-Phosphogluconolactonase" id="PGL">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: pgl</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="pgl"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="D6PGL"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="D6PGC"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Phosphoglucomutase" id="PGMR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: pgm</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="pgm"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="G1P"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="G6P"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Pyridine nucleotide transhydrogenase" id="PNTA1">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: pntAB</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="pntAB"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="NAD"/>
+                <speciesReference stoichiometry="1" constant="true" species="NADPH"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="NADH"/>
+                <speciesReference stoichiometry="1" constant="true" species="NADP"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Pyridine nucleotide transhydrogenase" id="PNTA2">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: pntAB</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="pntAB"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="2" constant="true" species="HEXT"/>
+                <speciesReference stoichiometry="1" constant="true" species="NADH"/>
+                <speciesReference stoichiometry="1" constant="true" species="NADP"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="NAD"/>
+                <speciesReference stoichiometry="1" constant="true" species="NADPH"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Inorganic pyrophosphatase" id="PPA">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: ppa</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="ppa"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="PPI"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="2" constant="true" species="PI"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Phosphoenolpyruvate carboxylase" id="PPC">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: ppc</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="ppc"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="CO2"/>
+                <speciesReference stoichiometry="1" constant="true" species="PEP"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="OA"/>
+                <speciesReference stoichiometry="1" constant="true" species="PI"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Phosphoenolpyruvate synthase" id="PPSA">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: ppsA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="ppsA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ATP"/>
+                <speciesReference stoichiometry="1" constant="true" species="PYR"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="AMP"/>
+                <speciesReference stoichiometry="1" constant="true" species="PEP"/>
+                <speciesReference stoichiometry="1" constant="true" species="PI"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Phosphotransacetylase" id="PTAR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: pta</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="pta"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ACCOA"/>
+                <speciesReference stoichiometry="1" constant="true" species="PI"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ACTP"/>
+                <speciesReference stoichiometry="1" constant="true" species="COA"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Pyruvate Kinase II" id="PYKA">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: pykA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="pykA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ADP"/>
+                <speciesReference stoichiometry="1" constant="true" species="PEP"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ATP"/>
+                <speciesReference stoichiometry="1" constant="true" species="PYR"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Pyruvate Kinase I" id="PYKF">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: pykF</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="pykF"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ADP"/>
+                <speciesReference stoichiometry="1" constant="true" species="PEP"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ATP"/>
+                <speciesReference stoichiometry="1" constant="true" species="PYR"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Ribokinase" id="RBSK">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: rbsK</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="rbsK"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ATP"/>
+                <speciesReference stoichiometry="1" constant="true" species="RIB"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ADP"/>
+                <speciesReference stoichiometry="1" constant="true" species="R5P"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Ribulose phosphate 3-epimerase" id="RPER">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: rpe</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="rpe"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="RL5P"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="X5P"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Ribose-5-phosphate isomerase A" id="RPIAR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: rpiA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="rpiA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="RL5P"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="R5P"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Ribose-5-phosphate isomerase B" id="RPIBR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: rpiB</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="rpiB"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="RL5P"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="R5P"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Succinate dehydrogenase" id="SDHA1">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: sdhABCD</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="sdhABCD"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="FAD"/>
+                <speciesReference stoichiometry="1" constant="true" species="SUCC"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="FADH"/>
+                <speciesReference stoichiometry="1" constant="true" species="FUM"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Succinate dehydrogenase complex" id="SDHA2">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: sdhABCD</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="sdhABCD"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="FADH"/>
+                <speciesReference stoichiometry="1" constant="true" species="Q"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="FAD"/>
+                <speciesReference stoichiometry="1" constant="true" species="QH2"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Malic enzyme (NAD)" id="SFCA">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: sfcA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="sfcA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="MAL"/>
+                <speciesReference stoichiometry="1" constant="true" species="NAD"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="CO2"/>
+                <speciesReference stoichiometry="1" constant="true" species="NADH"/>
+                <speciesReference stoichiometry="1" constant="true" species="PYR"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="2-Ketoglutarate dehyrogenase" id="SUCA">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: sucAB AND lpdA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:and>
+                    <fbc:geneProductRef fbc:geneProduct="sucAB"/>
+                    <fbc:geneProductRef fbc:geneProduct="lpdA"/>
+                </fbc:and>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="AKG"/>
+                <speciesReference stoichiometry="1" constant="true" species="COA"/>
+                <speciesReference stoichiometry="1" constant="true" species="NAD"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="CO2"/>
+                <speciesReference stoichiometry="1" constant="true" species="NADH"/>
+                <speciesReference stoichiometry="1" constant="true" species="SUCCOA"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Succinyl-CoA synthetase" id="SUCCR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: sucCD</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="sucCD"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ADP"/>
+                <speciesReference stoichiometry="1" constant="true" species="PI"/>
+                <speciesReference stoichiometry="1" constant="true" species="SUCCOA"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ATP"/>
+                <speciesReference stoichiometry="1" constant="true" species="COA"/>
+                <speciesReference stoichiometry="1" constant="true" species="SUCC"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Transaldolase A" id="TALAR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: talA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="talA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="S7P"/>
+                <speciesReference stoichiometry="1" constant="true" species="T3P1"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="E4P"/>
+                <speciesReference stoichiometry="1" constant="true" species="F6P"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Transaldolase B" id="TALBR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: talB</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="talB"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="S7P"/>
+                <speciesReference stoichiometry="1" constant="true" species="T3P1"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="E4P"/>
+                <speciesReference stoichiometry="1" constant="true" species="F6P"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Transketolase I" id="TKTA1R">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: tktA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="tktA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="R5P"/>
+                <speciesReference stoichiometry="1" constant="true" species="X5P"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="S7P"/>
+                <speciesReference stoichiometry="1" constant="true" species="T3P1"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Transketolase I" id="TKTA2R">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: tktA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="tktA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="E4P"/>
+                <speciesReference stoichiometry="1" constant="true" species="X5P"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="F6P"/>
+                <speciesReference stoichiometry="1" constant="true" species="T3P1"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Transketolase II" id="TKTB1R">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: tktB</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="tktB"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="R5P"/>
+                <speciesReference stoichiometry="1" constant="true" species="X5P"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="S7P"/>
+                <speciesReference stoichiometry="1" constant="true" species="T3P1"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Transketolase II" id="TKTB2R">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: tktB</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="tktB"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="E4P"/>
+                <speciesReference stoichiometry="1" constant="true" species="X5P"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="F6P"/>
+                <speciesReference stoichiometry="1" constant="true" species="T3P1"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Triosphosphate Isomerase" id="TPIAR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: tpiA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="tpiA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="T3P1"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="T3P2"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Glucose 6-phosphate-1-dehydrogenase" id="ZWFR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: zwf</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="zwf"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="G6P"/>
+                <speciesReference stoichiometry="1" constant="true" species="NADP"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="D6PGL"/>
+                <speciesReference stoichiometry="1" constant="true" species="NADPH"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Acetate transport" id="ACUPR">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ACxt"/>
+                <speciesReference stoichiometry="1" constant="true" species="HEXT"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="AC"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Carbon dioxide transport" id="COZTXR">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="CO2xt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="CO2"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Ethanol transport" id="ETHUPR">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ETHxt"/>
+                <speciesReference stoichiometry="1" constant="true" species="HEXT"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ETH"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Formate transport" id="FORUPR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: focA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="focA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="FORxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="FOR"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Glucose transport" id="GLCPTS">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: ptsGHI AND crr</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:and>
+                    <fbc:geneProductRef fbc:geneProduct="ptsGHI"/>
+                    <fbc:geneProductRef fbc:geneProduct="crr"/>
+                </fbc:and>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="GLCxt"/>
+                <speciesReference stoichiometry="1" constant="true" species="PEP"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="G6P"/>
+                <speciesReference stoichiometry="1" constant="true" species="PYR"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Glucose transport (low affinity)" id="GLCUP">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: galP</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="galP"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="GLCxt"/>
+                <speciesReference stoichiometry="1" constant="true" species="HEXT"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="GLC"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Glycerol transporter" id="GLUPR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: glpF</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="glpF"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="GLxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="GL"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Lactate uptake" id="LACUP">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="HEXT"/>
+                <speciesReference stoichiometry="1" constant="true" species="LACxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="LAC"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Lactate secretion" id="LACDN">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="LAC"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="HEXT"/>
+                <speciesReference stoichiometry="1" constant="true" species="LACxt"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Lactose permease" id="LACYR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: lacY</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="lacY"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="HEXT"/>
+                <speciesReference stoichiometry="1" constant="true" species="LCTSxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="LCTS"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Oxygen transport" id="O2TXR">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="O2xt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="O2"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Phosphate transport" id="PIUP2R">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: pitAB</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="pitAB"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="HEXT"/>
+                <speciesReference stoichiometry="1" constant="true" species="PIxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="PI"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Pyruvate transport" id="PYRUPR">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="HEXT"/>
+                <speciesReference stoichiometry="1" constant="true" species="PYRxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="PYR"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Ribose transport" id="RIBUPR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: rbsABCD</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="rbsABCD"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ATP"/>
+                <speciesReference stoichiometry="1" constant="true" species="RIBxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ADP"/>
+                <speciesReference stoichiometry="1" constant="true" species="PI"/>
+                <speciesReference stoichiometry="1" constant="true" species="RIB"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Succinate transport" id="DCTAR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: dctA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="dctA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="HEXT"/>
+                <speciesReference stoichiometry="1" constant="true" species="SUCCxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="SUCC"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Succinate transport" id="DCUAR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: dcuA</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="dcuA"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="HEXT"/>
+                <speciesReference stoichiometry="1" constant="true" species="SUCCxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="SUCC"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Succinate transport" id="DCUBR">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: dcuB</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="dcuB"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="HEXT"/>
+                <speciesReference stoichiometry="1" constant="true" species="SUCCxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="SUCC"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Succinate efflux" id="DCUC">
+            <notes>
+                <body xmlns="http://www.w3.org/1999/xhtml">
+                    <p>GENE_ASSOCIATION: dcuC</p>
+                </body>
+            </notes>
+            <fbc:geneProductAssociation>
+                <fbc:geneProductRef fbc:geneProduct="dcuC"/>
+            </fbc:geneProductAssociation>
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="SUCC"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="HEXT"/>
+                <speciesReference stoichiometry="1" constant="true" species="SUCCxt"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="ATP non-growth associated maintenance flux" id="ATPM">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ATP"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ADP"/>
+                <speciesReference stoichiometry="1" constant="true" species="PI"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Biomass production flux" id="VGRO">
+            <listOfReactants>
+                <speciesReference stoichiometry="3.74" constant="true" species="ACCOA"/>
+                <speciesReference stoichiometry="1.07" constant="true" species="AKG"/>
+                <speciesReference stoichiometry="41.25" constant="true" species="ATP"/>
+                <speciesReference stoichiometry="0.36" constant="true" species="E4P"/>
+                <speciesReference stoichiometry="0.07" constant="true" species="F6P"/>
+                <speciesReference stoichiometry="0.2" constant="true" species="G6P"/>
+                <speciesReference stoichiometry="3.54" constant="true" species="NAD"/>
+                <speciesReference stoichiometry="18.22" constant="true" species="NADPH"/>
+                <speciesReference stoichiometry="1.78" constant="true" species="OA"/>
+                <speciesReference stoichiometry="0.51" constant="true" species="PEP"/>
+                <speciesReference stoichiometry="2.83" constant="true" species="PYR"/>
+                <speciesReference stoichiometry="0.89" constant="true" species="R5P"/>
+                <speciesReference stoichiometry="0.12" constant="true" species="T3P1"/>
+                <speciesReference stoichiometry="1.49" constant="true" species="_3PG"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="41.25" constant="true" species="ADP"/>
+                <speciesReference stoichiometry="1" constant="true" species="Biomass"/>
+                <speciesReference stoichiometry="3.74" constant="true" species="COA"/>
+                <speciesReference stoichiometry="3.54" constant="true" species="NADH"/>
+                <speciesReference stoichiometry="18.22" constant="true" species="NADP"/>
+                <speciesReference stoichiometry="41.25" constant="true" species="PI"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_0_0" reversible="false" name="Biomass exchange (growth)" id="Growth">
+            <listOfReactants>
+                <speciesReference stoichiometry="13" constant="true" species="ATP"/>
+                <speciesReference stoichiometry="1" constant="true" species="Biomass"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="13" constant="true" species="ADP"/>
+                <speciesReference stoichiometry="13" constant="true" species="PI"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Acetate exchange" id="ACex">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ACxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ACxt_b"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Carbon dioxide exchange" id="CO2ex">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="CO2xt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="CO2xt_b"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Ethanol exchange" id="ETHex">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="ETHxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="ETHxt_b"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Formate exchange" id="FORex">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="FORxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="FORxt_b"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Glucose exchange" id="GLCex">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="GLCxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="GLCxt_b"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Glycerol exchange" id="GLex">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="GLxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="GLxt_b"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Lactate exchange" id="LACex">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="LACxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="LACxt_b"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Lactose exchange" id="LCTSex">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="LCTSxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="LCTSxt_b"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Oxygen exchange" id="O2ex">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="O2xt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="O2xt_b"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Phosphate exchange" id="PIex">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="PIxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="PIxt_b"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Pyruvate exchange" id="PYRex">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="PYRxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="PYRxt_b"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Ribose exchange" id="RIBex">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="RIBxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="RIBxt_b"/>
+            </listOfProducts>
+        </reaction>
+        <reaction fbc:upperFluxBound="UPPER_BOUND_99999_0" fast="false" fbc:lowerFluxBound="LOWER_BOUND_99999_0" reversible="true" name="Succinate exchange" id="SUCCex">
+            <listOfReactants>
+                <speciesReference stoichiometry="1" constant="true" species="SUCCxt"/>
+            </listOfReactants>
+            <listOfProducts>
+                <speciesReference stoichiometry="1" constant="true" species="SUCCxt_b"/>
+            </listOfProducts>
+        </reaction>
+    </listOfReactions>
+    </model>
+</sbml>

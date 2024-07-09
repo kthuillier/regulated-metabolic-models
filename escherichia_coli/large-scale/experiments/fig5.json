@@ -1,0 +1,39 @@
+{
+    "ID": "Fig5",
+    "title": "Aerobic growth on glucose and lactose",
+    "SimulationParameters": {
+        "initBiomass": 0.011,
+        "timeStep": 0.1,
+        "nSteps": 90
+    },
+    "initConcentrations": {
+        "M_glc__D_b": 1.6,
+        "M_lcts_b": 5.8,
+        "M_o2_b": 99999,
+        "M_co2_b": 15,
+        "M_pi_b": 99999,
+        "M_nh4_b": 99999,
+        "M_so4_b": 10,
+        "M_h_b": 10,
+        "M_h2o_b": 55
+    },
+    "initRegs": {},
+    "initGenes": {},
+    "constraints": {
+        "ko": [],
+        "bounds": {
+            "R_EX_lcts_e": [
+                -6.5,
+                6.5
+            ],
+            "R_EX_glc__D_e": [
+                -6.5,
+                6.5
+            ],
+            "R_EX_o2_e": [
+                -15,
+                15
+            ]
+        }
+    }
+}

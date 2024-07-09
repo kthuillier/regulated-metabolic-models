@@ -1,0 +1,62 @@
+{
+    "name": "Covert2001",
+    "sources": [
+        "https://web.stanford.edu/group/covert/publicationpdfs/Covert2001b.pdf"
+    ],
+    "files": {
+        "metabolic_network": "model/sbml/metabolic_network.sbml",
+        "regulatory_network": "model/sbml/regulatory_network.sbml",
+        "bnet": "model/sbml/regulatory_network.bnet",
+        "experiments": [
+            "experiments/fig5.json",
+            "experiments/fig6.json",
+            "experiments/fig7.json",
+            "experiments/fig8.json",
+            "experiments/fig9.json"
+        ]
+    },
+    "model": {
+        "objective_function": "Growth",
+        "inputs": [
+            [
+                "Carbon1",
+                "Tc1"
+            ],
+            [
+                "Carbon2",
+                "Tc2"
+            ],
+            [
+                "Hext",
+                "Th"
+            ],
+            [
+                "Fext",
+                "Tf"
+            ],
+            [
+                "Oxygen",
+                "To2"
+            ],
+            [
+                "Eext",
+                "Te"
+            ],
+            [
+                "Dext",
+                "Td"
+            ],
+            [
+                "Biomass",
+                "Growth"
+            ]
+        ],
+        "regulators": [
+            "RPO2",
+            "RPcl",
+            "RPh",
+            "RPb"
+        ],
+        "genes": []
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "ID": "Fig3",
+    "title": "Aerobic growth on acetate with glucose reutilization",
+    "SimulationParameters": {
+        "initBiomass": 0.003,
+        "timeStep": 0.01,
+        "nSteps": 1200
+    },
+    "initConcentrations": {
+        "M_ac_b": 0.3,
+        "M_glc__D_b": 10.4,
+        "M_o2_b": 99999,
+        "M_co2_b": 15,
+        "M_pi_b": 99999,
+        "M_nh4_b": 99999,
+        "M_so4_b": 10,
+        "M_h_b": 10,
+        "M_h2o_b": 55
+    },
+    "initRegs": {
+        "b1187": 1,
+        "b4018": 1,
+        "b1594": 0
+    },
+    "initGenes": {},
+    "constraints": {
+        "ko": [],
+        "bounds": {
+            "R_EX_glc__D_e": [
+                -10.5,
+                10.5
+            ],
+            "R_EX_ac_e": [
+                -2.5,
+                2.5
+            ],
+            "R_EX_o2_e": [
+                -15,
+                15
+            ]
+        }
+    }
+}

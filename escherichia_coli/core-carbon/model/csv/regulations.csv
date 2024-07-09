@@ -1,0 +1,11 @@
+RPcl,RPcl,Carbon1
+RPO2,RPO2,!Oxygen
+RPh,RPh,Hext
+RPb,RPb,R2b
+Tc2,Tc2,!RPcl
+Rres,Rres,!RPO2
+R5a,R5a,!RPO2
+R5b,R5b,RPO2
+R8a,R8a,!RPh
+R7,R7,!RPb
+R2a,R2a,!RPb

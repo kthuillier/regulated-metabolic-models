@@ -1,0 +1,600 @@
+b0002, thrA, !(M_thr__L_e | M_ile__L_e)
+b0003, thrB, !(M_thr__L_e | M_ile__L_e)
+b0004, thrC, !(M_thr__L_e | M_ile__L_e)
+b0019, nhaA, (NhaR | RpoS)
+b0020, nhaR, M_na1_e
+b0031, dapB, !M_lys__L_e
+b0032, carA, !ArgR
+b0033, carB, !ArgR
+b0034, caiF, (Fnr & Crp & !NarL)
+b0036, caiD, (Crp & CaiF)
+b0038, caiB, (Crp & CaiF)
+b0040, caiT, (Crp & CaiF)
+b0052, pdxA, RpoE
+b0061, araD, (AraC | (AraC & Crp))
+b0062, araA, (AraC | (AraC & Crp))
+b0063, araB, (AraC | (AraC & Crp))
+b0064, araC, M_arab__L_e
+b0071, leuD, (!M_leu__L_e | Lrp)
+b0072, leuC, (!M_leu__L_e | Lrp)
+b0073, leuB, (!M_leu__L_e | Lrp)
+b0074, leuA, (!M_leu__L_e | Lrp)
+b0077, ilvI, (Lrp & !M_leu__L_e)
+b0078, ilvH, (Lrp & !M_leu__L_e)
+b0080, fruR, !Surplus_FDP
+b0104, guaC, !(M_gln__L_e | M_gua_e)
+b0112, aroP, !(TyrR & (M_phe__L_e | M_tyr__L_e | M_trp__L_e))
+b0113, pdhR, !Surplus_PYR
+b0114, aceE, (!PdhR | Fis)
+b0115, aceF, (!PdhR | Fis)
+b0116, lpdA, 1
+b0118, acnB, 1
+b0124, gcd, !Crp
+b0125, hpt, Crp
+b0162, sdaR, (M_glcr_e | M_galct__D_e)
+b0167, glnD, Lrp
+b0180, fabZ, (!"Stringent" | CpxR | RpoE | FadR2)
+b0197, yaeC, !MetJ
+b0198, yaeE, !(MetJ
+b0199, abc, !MetJ
+b0221, fadF, (!FadR2 | !ArcA)
+b0273, argF, !ArgR
+b0312, betB, !(ArcA | BetI)
+b0313, betI, M_chol_e
+b0314, betT, !BetI
+b0331, prpB, M_ppa_e
+b0333, prpC, M_ppa_e
+b0334, prpD, M_ppa_e
+b0335, prpE, M_ppa_e
+b0336, codB, (!PurR | NRI_hi)
+b0337, codA, (!PurR | NRI_hi)
+b0338, cynR, M_cynt_e
+b0340, cynS, CynR
+b0341, cynX, M_cynt_e
+b0343, lacY, (CRP_noGLC & !LacI)
+b0344, lacZ, (CRP_noGLC & !LacI)
+b0345, lacI, !M_lcts_e
+b0346, mhpR, M_3hpppn_e
+b0347, mhpA, MhpR
+b0348, mhpB, MhpR
+b0349, mhpC, MhpR
+b0350, mhpD, MhpR
+b0351, mhpF, MhpR
+b0352, mhpE, MhpR
+b0365, tauA, (Cbl & CysB)
+b0366, tauB, (Cbl & CysB)
+b0367, tauC, (Cbl & CysB)
+b0368, tauD, (Cbl & CysB)
+b0388, aroL, !((TyrR & M_tyr__L_e) | (TyrR & M_tyr__L_e & TrpR))
+b0399, phoB, PhoR
+b0400, phoR, [M_pi_e < 0.000000004]
+b0403, malZ, MalT
+b0428, cyoE, !(ArcA | Fnr)
+b0429, cyoD, !(ArcA | Fnr)
+b0430, cyoC, !(ArcA | Fnr)
+b0431, cyoB, !(ArcA | Fnr)
+b0432, cyoA, !(ArcA | Fnr)
+b0504, ybbS, (!M_o2_e & !AllR & !M_nh4_e)
+b0505, allA, !AllR
+b0506, allR, 0 // glyoxylate is the inactivator
+b0507, gcl, !AllR
+b0509, glxR, !AllR
+b0512, allB, !AllR
+b0514, glxK, !AllR
+b0516, allC, AllS
+b0522, purK, !PurR
+b0523, purE, !PurR
+b0564, appY, !CitB
+b0583, entD, !Fur
+b0593, entC, !Fur
+b0594, entE, !Fur
+b0595, entB, !Fur
+b0596, entA, !Fur
+b0612, citT, (CitB & !M_o2_e)
+b0615, citF, CitB
+b0616, citE, CitB
+b0617, citD, CitB
+b0619, dpiB, M_cit_e
+b0620, dpiA, CitA
+b0621, dcuC, (Fnr | ArcA)
+b0652, gltL, !M_glc__D_e
+b0653, gltK, !M_glc__D_e
+b0654, gltJ, !M_glc__D_e
+b0655, gltI, !M_glc__D_e
+b0676, nagC, !(M_acgam_e | [R_AGDC > 0])
+b0677, nagA, !NagC
+b0678, nagB, (!NagC | M_gam_e)
+b0679, nagE, !NagC
+b0683, fur, (M_fe2_e & (OxyR | SoxS))
+b0694, kdpE, KdpD
+b0695, kdpD, ![M_k_e > 1]
+b0696, kdpC, KdpE
+b0697, kdpB, KdpE
+b0698, kdpA, KdpE
+b0721, sdhC, (!(ArcA | Fnr) | Crp | Fis)
+b0722, sdhD, (!(ArcA | Fnr) | Crp | Fis)
+b0723, sdhA, (!(ArcA | Fnr) | Crp | Fis)
+b0724, sdhB, (!(ArcA | Fnr) | Crp | Fis)
+b0733, cydA, (!Fnr | ArcA)
+b0734, cydB, (!Fnr | ArcA)
+b0754, aroG, !((M_phe__L_e | M_trp__L_e) & TyrR)
+b0757, galK, (!M_glc__D_e & !(GalR | GalS) | !Rob)
+b0758, galT, (!M_glc__D_e & !(GalR | GalS) | !Rob)
+b0759, galE, (!M_glc__D_e & !(GalR | GalS) | !Rob)
+b0774, bioA, !BirA
+b0775, bioB, !BirA
+b0776, bioF, !BirA
+b0778, bioD, !BirA
+b0840, deoR, !([R_PPM2 > 0] | [R_PPM2 < 0])
+b0871, poxB, (![R_Growth > 0] & RpoS)
+b0889, lrp, !M_leu__L_e
+b0894, dmsA, (Fnr & !NarL)
+b0895, dmsB, (Fnr & !NarL)
+b0896, dmsC, (Fnr & !NarL)
+b0902, pflA, (ArcA | Fnr & (Crp | !NarL))
+b0903, pflB, (ArcA | Fnr & (Crp | !NarL))
+b0904, focA, (ArcA | Fnr & (Crp | !NarL))
+b0907, serC, (Lrp | !Crp)
+b0931, pncB, !NadR
+b0945, pyrD, (!M_csn_e | M_gua_e | !PurR)
+b0954, fabA, (!"Stringent" | CpxR | RpoE | FadR2)
+b0972, hyaA, ((ArcA | Fnr) & AppY)
+b0973, hyaB, ((ArcA | Fnr) & App)
+b0974, hyaC, ((ArcA | Fnr) & App)
+b0993, torS, M_tmao_e
+b0995, torR, TorS
+b0996, torC, (TorR | !NarL)
+b0997, torA, (TorR | !NarL)
+b1014, putA, (M_pro__L_e | Crp | Nac)
+b1015, putP, (M_pro__L_e | Crp | Nac)
+b1062, pyrC, (!M_csn_e | M_gua_e | !PurR)
+b1091, fabH, !"Stringent"
+b1092, fabD, !"Stringent"
+b1093, fabG, (!"Stringent" | CpxR | RpoE | FadR2)
+b1095, fabF, (!"Stringent" | CpxR | RpoE | FadR2)
+b1101, ptsG, (!Mlc | !Cra)
+b1109, ndh, !Fnr
+b1131, purB, !PurR
+b1187, fadR, M_glc__D_e | !M_ac_e)
+b1189, dadA, (M_ala__L_e & !Crp)
+b1190, dadX, ((M_ala__L_e | M_ala__D_e) & Crp)
+b1197, treA, RpoS
+b1207, prsA, !PurR 
+b1221, narL, (M_no3_e | M_no2_e)
+b1223, narK, (Fnr | NarL)
+b1224, narG, (Fnr & NarL)
+b1225, narH, (Fnr & NarL)
+b1226, narJ, (Fnr & NarL)
+b1227, narI, (Fnr & NarL)
+b1241, adhE, (!M_o2_e | !(M_o2_e & Cra) | Fis | !NarL | RpoS)
+b1260, trpA, !TrpR
+b1261, trpB, !TrpR
+b1262, trpC, !TrpR
+b1263, trpD, !TrpR
+b1264, trpE, !TrpR
+b1275, cysB, !M_cys__L_e 
+b1276, acnA, SoxS
+b1288, fabI, (!"Stringent" | CpxR | RpoE | FadR2)
+b1323, tyrR, (M_trp__L_e | M_tyr__L_e | M_phe__L_e)
+b1334, fnr, !M_o2_e
+b1384, feaR, Crp
+b1385, feaB, FeaR
+b1386, tynA, FeaB
+b1474, fdnG, (Fnr | NarL)
+b1475, fdnH, (Fnr | NarL)
+b1476, fdnI, (Fnr | NarL)
+b1493, gadB, (![R_Growth > 0] | [R_pH < 4])
+b1519, tam, ![R_Growth > 0]
+b1521, uxaB, !ExuR
+b1524, yneH, (!M_glc__D_e | (M_nh4_e & !Crp))
+b1531, marA, "Salicylate"
+b1594, mlc, !M_glc__D_e
+b1611, fumC, (MarA | Rob | SoxS & !ArcA)
+b1612, fumA, !(ArcA | Fnr)
+b1620, malI, !M_malt_e
+b1621, malX, ((MalT & Crp) | MalT)
+b1622, malY, !MalI
+b1623, add, (M_ade_e | M_hxan_e)
+b1646, sodC, (![R_Growth > 0] & !Fnr)
+b1658, purR, (M_hxan_e | M_gua_e)
+b1676, pykF, !Cra
+b1702, pps, Cra
+b1704, aroH, !TrpR
+b1732, katE, ![R_Growth > 0]
+b1744, astE, ((![R_Growth > 0] & RpoS) | (NRI_hi & RpoN)) 
+b1745, astB, ((![R_Growth > 0] & RpoS) | (NRI_hi & RpoN)) 
+b1746, astD, ((![R_Growth > 0] & RpoS) | (NRI_hi & RpoN)) 
+b1747, astA, ((![R_Growth > 0] & RpoS) | (NRI_hi & RpoN)) 
+b1748, astC, ((![R_Growth > 0] & RpoS) | (NRI_hi & RpoN)) 
+b1761, gdhA, !(Nac | M_glu__L_e) 
+b1805, fadD, (!FadR2 | !ArcA)
+b1814, sdaA, ((M_gly_e | M_leu__L_e | !M_o2_e) & (!Lrp | (Lrp & M_leu__L_e)))
+b1817, manX, (CRP_noLAC | !Mlc)
+b1818, manY, (CRP_noLAC | !Mlc)
+b1819, manZ, (CRP_noLAC | !Mlc)
+b1827, kdgR, (!M_2ddglcn_e & ![R_MNNH > 0] & ![R_ALTRH > 0])
+b1849, purT, !PurR
+b1850, eda, (1 | !GntR)
+b1851, edd, !GntR
+b1896, otsA, RpoS
+b1897, otsB, RpoS
+b1898, araH_2, (AraC | (AraC & Crp))
+b1899, araH_1, (AraC | (AraC & Crp))
+b1900, araG, (AraC | (AraC & Crp))
+b1901, araF, (AraC | (AraC & Crp))
+b1907, tyrP, !(TyrR & M_tyr__L_e)
+b1987, cbl, (!(M_so4_e | M_cys__L_e) & CysB)
+b1988, nac, (NRI_low & RpoN)
+b1991, cobT, M_cbi_e
+b1992, cobS, M_cbi_e
+b1993, cobU, M_cbi_e
+b2066, udk, !(M_thym_e | M_csn_e | M_ura_e)
+b2087, gatR_1, !M_galt_e
+b2090, gatR_2, !M_galt_e
+b2091, gatD, !GatR
+b2092, gatC, !GatR
+b2093, gatB, !GatR
+b2094, gatA, !GatR
+b2095, gatZ, !GatR
+b2096, gatY, !GatR
+b2097, fbaB, (M_pyr_e | M_lac__D_e & !M_glc__D_e)
+b2143, cdd, (Crp & !CytR)
+b2148, mglC, (Crp & !GalS)
+b2149, mglA, (Crp & !GalS)
+b2150, mglB, (Crp & !GalS)
+b2151, galS, (!M_lcts_e | !M_gal_e)
+b2167, fruA, !Cra
+b2168, fruK, !Cra
+b2169, fruB, !Cra
+b2210, mqo, !ArcA
+b2219, atoS, M_acac_e
+b2220, atoC, AtoS
+b2221, atoD, AtoC
+b2222, atoA, AtoC
+b2223, atoE, AtoC
+b2224, atoB, AtoC
+b2232, ubiG, (M_o2_e & Crp)
+b2234, nrdA, !ArcA
+b2235, nrdB, !ArcA
+b2239, glpQ, ((!GlpR | Fnr) & Crp)
+b2240, glpT, (!GlpR & Crp)
+b2241, glpA, (CRP_noRIB & (Fnr | ArcA) & !GlpR)
+b2242, glpB, (CRP_noRIB & (Fnr | ArcA) & !GlpR)
+b2243, glpC, (CRP_noRIB & (Fnr | ArcA) & !GlpR)
+b2276, nuoN, (!(ArcA | Fnr) | NarL)
+b2277, nuoM, (!(ArcA | Fnr) | NarL)
+b2278, nuoL, (!(ArcA | Fnr) | NarL)
+b2279, nuoK, (!(ArcA | Fnr) | NarL)
+b2280, nuoJ, (!(ArcA | Fnr) | NarL)
+b2281, nuoI, (!(ArcA | Fnr) | NarL)
+b2282, nuoH, (!(ArcA | Fnr) | NarL)
+b2283, nuoG, (!(ArcA | Fnr) | NarL)
+b2284, nuoF, (!(ArcA | Fnr) | NarL)
+b2285, nuoE, (!(ArcA | Fnr) | NarL)
+b2286, nuoC, (!(ArcA | Fnr) | NarL)
+b2287, nuoB, (!(ArcA | Fnr) | NarL)
+b2288, nuoA, (!(ArcA | Fnr) | NarL)
+b2306, hisP, !M_lys__L_e
+b2307, hisM, !M_lys__L_e
+b2308, hisQ, !M_lys__L_e
+b2309, hisJ, !M_lys__L_e
+b2310, argT, !M_lys__L_e
+b2311, ubiX, !PurR
+b2312, purF, !PurR
+b2323, fabB, (!"Stringent" | CpxR | RpoE | FadR2)
+b2344, fadL, !(Crp | FadR | OmpR)
+b2364, dsdC, M_ser__D_e
+b2366, dsdA, ((Crp & DsdC) | DsdC)
+b2393, nupC, (Crp | !CytR)
+b2405, xapR, M_xtsn_e
+b2406, xapB, XapR
+b2407, xapA, XapR
+b2413, cysZ, CysB
+b2414, cysK, CysB
+b2415, ptsH, 1
+b2416, ptsI, 1
+b2417, crr, 1
+b2421, cysM, CysB
+b2422, cysA, CysB
+b2423, cysW, CysB
+b2424, cysU, CysB
+b2425, cysP, CysB
+b2476, purC, !PurR
+b2479, gcvR, !M_gly_e
+b2492, focB, (ArcA | Fnr & (Crp | !NarL))
+b2499, purM, !PurR
+b2500, purN, !PurR
+b2507, guaA, !(PurR & Crp)
+b2508, guaB, !(PurR & Crp)
+b2537, hcaR, M_pppn_e
+b2538, hcaE, (HcaR & !"LBMedia")
+b2539, hcaF, (HcaR & !"LBMedia")
+b2540, hcaC, (HcaR & !"LBMedia")
+b2541, hcaB, (HcaR & !"LBMedia")
+b2542, hcaD, (HcaR & !"LBMedia")
+b2551, glyA, (!M_gly_e | MetR | !PurR)
+b2553, glnB, Lrp
+b2557, purL, !PurR
+b2564, pdxJ, RpoE
+b2573, rpoE, "heat shock"
+b2574, nadB, !NadR
+b2599, pheA, !M_phe__L_e
+b2600, tyrA, !(([M_phe__L_e > 10] | M_tyr__L_e) & TyrR)
+b2601, aroF, !(([M_phe__L_e > 10] | M_tyr__L_e) & TyrR)
+b2702, srlA, (!GutR & CRP_noGL)
+b2703, srlE, (!GutR & CRP_noGL)
+b2704, srlB, (!GutR & CRP_noGL)
+b2705, srlD, (GutM & !GutR & CRP_noGL)
+b2706, gutM, 1
+b2707, srlR, !M_sbt__D_e
+b2719, hycG, (FhlA & RpoN & !M_o2_e)
+b2720, hycF, (FhlA & RpoN & !M_o2_e)
+b2721, hycE, (FhlA & RpoN & !M_o2_e)
+b2722, hycD, (FhlA & RpoN & !M_o2_e)
+b2723, hycC, (FhlA & RpoN & !M_o2_e)
+b2724, hycB, (FhlA & RpoN & !M_o2_e)
+b2731, fhlA, (!M_o2_e & !M_no3_e & !M_no2_e & !M_tmao_e & !M_dmso_e & M_for_e)
+b2741, rpoS, ![R_Growth > 0]
+b2750, cysC, CysB
+b2751, cysN, CysB
+b2752, cysD, CysB
+b2762, cysH, CysB
+b2763, cysI, CysB
+b2764, cysJ, CysB
+b2787, gudD, SdaR
+b2796, sdaC, (Crp | (!Lrp & M_leu__L_e & Crp))
+b2797, sdaB, 1
+b2799, fucO, ((((FucR | M_rmn_e) & !M_o2_e) & Crp) | ((FucR | M_rmn_e) & !M_o2_e))
+b2800, fucA, ((FucR & Crp) | FucR)
+b2801, fucP, ((FucR & Crp) | FucR)
+b2802, fucI, ((FucR & Crp) | FucR)
+b2803, fucK, ((FucR & Crp) | FucR)
+b2805, fucR, M_fuc__L_e 
+b2808, gcvA, !GcvR
+b2818, argA, !ArgR
+b2837, galR, (!M_lcts_e | !M_gal_e )
+b2838, lysA, (LysR & !M_lys__L_e) 
+b2839, lysR, !M_lys__L_e
+b2841, araE, Crp
+b2903, gcvP, ((Fis & !PdhR) & ((!GcvR & GcvA) | Lrp | !PurR))
+b2904, gcvH, ((Fis & !PdhR) & ((!GcvR & GcvA) | Lrp | !PurR))
+b2905, gcvT, ((Fis & !PdhR) & ((!GcvR & GcvA) | Lrp | !PurR))
+b2926, pgk, 1
+b2927, epd, Crp
+b2938, speA, !PurR
+b2943, galP, (!GalR | GalS) & (Crp | !Crp))
+b2957, ansB, (Fnr & Crp)
+b2964, nupG, (Crp | !CytR | !DeoR)
+b2965, speC, !Crp
+b2975, glcA, (!ArcA & GlcC)
+b2976, glcB, (!ArcA & GlcC)
+b2980, glcC, (M_ac_e | M_glyclt_e)
+b2987, pitB, !PhoB
+b2994, hybC, (FhlA & RpoN & !M_o2_e)
+b2997, hybO, (FhlA & RpoN & !M_o2_e)
+b3008, metC, !MetJ
+b3061, ttdA, (!M_o2_e & M_tartr__L_e)
+b3062, ttdB, (!M_o2_e & M_tartr__L_e)
+b3091, uxaA, !ExuR
+b3092, uxaC, !ExuR
+b3093, exuT, !ExuR
+b3094, exuR, (![R_GUI1 > 0] & ![R_GUI2 > 0] & ![R_MANAO > 0] & ![R_TAGURr > 0] & ![R_GUI1 < 0] & ![R_GUI2 < 0] & ![R_MANAO < 0] & ![R_TAGURr < 0])
+b3111, tdcGa, (Crp | !M_o2_e)
+b3112, tdcGb, (Crp | !M_o2_e)
+b3114, tdcE, (Crp | Fnr | LysR | TdcA | !TdcR)
+b3115, tdcD, (Crp | Fnr | LysR | TdcA | !TdcR)
+b3116, tdcC, (Crp | Fnr | LysR | TdcA | !TdcR)
+b3117, tdcB, (Crp | Fnr | LysR | TdcA | !TdcR)
+b3118, tdcA, (M_thr__L_e & M_ser__L_e & M_val__L_e & M_ile__L_e & !M_o2_e)
+b3119, tdcR, (M_thr__L_e & M_ser__L_e & M_val__L_e & M_ile__L_e & !M_o2_e)
+b3124, garK, SdaR
+b3125, garR, SdaR
+b3126, garL, SdaR
+b3128, garD, SdaR
+b3161, mtr, (!TrpR | (TyrR & (M_phe__L_e | M_tyr__L_e)))
+b3202, rpoN, 1
+b3212, gltB, ((Lrp & !M_leu__L_e) | !(NRI_hi & (M_glu__L_e | M_arg__L_e | M_asp__L_e | M_his__L_e | M_pro__L_e)))
+b3213, gltD, ((Lrp & !M_leu__L_e) | !(NRI_hi & (M_glu__L_e | M_arg__L_e | M_asp__L_e | M_his__L_e | M_pro__L_e)))
+b3236, mdh, !ArcA
+b3237, argR, M_arg__L_e
+b3261, fis, [R_Growth > 0]
+b3357, crp, CRP_noGLC
+b3359, argD, !ArgR
+b3365, nirB, (Fnr & NarL)
+b3366, nirD, (Fnr & NarL)
+b3367, nirC, (Fnr & NarL)
+b3368, cysG, (Fnr | NarL)
+b3405, ompR, "high osmolarity"
+b3415, gntT, (!GntR & CRP_GLCN)
+b3416, malQ, MalT
+b3417, malP, MalT
+b3418, malT, (M_malt_e | M_malttr_e | M_maltttr_e | M_malthx_e | M_maltpt_e)
+b3423, glpR, !M_glyc_e
+b3425, glpE, Crp
+b3426, glpD, (CRP_noMAL & !(ArcA | GlpR))
+b3428, glgP, Crp
+b3437, gntK, (!GntR & CRP_GLCN)
+b3438, gntR, !M_glcn_e
+b3450, ugpC, (Crp | PhoB)
+b3451, ugpE, (Crp | PhoB)
+b3452, ugpA, (Crp | PhoB)
+b3453, ugpB, (Crp | PhoB)
+b3454, livF, !M_leu__L_e | Lrp)
+b3455, livG, !M_leu__L_e | Lrp)
+b3456, livM, !M_leu__L_e | Lrp)
+b3457, livH, !M_leu__L_e | Lrp)
+b3458, livK, !M_leu__L_e | Lrp)
+b3460, livJ, !M_leu__L_e | Lrp)
+b3500, gor, (OxyR | RpoS)
+b3517, gadA, ((![R_Growth > 0] & !Crp) | [R_pH < 4])
+b3519, treF, RpoS
+b3526, kdgK, !KdgR
+b3528, dctA, ((CRP_noMAN & !ArcA & DcuR) & RpoN)
+b3564, xylB, ((XylR & Crp) | XylR)
+b3565, xylA, ((XylR & Crp) | XylR)
+b3566, xylF, ((XylR & Crp) | XylR)
+b3567, xylG, ((XylR & Crp) | XylR)
+b3568, xylH, ((XylR & Crp) | XylR)
+b3569, xylR, M_xyl__D_e
+b3572, avtA, !(M_ala__L_e | M_leu__L_e )
+b3574, yiaJ, !M_fuc__L_e
+b3575, yiaK, (!YiaJ & Crp)
+b3579, yiaO, (Crp | YiaJ)
+b3581, sgbH, !YiaJ
+b3583, sgbE, !YiaJ
+b3588, aldB, (RpoS & Crp)
+b3599, mtlA, !MtlR
+b3600, mtlD, !MtlR
+b3601, mtlR, !M_mnl_e
+b3603, lldP, !ArcA
+b3605, lldD, (M_lac__L_e & M_o2_e)
+b3607, cysE, CysB
+b3616, tdh, (!Lrp & M_leu__L_e)
+b3617, kbl, (!Lrp & M_leu__L_e)
+b3642, pyrE, !(M_ura_e | M_gua_e)
+b3653, gltS, M_asp__L_e
+b3666, uhpT, (Crp | UhpA)
+b3668, uhpB, M_g6p_e
+b3669, uhpA, UhpB
+b3670, ilvN, (!(M_leu__L_e | M_val__L_e) & Crp)
+b3671, ilvB, (!(M_leu__L_e | M_val__L_e) & Crp)
+b3691, dgoT, M_galctn__D_e
+b3692, dgoA, M_galctn__D_e
+b3693, dgoK, M_galctn__D_e
+b3708, tnaA, (Crp & (M_trp__L_e | M_cys__L_e))
+b3709, tnaB, (Crp & M_trp__L_e)
+b3725, pstB, PhoB
+b3726, pstA, PhoB
+b3727, pstC, PhoB
+b3728, pstS, PhoB
+b3730, glmU, NagC
+b3743, asnC, (!M_asn__L_e & NRI_hi)
+b3744, asnA, (!M_asn__L_e & AsnC)
+b3748, rbsD, (CRP_noXYL & !RbsR)
+b3749, rbsA, (CRP_noXYL & !RbsR)
+b3750, rbsC, (CRP_noXYL & !RbsR)
+b3751, rbsB, (CRP_noXYL & !RbsR)
+b3752, rbsK, (CRP_noXYL & !RbsR)
+b3753, rbsR, !M_rib__D_e
+b3767, ilvG_1, (!(M_leu__L_e | M_ile__L_e | M_val__L_e) & Lrp)
+b3768, ilvG_2, (!(M_leu__L_e | M_ile__L_e | M_val__L_e) & Lrp)
+b3769, ilvM, (!(M_leu__L_e | M_ile__L_e | M_val__L_e) & Lrp)
+b3773, ilvY, !M_val__L_e
+b3774, ilvC, IlvY
+b3806, cyaA, !Crp
+b3828, metR, !M_met__L_e
+b3829, metE, (!MetJ & MetR)
+b3831, udp, (!CytR | Crp)
+b3845, fadA, (!FadR2 | !ArcA)
+b3846, fadB, (!FadR2 | !ArcA)
+b3868, glnG, ![M_nh4_e > 2]
+b3869, glnL, 1
+b3870, glnA, (Crp & RpoN)
+b3892, fdoI, (M_o2_e | (!M_o2_e & M_no3_e))
+b3893, fdoH, (M_o2_e | (!M_o2_e & M_no3_e))
+b3894, fdoG, (M_o2_e | (!M_o2_e & M_no3_e))
+b3902, rhaD, (RhaS | (RhaS & Crp))
+b3903, rhaA, (RhaS | (RhaS & Crp))
+b3904, rhaB, (RhaS | (RhaS & Crp))
+b3905, rhaS, RhaR
+b3906, rhaR, M_rmn_e
+b3907, rhaT, (RhaS | (RhaS & Crp))
+b3908, sodA, (!(ArcA | Fur) | MarA | Rob | SoxS)
+b3909, kdgT, !KdgR
+b3912, cpxR, "Stress"
+b3917, sbp, CysB
+b3926, glpK, (CRP_noMAL & !GlpR)
+b3934, cytR, M_cytd_e
+b3938, metJ, M_met__L_e
+b3939, metB, !MetJ
+b3940, metL, !MetJ
+b3942, katG, ([R_Growth > 0] & OxyR & RpoS)
+b3951, pflD, (ArcA | Fnr)
+b3952, pflC, (ArcA | Fnr)
+b3957, argE, !ArgR
+b3958, argC, !ArgR
+b3959, argB, !ArgR
+b3960, argH, !ArgR
+b3961, oxyR, M_h2o2_e
+b3973, birA, M_btn_e
+b4005, purD, !PurR
+b4013, metA, (!MetJ | MetR)
+b4014, aceB, (!IclR & (!ArcA | !Cra))
+b4015, aceA, (!IclR & (!ArcA | !Cra))
+b4018, iclR, FadR
+b4019, metH, MetR
+b4024, lysC, !M_lys__L_e
+b4031, xylE, XylR
+b4032, malG, ((MalT & Crp) | MalT)
+b4033, malF, ((MalT & Crp) | MalT)
+b4034, malE, ((MalT & Crp) | MalT)
+b4035, malK, ((MalT & Crp) | MalT)
+b4036, lamB, ((MalT & Crp) | MalT)
+b4039, ubiC, (!Fnr & Crp)
+b4040, ubiA, (!Fnr & Crp)
+b4054, tyrB, !((M_phe__L_e | M_tyr__L_e) & TyrR)
+b4062, soxS, SoxR
+b4063, soxR, (M_h2o2_e | "Oxidative Stress")
+b4069, acs, (RpoS | Fnr | (!IclR & CRP_noSUCC))
+b4079, fdhF, (FhlA & RpoN & !M_o2_e)
+b4089, rpiR, !M_rib__D_e
+b4090, rpiB, !RpiR
+b4111, proP, (!Crp & Fis & RpoS)
+b4116, adiY, ([R_pH < 7] & !M_o2_e & !"Rich Medium")
+b4117, adiA, AdiY
+b4118, melR, (M_melib_e | (M_melib_e & Crp))
+b4119, melA, (MelR | (MelR & Crp))
+b4120, melB, (MelR | (MelR & Crp))
+b4122, fumB, (Fnr | !Crp | DcuR | !NarL)
+b4123, dcuB, ((CRP_noMAN & Fnr & DcuR) & !NarL)
+b4124, dcuR, DcuS
+b4125, dcuS, (M_succ_e | M_asp__L_e | M_fum_e | M_mal__L_e)
+b4131, cadA, (ArcA | CadC)
+b4132, cadB, (ArcA | CadC)
+b4133, cadC, M_lys__L_e
+b4139, aspA, ((Crp & !Fnr) | Fnr)
+b4151, frdD, (Fnr | DcuR | !NarL)
+b4152, frdC, (Fnr | DcuR | !NarL)
+b4153, frdB, (Fnr | DcuR | !NarL)
+b4154, frdA, (Fnr | DcuR | !NarL)
+b4177, purA, (!PurR | RpoE) 
+b4238, nrdD, Fnr
+b4239, treC, ((!TreR & Crp) | !TreR)
+b4240, treB, ((!TreR & Crp) | !TreR)
+b4241, treR, !M_tre_e
+b4244, pyrI, !(M_ura_e | M_gua_e)
+b4245, pyrB, !(M_ura_e | M_gua_e)
+b4254, argI, !ArgR
+b4264, idnR, (M_idon__L_e | M_5dglcn_e)
+b4265, idnT, IdnR
+b4266, idnO, IdnR
+b4267, idnD, IdnR
+b4321, gntP, (Crp & !M_glcn_e)
+b4322, uxuA, (!ExuR & !UxuR)
+b4323, uxuB, (!ExuR & !UxuR)
+b4324, uxuR, (![R_MANAO > 0] & ![R_GUI1 > 0] & ![R_MANAO < 0] & ![R_GUI1 < 0])
+b4381, deoC, (!DeoR | (!DeoR & Crp & !CytR))
+b4382, deoA, (!(DeoR | CytR) & Crp)
+b4383, deoB, (!DeoR | (!DeoR & Crp & !CytR) | M_ins_e | M_gua_e)
+b4384, deoD, (!DeoR | (!DeoR & !CytR) | M_ins_e | M_gua_e)
+b4390, nadR, "high NAD"
+b4393, trpR, M_trp__L_e
+b4396, rob, "dipyridyl"
+b4401, arcA, !M_o2_e
+CRP_GLCN, CRP_GLCN, M_glcn_e
+CRP_noARAB, CRP_noARAB, !(M_glcn_e | M_glc__D_e | M_arab__L_e)
+CRP_noGL, CRP_noGL, !(M_glcn_e | M_glc__D_e | M_arab__L_e | M_xyl__D_e | M_rib__D_e | M_mal__L_e | M_glyc_e)
+CRP_noGLC, CRP_noGLC, !(M_glcn_e | M_glc__D_e)
+CRP_noGLCN, CRP_noGLCN, !M_glcn_e
+CRP_noMAN, CRP_noMAN, !(M_glcn_e | M_glc__D_e | M_arab__L_e | M_xyl__D_e | M_rib__D_e | M_mal__L_e | M_glyc_e | M_sbt__D_e | M_lac__D_e | M_man_e)
+CRP_noLAC, CRP_noLAC, !(M_glcn_e | M_glc__D_e | M_arab__L_e | M_xyl__D_e | M_rib__D_e | M_mal__L_e | M_glyc_e | M_sbt__D_e | M_lac__D_e)
+CRP_noGLT, CRP_noGLT, !(M_glcn_e | M_glc__D_e | M_arab__L_e | M_xyl__D_e | M_rib__D_e | M_mal__L_e | M_glyc_e | M_sbt__D_e)
+CRP_noMAL, CRP_noMAL, !(M_glcn_e | M_glc__D_e | M_arab__L_e | M_xyl__D_e | M_rib__D_e | M_mal__L_e)
+CRP_noRIB, CRP_noRIB, !(M_glcn_e | M_glc__D_e | M_arab__L_e | M_xyl__D_e | M_rib__D_e)
+CRP_noSUCC, CRP_noSUCC, !(M_glcn_e | M_glc__D_e | M_arab__L_e | M_xyl__D_e | M_rib__D_e | M_mal__L_e | M_glyc_e | M_sbt__D_e | M_lac__D_e | M_man_e | M_succ_e)
+CRP_noXYL, CRP_noXYL, !(M_glcn_e | M_glc__D_e | M_arab__L_e | M_xyl__D_e)
+Surplus_FDP, Surplus_FDP, ((![R_FBP > 0] & !([R_TKT2 > 0] | [R_TALA > 0] | [R_PGI > 0])) | M_fru_e)
+Surplus_PYR, Surplus_PYR, !(([R_ME2 > 0] | [R_ME1 > 0]) & !([R_GLCpts > 0] | [R_PYK > 0] | [R_PFK > 0] | [R_LDH_D < 0] | [R_LDH_D2 > 0] | [R_SUCCt2_2 > 0] | [R_SUCCt2_3 > 0]))
+FadR2, FadR2, !(M_ttdca_e | M_hdca_e | M_ocdca_e)
+NRI_hi, NRI_hi, (NRI_low & RpoN)
+NRI_low, NRI_low, (GlnG & GlnB & GlnD)
