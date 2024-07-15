@@ -1,3 +1,4 @@
+ID,GeneAssociation,Fullname,Reaction,LowBound,UpBound
 R_2DGLCNRx, b3553, "2-dehydro-D-gluconate reductase (NADH)", M_2dhglcn_c + M_h_c + M_nadh_c -> M_glcn_c + M_nad_c, 0.0, 999999.0
 R_CPPPGO, b2436, "Coproporphyrinogen oxidase (O2 required)", M_cpppg3_c + 2.0 M_h_c + M_o2_c -> 2.0 M_co2_c + 2.0 M_h2o_c + M_pppg9_c, 0.0, 999999.0
 R_PTAr, (b2297 | b2458), "Phosphotransacetylase", M_accoa_c + M_pi_c <-> M_actp_c + M_coa_c, -999999.0, 999999.0

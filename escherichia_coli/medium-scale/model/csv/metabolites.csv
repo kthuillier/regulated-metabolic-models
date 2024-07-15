@@ -1,90 +1,91 @@
-_13PDG, 1-3-bis-Phosphoglycerate, cell
-_2PG, 2-Phosphoglycerate, cell
-_3PG, 3-Phosphoglycerate, cell
-AC, Acetate, cell
-ACCOA, Acetyl-CoA, cell
-ACTP, Acetyl-phosphate, cell
-ACxt, External acetate, ext
-ACxt_b, External acetate (out), boundary
-ADP, Adenosine diphosphate, cell
-AKG, a-Ketoglutarate, cell
-AMP, Adenosine monophosphate, cell
-ATP, Adenosine triphosphate, cell
-bDGLAC, b-D-Galactose, cell
-bDGLC, b-D-Glucose, cell
-Biomass, Cell biomass, cell
-CIT, Citrate, cell
-CO2, Carbon dioxide, cell
-CO2xt, External carbon dioxide, ext
-CO2xt_b, External carbon dioxide (out), boundary
-COA, Coenzyme A, cell
-D6PGC, D-6-Phosphate-gluconate, cell
-D6PGL, D-6-Phosphate-glucono-delta-lactone, cell
-E4P, Erythrose 4-phosphate, cell
-ETH, Ethanol, cell
-ETHxt, External ethanol, ext
-ETHxt_b, External ethanol (out), boundary
-F6P, Fructose 6-phosphate, cell
-FAD, Flavin adenine dinucleotide, cell
-FADH, Flavin adenine dinucleotide reduced, cell
-FDP, Fructose 1-6-diphosphate, cell
-FOR, Formate, cell
-FORxt, External formate, ext
-FORxt_b, External formate (out), boundary
-FUM, Fumarate, cell
-G1P, Glucose 1-phosphate, cell
-G6P, Glucose 6-phosphate, cell
-GAL1P, Galactose 1-phosphate, cell
-GL, Glycerol, cell
-GL3P, Glycerol 3-phosphate, cell
-GLAC, Galactose, cell
-GLC, a-D-glucose, cell
-GLCxt, External glucose, ext
-GLCxt_b, External glucose (out), boundary
-GLX, Glyoxylate, cell
-GLxt, External glycerol, ext
-GLxt_b, External glycerol (out), boundary
-HEXT, External H+, cell
-ICIT, Isocitrate, cell
-LAC, D-lactate, cell
-LACxt, External lactate, ext
-LACxt_b, External lactate (out), boundary
-LCTS, Lactose, cell
-LCTSxt, External lactose, ext
-LCTSxt_b, External lactose (out), boundary
-MAL, Malate, cell
-NAD, Nicotinamide adenine dinucleotide, cell
-NADH, Nicotinamide adenine dinucleotide reduced, cell
-NADP, Nicotinamide adenine dinucleotide phosphate, cell
-NADPH, Dihydronicotinamide adenine dinucleotide phosphate reduced, cell
-O2, Oxygen, cell
-O2xt, External oxygen, ext
-O2xt_b, External oxygen (out), boundary
-OA, Oxaloacetate, cell
-PEP, Phosphoenolpyruvate, cell
-PG, Phosphatidyl glycerol, cell
-PI, Phosphate (inorganic), cell
-PIxt, External phosphate, ext
-PIxt_b, External phosphate (out), boundary
-PPI, Pyrophosphate, cell
-PYR, Pyruvate, cell
-PYRxt, External pyruvate, ext
-PYRxt_b, External pyruvate (out), boundary
-Q, Ubiquinone, cell
-QH2, Ubiquinol, cell
-R5P, Ribose 5-phosphate, cell
-RIB, Ribose, cell
-RIBxt, External ribose, ext
-RIBxt_b, External ribose (out), boundary
-RL5P, Ribulose 5-phosphate, cell
-S7P, Sedo-heptulose, cell
-SUCC, Succinate, cell
-SUCCOA, Succinate CoA, cell
-SUCCxt, External succinate, ext
-SUCCxt_b, External succinate (out), boundary
-T3P1, Glyceraldehyde 3-phosphate, cell
-T3P2, Dihydroxyacetone phosphate, cell
-UDPG, UDP Glucose, cell
-UDPGAL, UDP Galactose, cell
-UTP, Uridine triphosphate, cell
-X5P, Xylulose-5-phosphate, cell
+ID,Fullname,Compartment,BoundaryCondition
+_13PDG,1-3-bis-Phosphoglycerate,cell,False
+_2PG,2-Phosphoglycerate,cell,False
+_3PG,3-Phosphoglycerate,cell,False
+AC,Acetate,cell,False
+ACCOA,Acetyl-CoA,cell,False
+ACTP,Acetyl-phosphate,cell,False
+ACxt,External acetate,ext,False
+ACxt_b,External acetate (out),boundary,True
+ADP,Adenosine diphosphate,cell,False
+AKG,a-Ketoglutarate,cell,False
+AMP,Adenosine monophosphate,cell,False
+ATP,Adenosine triphosphate,cell,False
+bDGLAC,b-D-Galactose,cell,False
+bDGLC,b-D-Glucose,cell,False
+Biomass,Cell,False biomass,cell,False
+CIT,Citrate,cell,False
+CO2,Carbon dioxide,cell,False
+CO2xt,External carbon dioxide,ext,False
+CO2xt_b,External carbon dioxide (out),boundary,True
+COA,Coenzyme A,cell,False
+D6PGC,D-6-Phosphate-gluconate,cell,False
+D6PGL,D-6-Phosphate-glucono-delta-lactone,cell,False
+E4P,Erythrose 4-phosphate,cell,False
+ETH,Ethanol,cell,False
+ETHxt,External ethanol,ext,False
+ETHxt_b,External ethanol (out),boundary,True
+F6P,Fructose 6-phosphate,cell,False
+FAD,Flavin adenine dinucleotide,cell,False
+FADH,Flavin adenine dinucleotide reduced,cell,False
+FDP,Fructose 1-6-diphosphate,cell,False
+FOR,Formate,cell,False
+FORxt,External formate,ext,False
+FORxt_b,External formate (out),boundary,True
+FUM,Fumarate,cell,False
+G1P,Glucose 1-phosphate,cell,False
+G6P,Glucose 6-phosphate,cell,False
+GAL1P,Galactose 1-phosphate,cell,False
+GL,Glycerol,cell,False
+GL3P,Glycerol 3-phosphate,cell,False
+GLAC,Galactose,cell,False
+GLC,a-D-glucose,cell,False
+GLCxt,External glucose,ext,False
+GLCxt_b,External glucose (out),boundary,True
+GLX,Glyoxylate,cell,False
+GLxt,External glycerol,ext,False
+GLxt_b,External glycerol (out),boundary,True
+HEXT,External H+,cell,False
+ICIT,Isocitrate,cell,False
+LAC,D-lactate,cell,False
+LACxt,External lactate,ext,False
+LACxt_b,External lactate (out),boundary,True
+LCTS,Lactose,cell,False
+LCTSxt,External lactose,ext,False
+LCTSxt_b,External lactose (out),boundary,True
+MAL,Malate,cell,False
+NAD,Nicotinamide adenine dinucleotide,cell,False
+NADH,Nicotinamide adenine dinucleotide reduced,cell,False
+NADP,Nicotinamide adenine dinucleotide phosphate,cell,False
+NADPH,Dihydronicotinamide adenine dinucleotide phosphate reduced,cell,False
+O2,Oxygen,cell,False
+O2xt,External oxygen,ext,False
+O2xt_b,External oxygen (out),boundary,True
+OA,Oxaloacetate,cell,False
+PEP,Phosphoenolpyruvate,cell,False
+PG,Phosphatidyl glycerol,cell,False
+PI,Phosphate (inorganic),cell,False
+PIxt,External phosphate,ext,False
+PIxt_b,External phosphate (out),boundary,True
+PPI,Pyrophosphate,cell,False
+PYR,Pyruvate,cell,False
+PYRxt,External pyruvate,ext,False
+PYRxt_b,External pyruvate (out),boundary,True
+Q,Ubiquinone,cell,False
+QH2,Ubiquinol,cell,False
+R5P,Ribose 5-phosphate,cell,False
+RIB,Ribose,cell,False
+RIBxt,External ribose,ext,False
+RIBxt_b,External ribose (out),boundary,True
+RL5P,Ribulose 5-phosphate,cell,False
+S7P,Sedo-heptulose,cell,False
+SUCC,Succinate,cell,False
+SUCCOA,Succinate CoA,cell,False
+SUCCxt,External succinate,ext,False
+SUCCxt_b,External succinate (out),boundary,True
+T3P1,Glyceraldehyde 3-phosphate,cell,False
+T3P2,Dihydroxyacetone phosphate,cell,False
+UDPG,UDP Glucose,cell,False
+UDPGAL,UDP Galactose,cell,False
+UTP,Uridine triphosphate,cell,False
+X5P,Xylulose-5-phosphate,cell,False

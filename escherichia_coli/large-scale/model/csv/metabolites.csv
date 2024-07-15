@@ -1,904 +1,905 @@
-M_3mop_c, "(S)-3-Methyl-2-oxopentanoate", c, False
-M_2dmmql8_c, "2-Demethylmenaquinol 8", c, False
-M_lipidX_c, "2,3-Bis(3-hydroxytetradecanoyl)-beta-D-glucosaminyl 1-phosphate", c, False
-M_tartr__L_e, "L-tartrate", e, False
-M_pyam5p_c, "Pyridoxamine 5'-phosphate", c, False
-M_thr__L_b, "L-Threonine", b, True
-M_glyc3p_c, "Glycerol 3-phosphate", c, False
-M_glyb_c, "Glycine betaine", c, False
-M_tartr__L_b, "L-tartrate", b, True
-M_uppg3_c, "Uroporphyrinogen III", c, False
-M_dpcoa_c, "Dephospho-CoA", c, False
-M_pppi_c, "Inorganic triphosphate", c, False
-M_succ_b, "Succinate", b, True
-M_gp4g_c, "P1,P4-Bis(5'-guanosyl) tetraphosphate", c, False
-M_hpyr_c, "Hydroxypyruvate", c, False
-M_lipidAds_c, "Lipid A Disaccharide", c, False
-M_ala__L_e, "L-Alanine", e, False
-M_op4en_c, "2-Oxopent-4-enoate", c, False
-M_arab__L_c, "L-Arabinose", c, False
-M_actACP_c, "Acetoacetyl-ACP", c, False
-M_agm_c, "Agmatine", c, False
-M_gsn_e, "Guanosine", e, False
-M_galt_b, "Galactitol", b, True
-M_duri_c, "Deoxyuridine", c, False
-M_2dda7p_c, "2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate", c, False
-M_25aics_c, "(S)-2-[5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido]succinate", c, False
-M_dhpmp_c, "Dihydroneopterin monophosphate", c, False
-M_ssaltpp_c, "Succinate semialdehyde-thiamin diphosphate anion", c, False
-M_malthp_c, "Maltoheptaose", c, False
-M_dann_c, "7,8-Diaminononanoate", c, False
-M_ptrc_b, "Putrescine", b, True
-M_taur_c, "Taurine C2H7NO3S", c, False
-M_mal__L_c, "L-Malate", c, False
-M_fprica_c, "5-Formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide", c, False
-M_amob_c, "S-Adenosyl-4-methylthio-2-oxobutanoate", c, False
-M_10fthf_c, "10-Formyltetrahydrofolate", c, False
-M_pppn_e, "Phenylpropanoate", e, False
-M_seramp_c, "L-seryl-AMP", c, False
-M_no3_c, "Nitrate", c, False
-M_xu5p__D_c, "D-Xylulose 5-phosphate", c, False
-M_fad_c, "Flavin adenine dinucleotide oxidized", c, False
-M_6hmhpt_c, "6-hydroxymethyl dihydropterin", c, False
-M_micit_c, "Methylisocitrate", c, False
-M_ura_c, "Uracil", c, False
-M_ins_c, "Inosine", c, False
-M_acgam_e, "N-Acetyl-D-glucosamine", e, False
-M_acald_e, "Acetaldehyde", e, False
-M_h2_c, "Hydrogen", c, False
-M_ala__L_c, "L-Alanine", c, False
-M_gdpofuc_c, "GDP-4-oxo-L-fucose", c, False
-M_malthx_e, "Maltohexaose", e, False
-M_tyr__L_c, "L-Tyrosine", c, False
-M_etoh_b, "Ethanol", b, True
-M_melib_e, "Melibiose C12H22O11", e, False
-M_thymd_b, "Thymidine C10H14N2O5", b, True
-M_acmana_e, "N-Acetyl-D-mannosamine", e, False
-M_scl_c, "Sirohydrochlorin", c, False
-M_2ippm_c, "2-Isopropylmaleate", c, False
-M_glyald_e, "D-Glyceraldehyde", e, False
-M_6pgc_c, "6-Phospho-D-gluconate", c, False
-M_prpp_c, "5-Phospho-alpha-D-ribose 1-diphosphate", c, False
-M_pan4p_c, "Pantetheine 4'-phosphate", c, False
-M_4c2me_c, "4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol", c, False
-M_ptrc_c, "Putrescine", c, False
-M_4adcho_c, "4-amino-4-deoxychorismate", c, False
-M_u3aga_c, "UDP-3-O-(3-hydroxytetradecanoyl)-N-acetylglucosamine", c, False
-M_sbt__D_e, "D-Sorbitol", e, False
-M_4abutn_c, "4-Aminobutanal", c, False
-M_g6p_b, "D-Glucose 6-phosphate", b, True
-M_glcur_b, "D-Glucuronate", b, True
-M_ocdca_b, "Octadecanoate (n-C18:0)", b, True
-M_gam_b, "D-Glucosamine", b, True
-M_2dh3dgal6p_c, "2-Dehydro-3-deoxy-D-galactonate 6-phosphate", c, False
-M_galur_c, "D-Galacturonate", c, False
-M_ile__L_b, "L-Isoleucine", b, True
-M_phe__L_e, "L-Phenylalanine", e, False
-M_ppcoa_c, "Propanoyl-CoA", c, False
-M_g3ps_c, "Glycerophosphoserine", c, False
-M_arab__L_e, "L-Arabinose", e, False
-M_galct__D_c, "D-Galactarate", c, False
-M_hxan_b, "Hypoxanthine", b, True
-M_pant__R_c, "(R)-Pantoate", c, False
-M_n8aspmd_c, "N8-Acetylspermidine", c, False
-M_glcn_c, "D-Gluconate", c, False
-M_pi_b, "Phosphate", b, True
-M_glcur_e, "D-Glucuronate", e, False
-M_dgmp_c, "DGMP C10H12N5O7P", c, False
-M_sucgsa_c, "N2-Succinyl-L-glutamate 5-semialdehyde", c, False
-M_cys__L_e, "L-Cysteine", e, False
-M_ac_c, "Acetate", c, False
-M_glycogen_c, "Glycogen C6H10O5", c, False
-M_gdp_c, "GDP C10H12N5O11P2", c, False
-M_h2o_e, "H2O H2O", e, False
-M_thymd_e, "Thymidine C10H14N2O5", e, False
-M_kdo2lipid4p_c, "KDO(2)-lipid IV(A) with palmitoleoyl", c, False
-M_orn_c, "Ornithine", c, False
-M_chol_c, "Choline C5H14NO", c, False
-M_4mhetz_c, "4-Methyl-5-(2-hydroxyethyl)-thiazole", c, False
-M_acac_b, "Acetoacetate", b, True
-M_urea_e, "Urea CH4N2O", e, False
-M_tre6p_c, "Alpha,alpha'-Trehalose 6-phosphate", c, False
-M_ade_b, "Adenine", b, True
-M_5aop_c, "5-Amino-4-oxopentanoate", c, False
-M_kdo2lipid4L_c, "KDO(2)-lipid IV(A) with laurate", c, False
-M_din_c, "Deoxyinosine", c, False
-M_ps_EC_c, "Phosphatidylserine (Ecoli)", c, False
-M_hdeACP_c, "Cis-hexadec-9-enoyl-[acyl-carrier protein] (n-C16:1)", c, False
-M_phom_c, "O-Phospho-L-homoserine", c, False
-M_spmd_e, "Spermidine", e, False
-M_u23ga_c, "UDP-2,3-bis(3-hydroxytetradecanoyl)glucosamine", c, False
-M_acnam_e, "N-Acetylneuraminate", e, False
-M_ala__D_e, "D-Alanine", e, False
-M_hom__L_c, "L-Homoserine", c, False
-M_glx_c, "Glyoxylate", c, False
-M_for_e, "Formate", e, False
-M_dmlz_c, "6,7-Dimethyl-8-(1-D-ribityl)lumazine", c, False
-M_malthx_b, "Maltohexaose", b, True
-M_5apru_c, "5-Amino-6-(5'-phosphoribosylamino)uracil", c, False
-M_rib__D_b, "D-Ribose", b, True
-M_dhf_c, "7,8-Dihydrofolate", c, False
-M_mmcoa__S_c, "(S)-Methylmalonyl-CoA", c, False
-M_chor_c, "Chorismate", c, False
-M_2shchc_c, "2-Succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate", c, False
-M_ru5p__D_c, "D-Ribulose 5-phosphate", c, False
-M_dgsn_b, "Deoxyguanosine", b, True
-M_23dhmp_c, "(R)-2,3-Dihydroxy-3-methylpentanoate", c, False
-M_cys__L_c, "L-Cysteine", c, False
-M_h_b, "H+", b, True
-M_urea_b, "Urea CH4N2O", b, True
-M_dmpp_c, "Dimethylallyl diphosphate", c, False
-M_palmACP_c, "Palmitoyl-ACP (n-C16:0ACP)", c, False
-M_selnp_c, "Selenophosphate", c, False
-M_damp_c, "DAMP C10H12N5O6P", c, False
-M_dad_2_b, "Deoxyadenosine", b, True
-M_cbl1_b, "Cob(I)alamin", b, True
-M_12ppd__S_b, "(S)-Propane-1,2-diol", b, True
-M_2omph_c, "2-Octaprenyl-6-methoxyphenol", c, False
-M_fuc1p__L_b, "L-Fucose 1-phosphate", b, True
-M_utp_c, "UTP C9H11N2O15P3", c, False
-M_idp_c, "IDP C10H11N4O11P2", c, False
-M_glyc__R_c, "(R)-Glycerate", c, False
-M_12ppd__S_c, "(S)-Propane-1,2-diol", c, False
-M_arbt6p_c, "Arbutin 6-phosphate", c, False
-M_ncam_c, "Nicotinamide", c, False
-M_5mdr1p_c, "5-Methylthio-5-deoxy-D-ribose 1-phosphate", c, False
-M_leu__L_e, "L-Leucine", e, False
-M_dad_2_e, "Deoxyadenosine", e, False
-M_aacoa_c, "Acetoacetyl-CoA", c, False
-M_xtsn_e, "Xanthosine", e, False
-M_co2_c, "CO2 CO2", c, False
-M_pnto__R_e, "(R)-Pantothenate", e, False
-M_4abz_c, "4-Aminobenzoate", c, False
-M_apg_EC_c, "Acyl phosphatidylglycerol (E.coli)", c, False
-M_hco3_c, "Bicarbonate", c, False
-M_g3pg_c, "Glycerophosphoglycerol", c, False
-M_nadh_c, "Nicotinamide adenine dinucleotide - reduced", c, False
-M_nh4_b, "Ammonium", b, True
-M_tre_b, "Trehalose", b, True
-M_ile__L_c, "L-Isoleucine", c, False
-M_lac__L_e, "L-Lactate", e, False
-M_octdp_c, "All-trans-Octaprenyl diphosphate", c, False
-M_atp_c, "ATP C10H12N5O13P3", c, False
-M_spmd_c, "Spermidine", c, False
-M_uamag_c, "UDP-N-acetylmuramoyl-L-alanyl-D-glutamate", c, False
-M_o2_b, "O2 O2", b, True
-M_fru_c, "D-Fructose", c, False
-M_trdrd_c, "Reduced thioredoxin", c, False
-M_dcdp_c, "DCDP C9H12N3O10P2", c, False
-M_ser__D_c, "D-Serine", c, False
-M_lald__L_c, "L-Lactaldehyde", c, False
-M_fgam_c, "N2-Formyl-N1-(5-phospho-D-ribosyl)glycinamide", c, False
-M_mal__L_e, "L-Malate", e, False
-M_uri_e, "Uridine", e, False
-M_hisp_c, "L-Histidinol phosphate", c, False
-M_uri_b, "Uridine", b, True
-M_2omhmbl_c, "2-Octaprenyl-3-methyl-5-hydroxy-6-methoxy-1,4-benzoquinol", c, False
-M_dtbt_c, "Dethiobiotin", c, False
-M_acac_e, "Acetoacetate", e, False
-M_xyl__D_b, "D-Xylose", b, True
-M_met__D_e, "D-Methionine", e, False
-M_2ddg6p_c, "2-Dehydro-3-deoxy-D-gluconate 6-phosphate", c, False
-M_dmbzid_c, "5,6-Dimethylbenzimidazole", c, False
-M_g6p_e, "D-Glucose 6-phosphate", e, False
-M_hdcea_c, "Hexadecenoate (n-C16:1)", c, False
-M_g1p_c, "D-Glucose 1-phosphate", c, False
-M_dkmpp_c, "2,3-diketo-5-methylthio-1-phosphopentane", c, False
-M_orot_c, "Orotate C5H3N2O4", c, False
-M_h2o2_c, "Hydrogen peroxide", c, False
-M_cpppg3_c, "Coproporphyrinogen III", c, False
-M_dtdp_c, "DTDP C10H13N2O11P2", c, False
-M_gal_e, "D-Galactose", e, False
-M_ala__D_c, "D-Alanine", c, False
-M_fdp_c, "D-Fructose 1,6-bisphosphate", c, False
-M_xan_e, "Xanthine", e, False
-M_3dhsk_c, "3-Dehydroshikimate", c, False
-M_sbt6p_c, "D-Sorbitol 6-phosphate", c, False
-M_lac__D_e, "D-Lactate", e, False
-M_csn_b, "Cytosine", b, True
-M_asp__L_e, "L-Aspartate", e, False
-M_uamr_c, "UDP-N-acetylmuramate", c, False
-M_4hthr_c, "4-Hydroxy-L-threonine", c, False
-M_2cpr5p_c, "1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate", c, False
-M_pdx5p_c, "Pyridoxine 5'-phosphate", c, False
-M_glcr_b, "D-Glucarate", b, True
-M_cbp_c, "Carbamoyl phosphate", c, False
-M_acACP_c, "Acetyl-ACP", c, False
-M_lipa_c, "KDO(2)-lipid (A)", c, False
-M_tsul_b, "Thiosulfate", b, True
-M_adn_c, "Adenosine", c, False
-M_adocbl_c, "Adenosylcobalamin", c, False
-M_mnl1p_c, "D-Mannitol 1-phosphate", c, False
-M_agpe_EC_c, "Acyl-glycerophosphoethanolamine  (E.coli)", c, False
-M_kdo2lipid4_c, "KDO(2)-lipid IV(A)", c, False
-M_ttdca_e, "Tetradecanoate (n-C14:0)", e, False
-M_mthgxl_c, "Methylglyoxal", c, False
-M_pram_c, "5-Phospho-beta-D-ribosylamine", c, False
-M_succoa_c, "Succinyl-CoA", c, False
-M_dhap_c, "Dihydroxyacetone phosphate", c, False
-M_adocbi_c, "Adenosyl cobinamide", c, False
-M_4abut_e, "4-Aminobutanoate", e, False
-M_5aizc_c, "5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate", c, False
-M_bbtcoa_c, "Gamma-butyrobetainyl-CoA", c, False
-M_gln__L_e, "L-Glutamine", e, False
-M_din_e, "Deoxyinosine", e, False
-M_galct__D_b, "D-Galactarate", b, True
-M_glu5p_c, "L-Glutamate 5-phosphate", c, False
-M_galt_e, "Galactitol", e, False
-M_uri_c, "Uridine", c, False
-M_2dmmq8_c, "2-Demethylmenaquinone 8", c, False
-M_sucglu_c, "N2-Succinyl-L-glutamate", c, False
-M_2aobut_c, "L-2-Amino-3-oxobutanoate", c, False
-M_2ddglcn_b, "2-Dehydro-3-deoxy-D-gluconate", b, True
-M_lys__L_b, "L-Lysine", b, True
-M_ocdca_c, "Octadecanoate (n-C18:0)", c, False
-M_3ig3p_c, "C'-(3-Indolyl)-glycerol 3-phosphate", c, False
-M_glyc_c, "Glycerol", c, False
-M_idon__L_e, "L-Idonate", e, False
-M_chol_b, "Choline C5H14NO", b, True
-M_6pgl_c, "6-phospho-D-glucono-1,5-lactone", c, False
-M_fc1p_c, "L-Fuculose 1-phosphate", c, False
-M_dctp_c, "DCTP C9H12N3O13P3", c, False
-M_phe__L_c, "L-Phenylalanine", c, False
-M_nac_b, "Nicotinate", b, True
-M_udcpp_c, "Undecaprenyl phosphate", c, False
-M_pyr_b, "Pyruvate", b, True
-M_k_c, "Potassium", c, False
-M_pyr_c, "Pyruvate", c, False
-M_acac_c, "Acetoacetate", c, False
-M_acnam_c, "N-Acetylneuraminate", c, False
-M_dnad_c, "Deamino-NAD+", c, False
-M_pac_c, "Phenylacetic acid", c, False
-M_fruur_c, "D-Fructuronate", c, False
-M_uaagmda_c, "Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala", c, False
-M_val__L_c, "L-Valine", c, False
-M_1pyr5c_c, "1-Pyrroline-5-carboxylate", c, False
-M_glyb_e, "Glycine betaine", e, False
-M_fe2_e, "Fe2+ mitochondria", e, False
-M_glyc3p_e, "Glycerol 3-phosphate", e, False
-M_suc6p_c, "Sucrose 6-phosphate", c, False
-M_peptido_EC_c, "Peptidoglycan subunit of Escherichia coli", c, False
-M_val__L_b, "L-Valine", b, True
-M_agpc_EC_c, "Acyl-glycerophosphocholine", c, False
-M_csn_e, "Cytosine", e, False
-M_acmana_c, "N-Acetyl-D-mannosamine", c, False
-M_4ampm_c, "4-Amino-2-methyl-5-phosphomethylpyrimidine", c, False
-M_e4p_c, "D-Erythrose 4-phosphate", c, False
-M_trp__L_e, "L-Tryptophan", e, False
-M_ddcaACP_c, "Dodecanoyl-ACP (n-C12:0ACP)", c, False
-M_nmn_b, "NMN C11H14N2O8P", b, True
-M_lys__L_e, "L-Lysine", e, False
-M_ohpb_c, "2-Oxo-3-hydroxy-4-phosphobutanoate", c, False
-M_gly_c, "Glycine", c, False
-M_skm5p_c, "Shikimate 5-phosphate", c, False
-M_xmp_c, "Xanthosine 5'-phosphate", c, False
-M_suchms_c, "O-Succinyl-L-homoserine", c, False
-M_malcoa_c, "Malonyl CoA C24H33N7O19P3S", c, False
-M_glyc3p_b, "Glycerol 3-phosphate", b, True
-M_galct__D_e, "D-Galactarate", e, False
-M_acald_c, "Acetaldehyde", c, False
-M_23dhdp_c, "2,3-Dihydrodipicolinate", c, False
-M_uacmam_c, "UDP-N-acetyl-D-mannosamine", c, False
-M_hkndd_c, "2-Hydroxy-6-oxonona-2,4-diene-1,9-dioate", c, False
-M_25drapp_c, "2,5-Diamino-6-(ribosylamino)-4-(3H)-pyrimidinone 5'-phosphate", c, False
-M_23dhb_c, "2,3-Dihydroxybenzoate", c, False
-M_2ahbut_c, "(S)-2-Aceto-2-hydroxybutanoate", c, False
-M_gdpddman_c, "GDP-4-dehydro-6-deoxy-D-mannose", c, False
-M_tsul_c, "Thiosulfate", c, False
-M_lgt__S_c, "(R)-S-Lactoylglutathione", c, False
-M_glyclt_e, "Glycolate C2H3O3", e, False
-M_gam1p_c, "D-Glucosamine 1-phosphate", c, False
-M_thr__L_c, "L-Threonine", c, False
-M_but_e, "Butyrate (n-C4:0)", e, False
-M_sbzcoa_c, "O-Succinylbenzoyl-CoA", c, False
-M_tagur_c, "D-Tagaturonate", c, False
-M_dhcinnm_c, "2,3-dihydroxicinnamic acid", c, False
-M_k_e, "Potassium", e, False
-M_tmao_c, "Trimethylamine N-oxide", c, False
-M_ser__L_e, "L-Serine", e, False
-M_trdox_c, "Oxidized thioredoxin", c, False
-M_o2s_c, "Superoxide anion", c, False
-M_fuc__L_c, "L-Fucose", c, False
-M_cbasp_c, "N-Carbamoyl-L-aspartate", c, False
-M_acg5p_c, "N-Acetyl-L-glutamyl 5-phosphate", c, False
-M_cit_c, "Citrate", c, False
-M_clpn_EC_c, "Cardiolipin (Ecoli)", c, False
-M_ctbtcoa_c, "Crotonobetainyl-CoA", c, False
-M_dms_c, "Dimethyl sulfide", c, False
-M_galctn__D_c, "D-Galactonate", c, False
-M_pi_c, "Phosphate", c, False
-M_oaa_c, "Oxaloacetate", c, False
-M_thf_c, "5,6,7,8-Tetrahydrofolate", c, False
-M_xtsn_c, "Xanthosine", c, False
-M_alltn_b, "Allantoin", b, True
-M_so3_c, "Sulfite", c, False
-M_acald_b, "Acetaldehyde", b, True
-M_2kmb_c, "2-keto-4-methylthiobutyrate", c, False
-M_pydx_c, "Pyridoxal", c, False
-M_etoh_e, "Ethanol", e, False
-M_lys__L_c, "L-Lysine", c, False
-M_hmbil_c, "Hydroxymethylbilane", c, False
-M_adphep_DD_c, "ADP-D-glycero-D-manno-heptose", c, False
-M_f6p_c, "D-Fructose 6-phosphate", c, False
-M_thdp_c, "2,3,4,5-Tetrahydrodipicolinate", c, False
-M_34hpp_c, "3-(4-Hydroxyphenyl)pyruvate", c, False
-M_lcts_b, "Lactose C12H22O11", b, True
-M_hqn_c, "Hydroquinone", c, False
-M_dgsn_c, "Deoxyguanosine", c, False
-M_fum_b, "Fumarate", b, True
-M_leu__L_b, "L-Leucine", b, True
-M_dha_c, "Dihydroxyacetone", c, False
-M_prlp_c, "5-[(5-phospho-1-deoxyribulos-1-ylamino)methylideneamino]-1-(5-phosphoribosyl)imidazole-4-carboxamide", c, False
-M_ckdo_c, "CMP-3-deoxy-D-manno-octulosonate", c, False
-M_udp_c, "UDP C9H11N2O12P2", c, False
-M_lipidA_c, "2,3,2'3'-Tetrakis(beta-hydroxymyristoyl)-D-glucosaminyl-1,6-beta-D-glucosamine 1,4'-bisphosphate", c, False
-M_alltn_c, "Allantoin", c, False
-M_4h2opntn_c, "4-Hydroxy-2-oxopentanoate", c, False
-M_unagamuf_c, "Undecaprenyl-diphospho N-acetylglucosamine-N-acetylmannosaminuronate-N-acetamido-4,6-dideoxy-D-galactose", c, False
-M_accoa_c, "Acetyl-CoA", c, False
-M_gar_c, "N1-(5-Phospho-D-ribosyl)glycinamide", c, False
-M_rml_c, "L-Rhamnulose", c, False
-M_glu1sa_c, "L-Glutamate 1-semialdehyde", c, False
-M_cytd_c, "Cytidine", c, False
-M_fadh2_c, "Flavin adenine dinucleotide reduced", c, False
-M_tagdp__D_c, "D-Tagatose 1,6-biphosphate", c, False
-M_gmhep17bp_c, "D-Glycero-D-manno-heptose 1,7-bisphosphate", c, False
-M_cytd_b, "Cytidine", b, True
-M_ametam_c, "S-Adenosylmethioninamine", c, False
-M_lac__L_c, "L-Lactate", c, False
-M_dump_c, "DUMP C9H11N2O8P", c, False
-M_man6p_c, "D-Mannose 6-phosphate", c, False
-M_asn__L_b, "L-Asparagine", b, True
-M_urdglyc_c, "(-)-Ureidoglycolate", c, False
-M_gtp_c, "GTP C10H12N5O14P3", c, False
-M_gmhep1p_c, "D-Glycero-D-manno-heptose 1-phosphate", c, False
-M_maltttr_e, "Maltotetraose", e, False
-M_alac__S_c, "(S)-2-Acetolactate", c, False
-M_imacp_c, "3-(Imidazol-4-yl)-2-oxopropyl phosphate", c, False
-M_betald_c, "Betaine aldehyde", c, False
-M_glyb_b, "Glycine betaine", b, True
-M_taur_b, "Taurine C2H7NO3S", b, True
-M_mlthf_c, "5,10-Methylenetetrahydrofolate", c, False
-M_8aonn_c, "8-Amino-7-oxononanoate", c, False
-M_ala_B_c, "Beta-Alanine", c, False
-M_glcn_b, "D-Gluconate", b, True
-M_rmn_c, "L-Rhamnose", c, False
-M_dxyl5p_c, "1-deoxy-D-xylulose 5-phosphate", c, False
-M_dcyt_e, "Deoxycytidine", e, False
-M_cynt_c, "Cyanate", c, False
-M_2ddglcn_e, "2-Dehydro-3-deoxy-D-gluconate", e, False
-M_his__L_e, "L-Histidine", e, False
-M_co2_e, "CO2 CO2", e, False
-M_dad_2_c, "Deoxyadenosine", c, False
-M_cdpdag_EC_c, "CDPdiacylglycerol (E coli)", c, False
-M_dmso_c, "Dimethyl sulfoxide", c, False
-M_fum_e, "Fumarate", e, False
-M_nac_e, "Nicotinate", e, False
-M_3dhguln_c, "3-Dehydro-L-gulonate", c, False
-M_dcamp_c, "N6-(1,2-Dicarboxyethyl)-AMP", c, False
-M_dha_e, "Dihydroxyacetone", e, False
-M_malttr_c, "Maltotriose C18H32O16", c, False
-M_ppp9_c, "Protoporphyrin", c, False
-M_cys__L_b, "L-Cysteine", b, True
-M_sbt__D_b, "D-Sorbitol", b, True
-M_galt1p_c, "Galactitol 1-phosphate", c, False
-M_ser__L_c, "L-Serine", c, False
-M_btnso_c, "D-biotin d-sulfoxide", c, False
-M_dtdp4aaddg_c, "DTDP-4-acetamido-4,6-dideoxy-D-galactose", c, False
-M_o2_e, "O2 O2", e, False
-M_galctn__D_e, "D-Galactonate", e, False
-M_crn_c, "L-Carnitine", c, False
-M_for_b, "Formate", b, True
-M_idon__L_b, "L-Idonate", b, True
-M_thr__L_e, "L-Threonine", e, False
-M_xan_b, "Xanthine", b, True
-M_2ohph_c, "2-Octaprenyl-6-hydroxyphenol", c, False
-M_dhptd_c, "4,5-dihydroxy-2,3-pentanedione", c, False
-M_glyald_c, "D-Glyceraldehyde", c, False
-M_uama_c, "UDP-N-acetylmuramoyl-L-alanine", c, False
-M_urea_c, "Urea CH4N2O", c, False
-M_skm_c, "Shikimate", c, False
-M_succ_c, "Succinate", c, False
-M_kdolipid4_c, "KDO-lipid IV(A)", c, False
-M_2me4p_c, "2-C-methyl-D-erythritol 4-phosphate", c, False
-M_2obut_c, "2-Oxobutanoate", c, False
-M_amp_c, "AMP C10H12N5O7P", c, False
-M_crncoa_c, "L-Carnitinyl-CoA", c, False
-M_argsuc_c, "N(omega)-(L-Arginino)succinate", c, False
-M_asp__L_c, "L-Aspartate", c, False
-M_dcyt_c, "Deoxycytidine", c, False
-M_na1_c, "Sodium", c, False
-M_tsul_e, "Thiosulfate", e, False
-M_crn_e, "L-Carnitine", e, False
-M_ppbng_c, "Porphobilinogen", c, False
-M_unaga_c, "Undecaprenyl diphospho N-acetyl-glucosamine", c, False
-M_2mcit_c, "2-Methylcitrate", c, False
-M_o2_c, "O2 O2", c, False
-M_no3_b, "Nitrate", b, True
-M_ctbt_c, "Crotonobetaine", c, False
-M_na1_e, "Sodium", e, False
-M_2mcacn_c, "Cis-2-Methylaconitate", c, False
-M_acon_T_c, "Trans-Aconitate", c, False
-M_xan_c, "Xanthine", c, False
-M_gua_c, "Guanine", c, False
-M_agdpcbi_c, "Adenosine-GDP-cobinamide", c, False
-M_val__L_e, "L-Valine", e, False
-M_acgam6p_c, "N-Acetyl-D-glucosamine 6-phosphate", c, False
-M_btcoa_c, "Butanoyl-CoA", c, False
-M_hdca_c, "Hexadecanoate (n-C16:0)", c, False
-M_glu__D_c, "D-Glutamate", c, False
-M_glu__L_e, "L-Glutamate", e, False
-M_pydam_c, "Pyridoxamine", c, False
-M_2pglyc_c, "2-Phosphoglycolate", c, False
-M_sheme_c, "Siroheme C42H36FeN4O16", c, False
-M_pppn_b, "Phenylpropanoate", b, True
-M_man_e, "D-Mannose", e, False
-M_rdmbzi_c, "N1-(alpha-D-ribosyl)-5,6-dimethylbenzimidazole", c, False
-M_hdca_e, "Hexadecanoate (n-C16:0)", e, False
-M_his__L_c, "L-Histidine", c, False
-M_prfp_c, "1-(5-Phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide", c, False
-M_gua_b, "Guanine", b, True
-M_ac_b, "Acetate", b, True
-M_mmcoa__R_c, "(R)-Methylmalonyl-CoA", c, False
-M_hxan_e, "Hypoxanthine", e, False
-M_thm_c, "Thiamin", c, False
-M_dtdp4d6dm_c, "DTDP-4-dehydro-6-deoxy-L-mannose", c, False
-M_pro__L_c, "L-Proline", c, False
-M_asn__L_e, "L-Asparagine", e, False
-M_aicar_c, "5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide", c, False
-M_altrn_c, "D-Altronate", c, False
-M_gam6p_c, "D-Glucosamine 6-phosphate", c, False
-M_ugmd_c, "UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate", c, False
-M_glyc_e, "Glycerol", e, False
-M_cytd_e, "Cytidine", e, False
-M_k_b, "Potassium", b, True
-M_orot5p_c, "Orotidine 5'-phosphate", c, False
-M_cbl1_c, "Cob(I)alamin", c, False
-M_actp_c, "Acetyl phosphate", c, False
-M_dcyt_b, "Deoxycytidine", b, True
-M_ara5p_c, "D-Arabinose 5-phosphate", c, False
-M_glcur_c, "D-Glucuronate", c, False
-M_ipdp_c, "Isopentenyl diphosphate", c, False
-M_acnam_b, "N-Acetylneuraminate", b, True
-M_acglu_c, "N-Acetyl-L-glutamate", c, False
-M_paps_c, "3'-Phosphoadenylyl sulfate", c, False
-M_enter_c, "Enterochelin", c, False
-M_ichor_c, "Isochorismate", c, False
-M_thymd_c, "Thymidine C10H14N2O5", c, False
-M_malt6p_c, "Maltose 6'-phosphate", c, False
-M_prbamp_c, "1-(5-Phosphoribosyl)-AMP", c, False
-M_grdp_c, "Geranyl diphosphate", c, False
-M_octeACP_c, "Cis-octadec-11-enoyl-[acyl-carrier protein] (n-C18:1)", c, False
-M_pydxn_c, "Pyridoxine", c, False
-M_gcald_c, "Glycolaldehyde", c, False
-M_u3hga_c, "UDP-3-O-(3-hydroxytetradecanoyl)-D-glucosamine", c, False
-M_6hmhptpp_c, "6-hydroxymethyl-dihydropterin pyrophosphate", c, False
-M_2ddglcn_c, "2-Dehydro-3-deoxy-D-gluconate", c, False
-M_3mob_c, "3-Methyl-2-oxobutanoate", c, False
-M_etoh_c, "Ethanol", c, False
-M_dtdp4addg_c, "DTDP-4-amino-4,6-dideoxy-D-galactose", c, False
-M_spmd_b, "Spermidine", b, True
-M_alaala_c, "D-Alanyl-D-alanine", c, False
-M_duri_b, "Deoxyuridine", b, True
-M_met__L_b, "L-Methionine", b, True
-M_2dhguln_c, "2-Dehydro-L-gulonate", c, False
-M_5prdmbz_c, "N1-(5-Phospho-alpha-D-ribosyl)-5,6-dimethylbenzimidazole", c, False
-M_amet_c, "S-Adenosyl-L-methionine", c, False
-M_3hcinnm_e, "3-hydroxycinnamic acid", e, False
-M_so4_b, "Sulfate", b, True
-M_ser__D_e, "D-Serine", e, False
-M_gbbtn_c, "Gamma-butyrobetaine", c, False
-M_nadp_c, "Nicotinamide adenine dinucleotide phosphate", c, False
-M_h_e, "H+", e, False
-M_h2mb4p_c, "1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate", c, False
-M_co2_b, "CO2 CO2", b, True
-M_orn_e, "Ornithine", e, False
-M_mnl_e, "D-Mannitol", e, False
-M_4ppan_c, "D-4'-Phosphopantothenate", c, False
-M_3dhgulnp_c, "3-keto-L-gulonate-6-phosphate", c, False
-M_23dhmb_c, "(R)-2,3-Dihydroxy-3-methylbutanoate", c, False
-M_ttdcea_c, "Tetradecenoate (n-C14:1)", c, False
-M_xtsn_b, "Xanthosine", b, True
-M_mi1p__D_c, "1D-myo-Inositol 1-phosphate", c, False
-M_ura_b, "Uracil", b, True
-M_cechddd_c, "Cis-3-(3-carboxyethyl)-3,5-cyclohexadiene-1,2-diol", c, False
-M_tdeACP_c, "Cis-tetradec-7-enoyl-[acyl-carrier protein] (n-C14:1)", c, False
-M_melib_c, "Melibiose C12H22O11", c, False
-M_seln_c, "Selenide", c, False
-M_phthr_c, "O-Phospho-4-hydroxy-L-threonine", c, False
-M_asn__L_c, "L-Asparagine", c, False
-M_2mecdp_c, "2-C-methyl-D-erythritol 2,4-cyclodiphosphate", c, False
-M_pppn_c, "Phenylpropanoate", c, False
-M_man6p_e, "D-Mannose 6-phosphate", e, False
-M_13dpg_c, "3-Phospho-D-glyceroyl phosphate", c, False
-M_rib__D_c, "D-Ribose", c, False
-M_cenchddd_c, "Cis-3-(3-carboxyethenyl)-3,5-cyclohexadiene-1,2-diol", c, False
-M_5mthf_c, "5-Methyltetrahydrofolate", c, False
-M_tre_e, "Trehalose", e, False
-M_succ_e, "Succinate", e, False
-M_mql8_c, "Menaquinol 8", c, False
-M_pi_e, "Phosphate", e, False
-M_gmhep7p_c, "D-Glycero-D-manno-heptose 7-phosphate", c, False
-M_acorn_c, "N2-Acetyl-L-ornithine", c, False
-M_ins_b, "Inosine", b, True
-M_no2_e, "Nitrite", e, False
-M_prbatp_c, "1-(5-Phosphoribosyl)-ATP", c, False
-M_pgp_EC_c, "Phosphatidylglycerophosphate (Ecoli)", c, False
-M_man_b, "D-Mannose", b, True
-M_glc__D_c, "D-Glucose", c, False
-M_nh4_c, "Ammonium", c, False
-M_aps_c, "Adenosine 5'-phosphosulfate", c, False
-M_udpglcur_c, "UDP-D-glucuronate", c, False
-M_gua_e, "Guanine", e, False
-M_arab__L_b, "L-Arabinose", b, True
-M_pyr_e, "Pyruvate", e, False
-M_agpg_EC_c, "Acyl-glycerophosphoglycerol  (E.coli)", c, False
-M_pro__L_b, "L-Proline", b, True
-M_dms_b, "Dimethyl sulfide", b, True
-M_23doguln_c, "2,3-Dioxo-L-gulonate", c, False
-M_5caiz_c, "5-phosphoribosyl-5-carboxyaminoimidazole", c, False
-M_3c2hmp_c, "3-Carboxy-2-hydroxy-4-methylpentanoate", c, False
-M_4abut_c, "4-Aminobutanoate", c, False
-M_amp_e, "AMP C10H12N5O7P", e, False
-M_gal_b, "D-Galactose", b, True
-M_5aprbu_c, "5-Amino-6-(5'-phosphoribitylamino)uracil", c, False
-M_xyl__D_c, "D-Xylose", c, False
-M_so4_e, "Sulfate", e, False
-M_anth_c, "Anthranilate", c, False
-M_2ombzl_c, "2-Octaprenyl-6-methoxy-1,4-benzoquinol", c, False
-M_cbl1_e, "Cob(I)alamin", e, False
-M_5mdru1p_c, "5-Methylthio-5-deoxy-D-ribulose 1-phosphate", c, False
-M_gal_c, "D-Galactose", c, False
-M_ac_e, "Acetate", e, False
-M_15dap_c, "1,5-Diaminopentane", c, False
-M_ap5a_c, "P1,P5-Bis(5'-adenosyl) pentaphosphate", c, False
-M_g3p_c, "Glyceraldehyde 3-phosphate", c, False
-M_ptrc_e, "Putrescine", e, False
-M_ttdca_c, "Tetradecanoate (n-C14:0)", c, False
-M_uacmamu_c, "UDP-N-acetyl-D-mannosaminouronate", c, False
-M_arg__L_b, "L-Arginine", b, True
-M_ser__L_b, "L-Serine", b, True
-M_for_c, "Formate", c, False
-M_eig3p_c, "D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate", c, False
-M_4pasp_c, "4-Phospho-L-aspartate", c, False
-M_ttdca_b, "Tetradecanoate (n-C14:0)", b, True
-M_glu5sa_c, "L-Glutamate 5-semialdehyde", c, False
-M_pa_EC_c, "Phosphatidate  (E.coli)", c, False
-M_maltttr_c, "Maltotetraose", c, False
-M_tmao_e, "Trimethylamine N-oxide", e, False
-M_fum_c, "Fumarate", c, False
-M_amp_b, "AMP C10H12N5O7P", b, True
-M_nmn_c, "NMN C11H14N2O8P", c, False
-M_peamn_c, "Phenethylamine", c, False
-M_coa_c, "Coenzyme A", c, False
-M_melib_b, "Melibiose C12H22O11", b, True
-M_mnl_b, "D-Mannitol", b, True
-M_2dr1p_c, "2-Deoxy-D-ribose 1-phosphate", c, False
-M_2h3oppan_c, "2-Hydroxy-3-oxopropanoate", c, False
-M_asp__L_b, "L-Aspartate", b, True
-M_ile__L_e, "L-Isoleucine", e, False
-M_histd_c, "L-Histidinol", c, False
-M_tag6p__D_c, "D-Tagatose 6-phosphate", c, False
-M_gln__L_b, "L-Glutamine", b, True
-M_so4_c, "Sulfate", c, False
-M_pnto__R_c, "(R)-Pantothenate", c, False
-M_4per_c, "4-Phospho-D-erythronate", c, False
-M_cynt_e, "Cyanate", e, False
-M_nad_c, "Nicotinamide adenine dinucleotide", c, False
-M_pap_c, "Adenosine 3',5'-bisphosphate", c, False
-M_pro__L_e, "L-Proline", e, False
-M_mana_c, "D-Mannonate", c, False
-M_h2o_c, "H2O H2O", c, False
-M_chol_e, "Choline C5H14NO", e, False
-M_malACP_c, "Malonyl-[acyl-carrier protein]", c, False
-M_met__D_b, "D-Methionine", b, True
-M_nmn_e, "NMN C11H14N2O8P", e, False
-M_myrsACP_c, "Myristoyl-ACP (n-C14:0ACP)", c, False
-M_cbi_c, "Cobinamide", c, False
-M_2dr5p_c, "2-Deoxy-D-ribose 5-phosphate", c, False
-M_gtspmd_c, "Glutathionylspermidine", c, False
-M_dhna_c, "1,4-Dihydroxy-2-naphthoate", c, False
-M_pphn_c, "Prephenate", c, False
-M_xu5p__L_c, "L-Xylulose 5-phosphate", c, False
-M_glyc_b, "Glycerol", b, True
-M_3c4mop_c, "3-Carboxy-4-methyl-2-oxopentanoate", c, False
-M_glcr_e, "D-Glucarate", e, False
-M_adphep_LD_c, "ADP-L-glycero-D-manno-heptose", c, False
-M_ocdca_e, "Octadecanoate (n-C18:0)", e, False
-M_thmpp_c, "Thiamine diphosphate", c, False
-M_acmanap_c, "N-Acetyl-D-mannosamine 6-phosphate", c, False
-M_malthx_c, "Maltohexaose", c, False
-M_uaccg_c, "UDP-N-acetyl-3-O-(1-carboxyvinyl)-D-glucosamine", c, False
-M_udpg_c, "UDPglucose", c, False
-M_fcl__L_c, "L-fuculose", c, False
-M_akg_e, "2-Oxoglutarate", e, False
-M_trnaglu_c, "TRNA (Glu)", c, False
-M_15dap_b, "1,5-Diaminopentane", b, True
-M_glc__D_e, "D-Glucose", e, False
-M_gal1p_c, "Alpha-D-Galactose 1-phosphate", c, False
-M_sl2a6o_c, "N-Succinyl-2-L-amino-6-oxoheptanedioate", c, False
-M_adp_c, "ADP C10H12N5O10P2", c, False
-M_uagmda_c, "Undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine", c, False
-M_no2_b, "Nitrite", b, True
-M_trp__L_b, "L-Tryptophan", b, True
-M_f1p_c, "D-Fructose 1-phosphate", c, False
-M_eca_EC_c, "Enterobacterial common antigen polysaccharide (Ecoli)", c, False
-M_gbbtn_b, "Gamma-butyrobetaine", b, True
-M_phaccoa_c, "Phenylacetyl-CoA", c, False
-M_glutrna_c, "L-Glutamyl-tRNA(Glu)", c, False
-M_adpglc_c, "ADPglucose C16H23N5O15P2", c, False
-M_ppi_c, "Diphosphate", c, False
-M_pser__L_c, "O-Phospho-L-serine", c, False
-M_thym_c, "Thymine C5H6N2O2", c, False
-M_citr__L_c, "L-Citrulline", c, False
-M_fpram_c, "2-(Formamido)-N1-(5-phospho-D-ribosyl)acetamidine", c, False
-M_duri_e, "Deoxyuridine", e, False
-M_3php_c, "3-Phosphohydroxypyruvate", c, False
-M_q8h2_c, "Ubiquinol-8", c, False
-M_icit_c, "Isocitrate", c, False
-M_btn_c, "Biotin", c, False
-M_nicrnt_c, "Nicotinate D-ribonucleotide", c, False
-M_rbl__L_c, "L-Ribulose", c, False
-M_2ommbl_c, "2-Octaprenyl-3-methyl-6-methoxy- 1,4-benzoquinol", c, False
-M_pnto__R_b, "(R)-Pantothenate", b, True
-M_glu__L_c, "L-Glutamate", c, False
-M_adn_e, "Adenosine", e, False
-M_nad_b, "Nicotinamide adenine dinucleotide", b, True
-M_5dh4dglc_c, "5-Dehydro-4-deoxy-D-glucarate", c, False
-M_fmn_c, "FMN C17H19N4O9P", c, False
-M_arg__L_e, "L-Arginine", e, False
-M_dhor__S_c, "(S)-Dihydroorotate", c, False
-M_h2o_b, "H2O H2O", b, True
-M_lac__D_b, "D-Lactate", b, True
-M_12ppd__S_e, "(S)-Propane-1,2-diol", e, False
-M_N1aspmd_c, "N1-Acetylspermidine", c, False
-M_3psme_c, "5-O-(1-Carboxyvinyl)-3-phosphoshikimate", c, False
-M_gly_e, "Glycine", e, False
-M_gsn_b, "Guanosine", b, True
-M_maltpt_e, "Maltopentaose", e, False
-M_3hcinnm_b, "3-hydroxycinnamic acid", b, True
-M_aspsa_c, "L-Aspartate 4-semialdehyde", c, False
-M_trp__L_c, "L-Tryptophan", c, False
-M_datp_c, "DATP C10H12N5O12P3", c, False
-M_pydx5p_c, "Pyridoxal 5'-phosphate", c, False
-M_glcr_c, "D-Glucarate", c, False
-M_cit_b, "Citrate", b, True
-M_4abut_b, "4-Aminobutanoate", b, True
-M_2p4c2me_c, "2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol", c, False
-M_cynt_b, "Cyanate", b, True
-M_dxyl_c, "1-deoxy-D-xylulose", c, False
-M_ala__L_b, "L-Alanine", b, True
-M_no2_c, "Nitrite", c, False
-M_tyr__L_b, "L-Tyrosine", b, True
-M_sucr_e, "Sucrose C12H22O11", e, False
-M_methf_c, "5,10-Methenyltetrahydrofolate", c, False
-M_galctn__D_b, "D-Galactonate", b, True
-M_frdp_c, "Farnesyl diphosphate", c, False
-M_lac__D_c, "D-Lactate", c, False
-M_dudp_c, "DUDP C9H11N2O11P2", c, False
-M_26dap__M_c, "Meso-2,6-Diaminoheptanedioate", c, False
-M_gdpfuc_c, "GDP-L-fucose", c, False
-M_iasp_c, "Iminoaspartate", c, False
-M_rmn_e, "L-Rhamnose", e, False
-M_dhnpt_c, "Dihydroneopterin", c, False
-M_itp_c, "ITP C10H11N4O14P3", c, False
-M_dha_b, "Dihydroxyacetone", b, True
-M_4ppcys_c, "N-((R)-4-Phosphopantothenoyl)-L-cysteine", c, False
-M_alltn_e, "Allantoin", e, False
-M_adn_b, "Adenosine", b, True
-M_r1p_c, "Alpha-D-Ribose 1-phosphate", c, False
-M_ahdt_c, "2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine triphosphate", c, False
-M_dttp_c, "DTTP C10H13N2O14P3", c, False
-M_udpgal_c, "UDPgalactose", c, False
-M_kdo_c, "3-Deoxy-D-manno-2-octulosonate", c, False
-M_acgam1p_c, "N-Acetyl-D-glucosamine 1-phosphate", c, False
-M_dscl_c, "Dihydrosirohydrochlorin", c, False
-M_fe2_c, "Fe2+ mitochondria", c, False
-M_udpgalfur_c, "UDP-D-galacto-1,4-furanose", c, False
-M_dadp_c, "DADP C10H12N5O9P2", c, False
-M_ru5p__L_c, "L-Ribulose 5-phosphate", c, False
-M_man1p_c, "D-Mannose 1-phosphate", c, False
-M_dgsn_e, "Deoxyguanosine", e, False
-M_dms_e, "Dimethyl sulfide", e, False
-M_h_c, "H+", c, False
-M_imp_c, "IMP C10H11N4O8P", c, False
-M_tcynt_c, "Thiocyanate", c, False
-M_uacgam_c, "UDP-N-acetyl-D-glucosamine", c, False
-M_phpyr_c, "Phenylpyruvate", c, False
-M_2pg_c, "D-Glycerate 2-phosphate", c, False
-M_indole_b, "Indole", b, True
-M_ribflv_c, "Riboflavin C17H20N4O6", c, False
-M_his__L_b, "L-Histidine", b, True
-M_glcn_e, "D-Gluconate", e, False
-M_crn_b, "L-Carnitine", b, True
-M_orn_b, "Ornithine", b, True
-M_aconm_c, "E-3-carboxy-2-pentenedioate 6-methyl ester", c, False
-M_unagamu_c, "Undecaprenyl-diphospho-N-acetylglucosamine-N-acetylmannosaminuronate", c, False
-M_ahcys_c, "S-Adenosyl-L-homocysteine", c, False
-M_fuc1p__L_c, "L-Fucose 1-phosphate", c, False
-M_maltpt_c, "Maltopentaose", c, False
-M_3hpppn_b, "3-(3-hydroxy-phenyl)propionate", b, True
-M_2dh3dgal_c, "2-Dehydro-3-deoxy-D-galactonate", c, False
-M_adocbip_c, "Adenosyl cobinamide phosphate", c, False
-M_4hba_c, "4-Hydroxy-benzyl alcohol", c, False
-M_23dhba_c, "(2,3-Dihydroxybenzoyl)adenylate", c, False
-M_sucorn_c, "N2-Succinyl-L-ornithine", c, False
-M_gdpmann_c, "GDP-D-mannose", c, False
-M_camp_c, "CAMP C10H11N5O6P", c, False
-M_4ahmmp_c, "4-Amino-5-hydroxymethyl-2-methylpyrimidine", c, False
-M_ugmda_c, "UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine", c, False
-M_fru_b, "D-Fructose", b, True
-M_cmp_c, "CMP C9H12N3O8P", c, False
-M_hdca_b, "Hexadecanoate (n-C16:0)", b, True
-M_akg_c, "2-Oxoglutarate", c, False
-M_ala__D_b, "D-Alanine", b, True
-M_dtdp4d6dg_c, "DTDP-4-dehydro-6-deoxy-D-glucose", c, False
-M_3c3hmp_c, "3-Carboxy-3-hydroxy-4-methylpentanoate", c, False
-M_cdp_c, "CDP C9H12N3O11P2", c, False
-M_r5p_c, "Alpha-D-Ribose 5-phosphate", c, False
-M_maltttr_b, "Maltotetraose", b, True
-M_maltpt_b, "Maltopentaose", b, True
-M_3hpppn_c, "3-(3-hydroxy-phenyl)propionate", c, False
-M_gmp_c, "GMP C10H12N5O8P", c, False
-M_hkntd_c, "2-hydroxy-6-ketononatrienedioate", c, False
-M_25dkglcn_c, "2,5-diketo-D-gluconate", c, False
-M_pmcoa_c, "Pimeloyl-CoA", c, False
-M_dcmp_c, "DCMP C9H12N3O7P", c, False
-M_dhpt_c, "Dihydropteroate", c, False
-M_dgdp_c, "DGDP C10H12N5O10P2", c, False
-M_sucsal_c, "Succinic semialdehyde", c, False
-M_tartr__L_c, "L-tartrate", c, False
-M_pe_EC_c, "Phosphatidylethanolamine (ecoli)", c, False
-M_na1_b, "Sodium", b, True
-M_rib__D_e, "D-Ribose", e, False
-M_udcpdp_c, "Undecaprenyl diphosphate", c, False
-M_dtdpglu_c, "DTDPglucose", c, False
-M_ppap_c, "Propanoyl phosphate", c, False
-M_acser_c, "O-Acetyl-L-serine", c, False
-M_rhcys_c, "S-Ribosyl-L-homocysteine", c, False
-M_fuc__L_e, "L-Fucose", e, False
-M_g6p_c, "D-Glucose 6-phosphate", c, False
-M_din_b, "Deoxyinosine", b, True
-M_leu__L_c, "L-Leucine", c, False
-M_pg_EC_c, "Phosphatidylglycerol (Ecoli)", c, False
-M_man6p_b, "D-Mannose 6-phosphate", b, True
-M_ade_e, "Adenine", e, False
-M_fru_e, "D-Fructose", e, False
-M_3pg_c, "3-Phospho-D-glycerate", c, False
-M_nadph_c, "Nicotinamide adenine dinucleotide phosphate - reduced", c, False
-M_tma_c, "Trimethylamine", c, False
-M_acgam_b, "N-Acetyl-D-glucosamine", b, True
-M_malt_b, "Maltose C12H22O11", b, True
-M_ser__D_b, "D-Serine", b, True
-M_2dhp_c, "2-Dehydropantoate", c, False
-M_kdo8p_c, "3-Deoxy-D-manno-octulosonate 8-phosphate", c, False
-M_23ddhb_c, "2,3-Dihydro-2,3-dihydroxybenzoate", c, False
-M_sucarg_c, "N2-Succinyl-L-arginine", c, False
-M_galur_b, "D-Galacturonate", b, True
-M_5mta_c, "5-Methylthioadenosine", c, False
-M_glyclt_b, "Glycolate C2H3O3", b, True
-M_pc_EC_c, "Phosphatidylcholine (E.coli)", c, False
-M_ump_c, "UMP C9H11N2O9P", c, False
-M_4r5au_c, "4-(1-D-Ribitylamino)-5-aminouracil", c, False
-M_alltt_c, "Allantoate", c, False
-M_3hcinnm_c, "3-hydroxycinnamic acid", c, False
-M_3hpppn_e, "3-(3-hydroxy-phenyl)propionate", e, False
-M_gly_b, "Glycine", b, True
-M_tma_b, "Trimethylamine", b, True
-M_26dap__M_b, "Meso-2,6-Diaminoheptanedioate", b, True
-M_q8_c, "Ubiquinone-8", c, False
-M_xyl__D_e, "D-Xylose", e, False
-M_glucys_c, "Gamma-L-Glutamyl-L-cysteine", c, False
-M_aacald_c, "Aminoacetaldehyde", c, False
-M_etha_c, "Ethanolamine", c, False
-M_phe__L_b, "L-Phenylalanine", b, True
-M_gbbtn_e, "Gamma-butyrobetaine", e, False
-M_gam_e, "D-Glucosamine", e, False
-M_dtdprmn_c, "DTDP-L-rhamnose", c, False
-M_ade_c, "Adenine", c, False
-M_cyst__L_c, "L-Cystathionine", c, False
-M_cyan_c, "Hydrogen cyanide", c, False
-M_thm_e, "Thiamin", e, False
-M_arg__L_c, "L-Arginine", c, False
-M_tre_c, "Trehalose", c, False
-M_but_b, "Butyrate (n-C4:0)", b, True
-M_cdpea_c, "CDPethanolamine C11H19N4O11P2", c, False
-M_pppg9_c, "Protoporphyrinogen IX", c, False
-M_3ophb_c, "3-Octaprenyl-4-hydroxybenzoate", c, False
-M_csn_c, "Cytosine", c, False
-M_air_c, "5-amino-1-(5-phospho-D-ribosyl)imidazole", c, False
-M_5mtr_c, "5-Methylthio-D-ribose", c, False
-M_dmso_e, "Dimethyl sulfoxide", e, False
-M_akg_b, "2-Oxoglutarate", b, True
-M_hcys__L_c, "L-Homocysteine", c, False
-M_glc__D_b, "D-Glucose", b, True
-M_ppa_c, "Propionate (n-C3:0)", c, False
-M_nh4_e, "Ammonium", e, False
-M_glu__L_b, "L-Glutamate", b, True
-M_xylu__D_c, "D-Xylulose", c, False
-M_dhpppn_c, "3-(2,3-Dihydroxyphenyl)propanoate", c, False
-M_dgtp_c, "DGTP C10H12N5O13P3", c, False
-M_26dap_LL_c, "LL-2,6-Diaminoheptanedioate", c, False
-M_lac__L_b, "L-Lactate", b, True
-M_26dap__M_e, "Meso-2,6-Diaminoheptanedioate", e, False
-M_tma_e, "Trimethylamine", e, False
-M_dutp_c, "DUTP C9H11N2O14P3", c, False
-M_ap4a_c, "P1,P4-Bis(5'-adenosyl) tetraphosphate", c, False
-M_ctp_c, "CTP C9H12N3O14P3", c, False
-M_12dgr_EC_c, "1,2-Diacylglycerol  (E.coli)", c, False
-M_db4p_c, "3,4-dihydroxy-2-butanone 4-phosphate", c, False
-M_gln__L_c, "L-Glutamine", c, False
-M_sl26da_c, "N-Succinyl-LL-2,6-diaminoheptanedioate", c, False
-M_mal__L_b, "L-Malate", b, True
-M_met__D_c, "D-Methionine", c, False
-M_quln_c, "Quinolinate", c, False
-M_ura_e, "Uracil", e, False
-M_fuc__L_b, "L-Fucose", b, True
-M_hemeO_c, "Heme O C49H56FeN4O5", c, False
-M_g3pi_c, "Sn-Glycero-3-phospho-1-inositol", c, False
-M_hmfurn_c, "4-hydroxy-5-methyl-3(2H)-furanone", c, False
-M_ACP_c, "Acyl carrier protein", c, False
-M_galur_e, "D-Galacturonate", e, False
-M_idon__L_c, "L-Idonate", c, False
-M_glyclt_c, "Glycolate C2H3O3", c, False
-M_h2s_c, "Hydrogen sulfide", c, False
-M_rml1p_c, "L-Rhamnulose 1-phosphate", c, False
-M_acg5sa_c, "N-Acetyl-L-glutamate 5-semialdehyde", c, False
-M_4hbz_c, "4-Hydroxybenzoate", c, False
-M_4mop_c, "4-Methyl-2-oxopentanoate", c, False
-M_mqn8_c, "Menaquinone 8", c, False
-M_dtmp_c, "DTMP C10H13N2O8P", c, False
-M_tyr__L_e, "L-Tyrosine", e, False
-M_s7p_c, "Sedoheptulose 7-phosphate", c, False
-M_malttr_b, "Maltotriose C18H32O16", b, True
-M_indole_c, "Indole", c, False
-M_lps_EC_c, "Lipopolysaccharide (Ecoli)", c, False
-M_no3_e, "Nitrate", e, False
-M_acmana_b, "N-Acetyl-D-mannosamine", b, True
-M_malttr_e, "Maltotriose C18H32O16", e, False
-M_indole_e, "Indole", e, False
-M_pep_c, "Phosphoenolpyruvate", c, False
-M_fe2_b, "Fe2+ mitochondria", b, True
-M_inost_c, "Myo-Inositol", c, False
-M_cinnm_c, "Trans-Cinnamate", c, False
-M_gthrd_c, "Reduced glutathione", c, False
-M_malt_e, "Maltose C12H22O11", e, False
-M_pacald_c, "Phenylacetaldehyde", c, False
-M_sucbz_c, "O-Succinylbenzoate", c, False
-M_cit_e, "Citrate", e, False
-M_malt_c, "Maltose C12H22O11", c, False
-M_gthox_c, "Oxidized glutathione", c, False
-M_2mahmp_c, "2-Methyl-4-amino-5-hydroxymethylpyrimidine diphosphate", c, False
-M_2dhglcn_c, "2-Dehydro-D-gluconate", c, False
-M_g3pe_c, "Sn-Glycero-3-phosphoethanolamine", c, False
-M_thmmp_c, "Thiamin monophosphate", c, False
-M_lcts_e, "Lactose C12H22O11", e, False
-M_4mpetz_c, "4-Methyl-5-(2-phosphoethyl)-thiazole", c, False
-M_lipa_cold_c, "Cold adapted KDO(2)-lipid (A)", c, False
-M_nac_c, "Nicotinate", c, False
-M_dmso_b, "Dimethyl sulfoxide", b, True
-M_2oph_c, "2-Octaprenylphenol", c, False
-M_glyald_b, "D-Glyceraldehyde", b, True
-M_fuc1p__L_e, "L-Fucose 1-phosphate", e, False
-M_but_c, "Butyrate (n-C4:0)", c, False
-M_pheme_c, "Protoheme C34H30FeN4O4", c, False
-M_met__L_c, "L-Methionine", c, False
-M_pran_c, "N-(5-Phospho-D-ribosyl)anthranilate", c, False
-M_hxan_c, "Hypoxanthine", c, False
-M_5dglcn_c, "5-Dehydro-D-gluconate", c, False
-M_nad_e, "Nicotinamide adenine dinucleotide", e, False
-M_3hmrsACP_c, "(R)-3-Hydroxytetradecanoyl-[acyl-carrier protein]", c, False
-M_gsn_c, "Guanosine", c, False
-M_thm_b, "Thiamin", b, True
-M_met__L_e, "L-Methionine", e, False
-M_sucr_b, "Sucrose C12H22O11", b, True
-M_15dap_e, "1,5-Diaminopentane", e, False
-M_taur_e, "Taurine C2H7NO3S", e, False
-M_tmao_b, "Trimethylamine N-oxide", b, True
-M_3dhq_c, "3-Dehydroquinate", c, False
-M_lcts_c, "Lactose C12H22O11", c, False
-M_g3pc_c, "Sn-Glycero-3-phosphocholine", c, False
-M_ins_e, "Inosine", e, False
-M_rmn_b, "L-Rhamnose", b, True
-M_apoACP_c, "Apoprotein [acyl carrier protein]", c, False
-M_ocdcea_c, "Octadecenoate (n-C18:1)", c, False
+ID,Fullname,Compartment,BoundaryCondition
+M_3mop_c,"(S)-3-Methyl-2-oxopentanoate",c,False
+M_2dmmql8_c,"2-Demethylmenaquinol 8",c,False
+M_lipidX_c,"2,3-Bis(3-hydroxytetradecanoyl)-beta-D-glucosaminyl 1-phosphate",c,False
+M_tartr__L_e,"L-tartrate",e,False
+M_pyam5p_c,"Pyridoxamine 5'-phosphate",c,False
+M_thr__L_b,"L-Threonine",b,True
+M_glyc3p_c,"Glycerol 3-phosphate",c,False
+M_glyb_c,"Glycine betaine",c,False
+M_tartr__L_b,"L-tartrate",b,True
+M_uppg3_c,"Uroporphyrinogen III",c,False
+M_dpcoa_c,"Dephospho-CoA",c,False
+M_pppi_c,"Inorganic triphosphate",c,False
+M_succ_b,"Succinate",b,True
+M_gp4g_c,"P1,P4-Bis(5'-guanosyl) tetraphosphate",c,False
+M_hpyr_c,"Hydroxypyruvate",c,False
+M_lipidAds_c,"Lipid A Disaccharide",c,False
+M_ala__L_e,"L-Alanine",e,False
+M_op4en_c,"2-Oxopent-4-enoate",c,False
+M_arab__L_c,"L-Arabinose",c,False
+M_actACP_c,"Acetoacetyl-ACP",c,False
+M_agm_c,"Agmatine",c,False
+M_gsn_e,"Guanosine",e,False
+M_galt_b,"Galactitol",b,True
+M_duri_c,"Deoxyuridine",c,False
+M_2dda7p_c,"2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate",c,False
+M_25aics_c,"(S)-2-[5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido]succinate",c,False
+M_dhpmp_c,"Dihydroneopterin monophosphate",c,False
+M_ssaltpp_c,"Succinate semialdehyde-thiamin diphosphate anion",c,False
+M_malthp_c,"Maltoheptaose",c,False
+M_dann_c,"7,8-Diaminononanoate",c,False
+M_ptrc_b,"Putrescine",b,True
+M_taur_c,"Taurine C2H7NO3S",c,False
+M_mal__L_c,"L-Malate",c,False
+M_fprica_c,"5-Formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide",c,False
+M_amob_c,"S-Adenosyl-4-methylthio-2-oxobutanoate",c,False
+M_10fthf_c,"10-Formyltetrahydrofolate",c,False
+M_pppn_e,"Phenylpropanoate",e,False
+M_seramp_c,"L-seryl-AMP",c,False
+M_no3_c,"Nitrate",c,False
+M_xu5p__D_c,"D-Xylulose 5-phosphate",c,False
+M_fad_c,"Flavin adenine dinucleotide oxidized",c,False
+M_6hmhpt_c,"6-hydroxymethyl dihydropterin",c,False
+M_micit_c,"Methylisocitrate",c,False
+M_ura_c,"Uracil",c,False
+M_ins_c,"Inosine",c,False
+M_acgam_e,"N-Acetyl-D-glucosamine",e,False
+M_acald_e,"Acetaldehyde",e,False
+M_h2_c,"Hydrogen",c,False
+M_ala__L_c,"L-Alanine",c,False
+M_gdpofuc_c,"GDP-4-oxo-L-fucose",c,False
+M_malthx_e,"Maltohexaose",e,False
+M_tyr__L_c,"L-Tyrosine",c,False
+M_etoh_b,"Ethanol",b,True
+M_melib_e,"Melibiose C12H22O11",e,False
+M_thymd_b,"Thymidine C10H14N2O5",b,True
+M_acmana_e,"N-Acetyl-D-mannosamine",e,False
+M_scl_c,"Sirohydrochlorin",c,False
+M_2ippm_c,"2-Isopropylmaleate",c,False
+M_glyald_e,"D-Glyceraldehyde",e,False
+M_6pgc_c,"6-Phospho-D-gluconate",c,False
+M_prpp_c,"5-Phospho-alpha-D-ribose 1-diphosphate",c,False
+M_pan4p_c,"Pantetheine 4'-phosphate",c,False
+M_4c2me_c,"4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol",c,False
+M_ptrc_c,"Putrescine",c,False
+M_4adcho_c,"4-amino-4-deoxychorismate",c,False
+M_u3aga_c,"UDP-3-O-(3-hydroxytetradecanoyl)-N-acetylglucosamine",c,False
+M_sbt__D_e,"D-Sorbitol",e,False
+M_4abutn_c,"4-Aminobutanal",c,False
+M_g6p_b,"D-Glucose 6-phosphate",b,True
+M_glcur_b,"D-Glucuronate",b,True
+M_ocdca_b,"Octadecanoate (n-C18:0)",b,True
+M_gam_b,"D-Glucosamine",b,True
+M_2dh3dgal6p_c,"2-Dehydro-3-deoxy-D-galactonate 6-phosphate",c,False
+M_galur_c,"D-Galacturonate",c,False
+M_ile__L_b,"L-Isoleucine",b,True
+M_phe__L_e,"L-Phenylalanine",e,False
+M_ppcoa_c,"Propanoyl-CoA",c,False
+M_g3ps_c,"Glycerophosphoserine",c,False
+M_arab__L_e,"L-Arabinose",e,False
+M_galct__D_c,"D-Galactarate",c,False
+M_hxan_b,"Hypoxanthine",b,True
+M_pant__R_c,"(R)-Pantoate",c,False
+M_n8aspmd_c,"N8-Acetylspermidine",c,False
+M_glcn_c,"D-Gluconate",c,False
+M_pi_b,"Phosphate",b,True
+M_glcur_e,"D-Glucuronate",e,False
+M_dgmp_c,"DGMP C10H12N5O7P",c,False
+M_sucgsa_c,"N2-Succinyl-L-glutamate 5-semialdehyde",c,False
+M_cys__L_e,"L-Cysteine",e,False
+M_ac_c,"Acetate",c,False
+M_glycogen_c,"Glycogen C6H10O5",c,False
+M_gdp_c,"GDP C10H12N5O11P2",c,False
+M_h2o_e,"H2O H2O",e,False
+M_thymd_e,"Thymidine C10H14N2O5",e,False
+M_kdo2lipid4p_c,"KDO(2)-lipid IV(A) with palmitoleoyl",c,False
+M_orn_c,"Ornithine",c,False
+M_chol_c,"Choline C5H14NO",c,False
+M_4mhetz_c,"4-Methyl-5-(2-hydroxyethyl)-thiazole",c,False
+M_acac_b,"Acetoacetate",b,True
+M_urea_e,"Urea CH4N2O",e,False
+M_tre6p_c,"Alpha,alpha'-Trehalose 6-phosphate",c,False
+M_ade_b,"Adenine",b,True
+M_5aop_c,"5-Amino-4-oxopentanoate",c,False
+M_kdo2lipid4L_c,"KDO(2)-lipid IV(A) with laurate",c,False
+M_din_c,"Deoxyinosine",c,False
+M_ps_EC_c,"Phosphatidylserine (Ecoli)",c,False
+M_hdeACP_c,"Cis-hexadec-9-enoyl-[acyl-carrier protein] (n-C16:1)",c,False
+M_phom_c,"O-Phospho-L-homoserine",c,False
+M_spmd_e,"Spermidine",e,False
+M_u23ga_c,"UDP-2,3-bis(3-hydroxytetradecanoyl)glucosamine",c,False
+M_acnam_e,"N-Acetylneuraminate",e,False
+M_ala__D_e,"D-Alanine",e,False
+M_hom__L_c,"L-Homoserine",c,False
+M_glx_c,"Glyoxylate",c,False
+M_for_e,"Formate",e,False
+M_dmlz_c,"6,7-Dimethyl-8-(1-D-ribityl)lumazine",c,False
+M_malthx_b,"Maltohexaose",b,True
+M_5apru_c,"5-Amino-6-(5'-phosphoribosylamino)uracil",c,False
+M_rib__D_b,"D-Ribose",b,True
+M_dhf_c,"7,8-Dihydrofolate",c,False
+M_mmcoa__S_c,"(S)-Methylmalonyl-CoA",c,False
+M_chor_c,"Chorismate",c,False
+M_2shchc_c,"2-Succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate",c,False
+M_ru5p__D_c,"D-Ribulose 5-phosphate",c,False
+M_dgsn_b,"Deoxyguanosine",b,True
+M_23dhmp_c,"(R)-2,3-Dihydroxy-3-methylpentanoate",c,False
+M_cys__L_c,"L-Cysteine",c,False
+M_h_b,"H+",b,True
+M_urea_b,"Urea CH4N2O",b,True
+M_dmpp_c,"Dimethylallyl diphosphate",c,False
+M_palmACP_c,"Palmitoyl-ACP (n-C16:0ACP)",c,False
+M_selnp_c,"Selenophosphate",c,False
+M_damp_c,"DAMP C10H12N5O6P",c,False
+M_dad_2_b,"Deoxyadenosine",b,True
+M_cbl1_b,"Cob(I)alamin",b,True
+M_12ppd__S_b,"(S)-Propane-1,2-diol",b,True
+M_2omph_c,"2-Octaprenyl-6-methoxyphenol",c,False
+M_fuc1p__L_b,"L-Fucose 1-phosphate",b,True
+M_utp_c,"UTP C9H11N2O15P3",c,False
+M_idp_c,"IDP C10H11N4O11P2",c,False
+M_glyc__R_c,"(R)-Glycerate",c,False
+M_12ppd__S_c,"(S)-Propane-1,2-diol",c,False
+M_arbt6p_c,"Arbutin 6-phosphate",c,False
+M_ncam_c,"Nicotinamide",c,False
+M_5mdr1p_c,"5-Methylthio-5-deoxy-D-ribose 1-phosphate",c,False
+M_leu__L_e,"L-Leucine",e,False
+M_dad_2_e,"Deoxyadenosine",e,False
+M_aacoa_c,"Acetoacetyl-CoA",c,False
+M_xtsn_e,"Xanthosine",e,False
+M_co2_c,"CO2 CO2",c,False
+M_pnto__R_e,"(R)-Pantothenate",e,False
+M_4abz_c,"4-Aminobenzoate",c,False
+M_apg_EC_c,"Acyl phosphatidylglycerol (E.coli)",c,False
+M_hco3_c,"Bicarbonate",c,False
+M_g3pg_c,"Glycerophosphoglycerol",c,False
+M_nadh_c,"Nicotinamide adenine dinucleotide - reduced",c,False
+M_nh4_b,"Ammonium",b,True
+M_tre_b,"Trehalose",b,True
+M_ile__L_c,"L-Isoleucine",c,False
+M_lac__L_e,"L-Lactate",e,False
+M_octdp_c,"All-trans-Octaprenyl diphosphate",c,False
+M_atp_c,"ATP C10H12N5O13P3",c,False
+M_spmd_c,"Spermidine",c,False
+M_uamag_c,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamate",c,False
+M_o2_b,"O2 O2",b,True
+M_fru_c,"D-Fructose",c,False
+M_trdrd_c,"Reduced thioredoxin",c,False
+M_dcdp_c,"DCDP C9H12N3O10P2",c,False
+M_ser__D_c,"D-Serine",c,False
+M_lald__L_c,"L-Lactaldehyde",c,False
+M_fgam_c,"N2-Formyl-N1-(5-phospho-D-ribosyl)glycinamide",c,False
+M_mal__L_e,"L-Malate",e,False
+M_uri_e,"Uridine",e,False
+M_hisp_c,"L-Histidinol phosphate",c,False
+M_uri_b,"Uridine",b,True
+M_2omhmbl_c,"2-Octaprenyl-3-methyl-5-hydroxy-6-methoxy-1,4-benzoquinol",c,False
+M_dtbt_c,"Dethiobiotin",c,False
+M_acac_e,"Acetoacetate",e,False
+M_xyl__D_b,"D-Xylose",b,True
+M_met__D_e,"D-Methionine",e,False
+M_2ddg6p_c,"2-Dehydro-3-deoxy-D-gluconate 6-phosphate",c,False
+M_dmbzid_c,"5,6-Dimethylbenzimidazole",c,False
+M_g6p_e,"D-Glucose 6-phosphate",e,False
+M_hdcea_c,"Hexadecenoate (n-C16:1)",c,False
+M_g1p_c,"D-Glucose 1-phosphate",c,False
+M_dkmpp_c,"2,3-diketo-5-methylthio-1-phosphopentane",c,False
+M_orot_c,"Orotate C5H3N2O4",c,False
+M_h2o2_c,"Hydrogen peroxide",c,False
+M_cpppg3_c,"Coproporphyrinogen III",c,False
+M_dtdp_c,"DTDP C10H13N2O11P2",c,False
+M_gal_e,"D-Galactose",e,False
+M_ala__D_c,"D-Alanine",c,False
+M_fdp_c,"D-Fructose 1,6-bisphosphate",c,False
+M_xan_e,"Xanthine",e,False
+M_3dhsk_c,"3-Dehydroshikimate",c,False
+M_sbt6p_c,"D-Sorbitol 6-phosphate",c,False
+M_lac__D_e,"D-Lactate",e,False
+M_csn_b,"Cytosine",b,True
+M_asp__L_e,"L-Aspartate",e,False
+M_uamr_c,"UDP-N-acetylmuramate",c,False
+M_4hthr_c,"4-Hydroxy-L-threonine",c,False
+M_2cpr5p_c,"1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate",c,False
+M_pdx5p_c,"Pyridoxine 5'-phosphate",c,False
+M_glcr_b,"D-Glucarate",b,True
+M_cbp_c,"Carbamoyl phosphate",c,False
+M_acACP_c,"Acetyl-ACP",c,False
+M_lipa_c,"KDO(2)-lipid (A)",c,False
+M_tsul_b,"Thiosulfate",b,True
+M_adn_c,"Adenosine",c,False
+M_adocbl_c,"Adenosylcobalamin",c,False
+M_mnl1p_c,"D-Mannitol 1-phosphate",c,False
+M_agpe_EC_c,"Acyl-glycerophosphoethanolamine  (E.coli)",c,False
+M_kdo2lipid4_c,"KDO(2)-lipid IV(A)",c,False
+M_ttdca_e,"Tetradecanoate (n-C14:0)",e,False
+M_mthgxl_c,"Methylglyoxal",c,False
+M_pram_c,"5-Phospho-beta-D-ribosylamine",c,False
+M_succoa_c,"Succinyl-CoA",c,False
+M_dhap_c,"Dihydroxyacetone phosphate",c,False
+M_adocbi_c,"Adenosyl cobinamide",c,False
+M_4abut_e,"4-Aminobutanoate",e,False
+M_5aizc_c,"5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate",c,False
+M_bbtcoa_c,"Gamma-butyrobetainyl-CoA",c,False
+M_gln__L_e,"L-Glutamine",e,False
+M_din_e,"Deoxyinosine",e,False
+M_galct__D_b,"D-Galactarate",b,True
+M_glu5p_c,"L-Glutamate 5-phosphate",c,False
+M_galt_e,"Galactitol",e,False
+M_uri_c,"Uridine",c,False
+M_2dmmq8_c,"2-Demethylmenaquinone 8",c,False
+M_sucglu_c,"N2-Succinyl-L-glutamate",c,False
+M_2aobut_c,"L-2-Amino-3-oxobutanoate",c,False
+M_2ddglcn_b,"2-Dehydro-3-deoxy-D-gluconate",b,True
+M_lys__L_b,"L-Lysine",b,True
+M_ocdca_c,"Octadecanoate (n-C18:0)",c,False
+M_3ig3p_c,"C'-(3-Indolyl)-glycerol 3-phosphate",c,False
+M_glyc_c,"Glycerol",c,False
+M_idon__L_e,"L-Idonate",e,False
+M_chol_b,"Choline C5H14NO",b,True
+M_6pgl_c,"6-phospho-D-glucono-1,5-lactone",c,False
+M_fc1p_c,"L-Fuculose 1-phosphate",c,False
+M_dctp_c,"DCTP C9H12N3O13P3",c,False
+M_phe__L_c,"L-Phenylalanine",c,False
+M_nac_b,"Nicotinate",b,True
+M_udcpp_c,"Undecaprenyl phosphate",c,False
+M_pyr_b,"Pyruvate",b,True
+M_k_c,"Potassium",c,False
+M_pyr_c,"Pyruvate",c,False
+M_acac_c,"Acetoacetate",c,False
+M_acnam_c,"N-Acetylneuraminate",c,False
+M_dnad_c,"Deamino-NAD+",c,False
+M_pac_c,"Phenylacetic acid",c,False
+M_fruur_c,"D-Fructuronate",c,False
+M_uaagmda_c,"Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala",c,False
+M_val__L_c,"L-Valine",c,False
+M_1pyr5c_c,"1-Pyrroline-5-carboxylate",c,False
+M_glyb_e,"Glycine betaine",e,False
+M_fe2_e,"Fe2+ mitochondria",e,False
+M_glyc3p_e,"Glycerol 3-phosphate",e,False
+M_suc6p_c,"Sucrose 6-phosphate",c,False
+M_peptido_EC_c,"Peptidoglycan subunit of Escherichia coli",c,False
+M_val__L_b,"L-Valine",b,True
+M_agpc_EC_c,"Acyl-glycerophosphocholine",c,False
+M_csn_e,"Cytosine",e,False
+M_acmana_c,"N-Acetyl-D-mannosamine",c,False
+M_4ampm_c,"4-Amino-2-methyl-5-phosphomethylpyrimidine",c,False
+M_e4p_c,"D-Erythrose 4-phosphate",c,False
+M_trp__L_e,"L-Tryptophan",e,False
+M_ddcaACP_c,"Dodecanoyl-ACP (n-C12:0ACP)",c,False
+M_nmn_b,"NMN C11H14N2O8P",b,True
+M_lys__L_e,"L-Lysine",e,False
+M_ohpb_c,"2-Oxo-3-hydroxy-4-phosphobutanoate",c,False
+M_gly_c,"Glycine",c,False
+M_skm5p_c,"Shikimate 5-phosphate",c,False
+M_xmp_c,"Xanthosine 5'-phosphate",c,False
+M_suchms_c,"O-Succinyl-L-homoserine",c,False
+M_malcoa_c,"Malonyl CoA C24H33N7O19P3S",c,False
+M_glyc3p_b,"Glycerol 3-phosphate",b,True
+M_galct__D_e,"D-Galactarate",e,False
+M_acald_c,"Acetaldehyde",c,False
+M_23dhdp_c,"2,3-Dihydrodipicolinate",c,False
+M_uacmam_c,"UDP-N-acetyl-D-mannosamine",c,False
+M_hkndd_c,"2-Hydroxy-6-oxonona-2,4-diene-1,9-dioate",c,False
+M_25drapp_c,"2,5-Diamino-6-(ribosylamino)-4-(3H)-pyrimidinone 5'-phosphate",c,False
+M_23dhb_c,"2,3-Dihydroxybenzoate",c,False
+M_2ahbut_c,"(S)-2-Aceto-2-hydroxybutanoate",c,False
+M_gdpddman_c,"GDP-4-dehydro-6-deoxy-D-mannose",c,False
+M_tsul_c,"Thiosulfate",c,False
+M_lgt__S_c,"(R)-S-Lactoylglutathione",c,False
+M_glyclt_e,"Glycolate C2H3O3",e,False
+M_gam1p_c,"D-Glucosamine 1-phosphate",c,False
+M_thr__L_c,"L-Threonine",c,False
+M_but_e,"Butyrate (n-C4:0)",e,False
+M_sbzcoa_c,"O-Succinylbenzoyl-CoA",c,False
+M_tagur_c,"D-Tagaturonate",c,False
+M_dhcinnm_c,"2,3-dihydroxicinnamic acid",c,False
+M_k_e,"Potassium",e,False
+M_tmao_c,"Trimethylamine N-oxide",c,False
+M_ser__L_e,"L-Serine",e,False
+M_trdox_c,"Oxidized thioredoxin",c,False
+M_o2s_c,"Superoxide anion",c,False
+M_fuc__L_c,"L-Fucose",c,False
+M_cbasp_c,"N-Carbamoyl-L-aspartate",c,False
+M_acg5p_c,"N-Acetyl-L-glutamyl 5-phosphate",c,False
+M_cit_c,"Citrate",c,False
+M_clpn_EC_c,"Cardiolipin (Ecoli)",c,False
+M_ctbtcoa_c,"Crotonobetainyl-CoA",c,False
+M_dms_c,"Dimethyl sulfide",c,False
+M_galctn__D_c,"D-Galactonate",c,False
+M_pi_c,"Phosphate",c,False
+M_oaa_c,"Oxaloacetate",c,False
+M_thf_c,"5,6,7,8-Tetrahydrofolate",c,False
+M_xtsn_c,"Xanthosine",c,False
+M_alltn_b,"Allantoin",b,True
+M_so3_c,"Sulfite",c,False
+M_acald_b,"Acetaldehyde",b,True
+M_2kmb_c,"2-keto-4-methylthiobutyrate",c,False
+M_pydx_c,"Pyridoxal",c,False
+M_etoh_e,"Ethanol",e,False
+M_lys__L_c,"L-Lysine",c,False
+M_hmbil_c,"Hydroxymethylbilane",c,False
+M_adphep_DD_c,"ADP-D-glycero-D-manno-heptose",c,False
+M_f6p_c,"D-Fructose 6-phosphate",c,False
+M_thdp_c,"2,3,4,5-Tetrahydrodipicolinate",c,False
+M_34hpp_c,"3-(4-Hydroxyphenyl)pyruvate",c,False
+M_lcts_b,"Lactose C12H22O11",b,True
+M_hqn_c,"Hydroquinone",c,False
+M_dgsn_c,"Deoxyguanosine",c,False
+M_fum_b,"Fumarate",b,True
+M_leu__L_b,"L-Leucine",b,True
+M_dha_c,"Dihydroxyacetone",c,False
+M_prlp_c,"5-[(5-phospho-1-deoxyribulos-1-ylamino)methylideneamino]-1-(5-phosphoribosyl)imidazole-4-carboxamide",c,False
+M_ckdo_c,"CMP-3-deoxy-D-manno-octulosonate",c,False
+M_udp_c,"UDP C9H11N2O12P2",c,False
+M_lipidA_c,"2,3,2'3'-Tetrakis(beta-hydroxymyristoyl)-D-glucosaminyl-1,6-beta-D-glucosamine 1,4'-bisphosphate",c,False
+M_alltn_c,"Allantoin",c,False
+M_4h2opntn_c,"4-Hydroxy-2-oxopentanoate",c,False
+M_unagamuf_c,"Undecaprenyl-diphospho N-acetylglucosamine-N-acetylmannosaminuronate-N-acetamido-4,6-dideoxy-D-galactose",c,False
+M_accoa_c,"Acetyl-CoA",c,False
+M_gar_c,"N1-(5-Phospho-D-ribosyl)glycinamide",c,False
+M_rml_c,"L-Rhamnulose",c,False
+M_glu1sa_c,"L-Glutamate 1-semialdehyde",c,False
+M_cytd_c,"Cytidine",c,False
+M_fadh2_c,"Flavin adenine dinucleotide reduced",c,False
+M_tagdp__D_c,"D-Tagatose 1,6-biphosphate",c,False
+M_gmhep17bp_c,"D-Glycero-D-manno-heptose 1,7-bisphosphate",c,False
+M_cytd_b,"Cytidine",b,True
+M_ametam_c,"S-Adenosylmethioninamine",c,False
+M_lac__L_c,"L-Lactate",c,False
+M_dump_c,"DUMP C9H11N2O8P",c,False
+M_man6p_c,"D-Mannose 6-phosphate",c,False
+M_asn__L_b,"L-Asparagine",b,True
+M_urdglyc_c,"(-)-Ureidoglycolate",c,False
+M_gtp_c,"GTP C10H12N5O14P3",c,False
+M_gmhep1p_c,"D-Glycero-D-manno-heptose 1-phosphate",c,False
+M_maltttr_e,"Maltotetraose",e,False
+M_alac__S_c,"(S)-2-Acetolactate",c,False
+M_imacp_c,"3-(Imidazol-4-yl)-2-oxopropyl phosphate",c,False
+M_betald_c,"Betaine aldehyde",c,False
+M_glyb_b,"Glycine betaine",b,True
+M_taur_b,"Taurine C2H7NO3S",b,True
+M_mlthf_c,"5,10-Methylenetetrahydrofolate",c,False
+M_8aonn_c,"8-Amino-7-oxononanoate",c,False
+M_ala_B_c,"Beta-Alanine",c,False
+M_glcn_b,"D-Gluconate",b,True
+M_rmn_c,"L-Rhamnose",c,False
+M_dxyl5p_c,"1-deoxy-D-xylulose 5-phosphate",c,False
+M_dcyt_e,"Deoxycytidine",e,False
+M_cynt_c,"Cyanate",c,False
+M_2ddglcn_e,"2-Dehydro-3-deoxy-D-gluconate",e,False
+M_his__L_e,"L-Histidine",e,False
+M_co2_e,"CO2 CO2",e,False
+M_dad_2_c,"Deoxyadenosine",c,False
+M_cdpdag_EC_c,"CDPdiacylglycerol (E coli)",c,False
+M_dmso_c,"Dimethyl sulfoxide",c,False
+M_fum_e,"Fumarate",e,False
+M_nac_e,"Nicotinate",e,False
+M_3dhguln_c,"3-Dehydro-L-gulonate",c,False
+M_dcamp_c,"N6-(1,2-Dicarboxyethyl)-AMP",c,False
+M_dha_e,"Dihydroxyacetone",e,False
+M_malttr_c,"Maltotriose C18H32O16",c,False
+M_ppp9_c,"Protoporphyrin",c,False
+M_cys__L_b,"L-Cysteine",b,True
+M_sbt__D_b,"D-Sorbitol",b,True
+M_galt1p_c,"Galactitol 1-phosphate",c,False
+M_ser__L_c,"L-Serine",c,False
+M_btnso_c,"D-biotin d-sulfoxide",c,False
+M_dtdp4aaddg_c,"DTDP-4-acetamido-4,6-dideoxy-D-galactose",c,False
+M_o2_e,"O2 O2",e,False
+M_galctn__D_e,"D-Galactonate",e,False
+M_crn_c,"L-Carnitine",c,False
+M_for_b,"Formate",b,True
+M_idon__L_b,"L-Idonate",b,True
+M_thr__L_e,"L-Threonine",e,False
+M_xan_b,"Xanthine",b,True
+M_2ohph_c,"2-Octaprenyl-6-hydroxyphenol",c,False
+M_dhptd_c,"4,5-dihydroxy-2,3-pentanedione",c,False
+M_glyald_c,"D-Glyceraldehyde",c,False
+M_uama_c,"UDP-N-acetylmuramoyl-L-alanine",c,False
+M_urea_c,"Urea CH4N2O",c,False
+M_skm_c,"Shikimate",c,False
+M_succ_c,"Succinate",c,False
+M_kdolipid4_c,"KDO-lipid IV(A)",c,False
+M_2me4p_c,"2-C-methyl-D-erythritol 4-phosphate",c,False
+M_2obut_c,"2-Oxobutanoate",c,False
+M_amp_c,"AMP C10H12N5O7P",c,False
+M_crncoa_c,"L-Carnitinyl-CoA",c,False
+M_argsuc_c,"N(omega)-(L-Arginino)succinate",c,False
+M_asp__L_c,"L-Aspartate",c,False
+M_dcyt_c,"Deoxycytidine",c,False
+M_na1_c,"Sodium",c,False
+M_tsul_e,"Thiosulfate",e,False
+M_crn_e,"L-Carnitine",e,False
+M_ppbng_c,"Porphobilinogen",c,False
+M_unaga_c,"Undecaprenyl diphospho N-acetyl-glucosamine",c,False
+M_2mcit_c,"2-Methylcitrate",c,False
+M_o2_c,"O2 O2",c,False
+M_no3_b,"Nitrate",b,True
+M_ctbt_c,"Crotonobetaine",c,False
+M_na1_e,"Sodium",e,False
+M_2mcacn_c,"Cis-2-Methylaconitate",c,False
+M_acon_T_c,"Trans-Aconitate",c,False
+M_xan_c,"Xanthine",c,False
+M_gua_c,"Guanine",c,False
+M_agdpcbi_c,"Adenosine-GDP-cobinamide",c,False
+M_val__L_e,"L-Valine",e,False
+M_acgam6p_c,"N-Acetyl-D-glucosamine 6-phosphate",c,False
+M_btcoa_c,"Butanoyl-CoA",c,False
+M_hdca_c,"Hexadecanoate (n-C16:0)",c,False
+M_glu__D_c,"D-Glutamate",c,False
+M_glu__L_e,"L-Glutamate",e,False
+M_pydam_c,"Pyridoxamine",c,False
+M_2pglyc_c,"2-Phosphoglycolate",c,False
+M_sheme_c,"Siroheme C42H36FeN4O16",c,False
+M_pppn_b,"Phenylpropanoate",b,True
+M_man_e,"D-Mannose",e,False
+M_rdmbzi_c,"N1-(alpha-D-ribosyl)-5,6-dimethylbenzimidazole",c,False
+M_hdca_e,"Hexadecanoate (n-C16:0)",e,False
+M_his__L_c,"L-Histidine",c,False
+M_prfp_c,"1-(5-Phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide",c,False
+M_gua_b,"Guanine",b,True
+M_ac_b,"Acetate",b,True
+M_mmcoa__R_c,"(R)-Methylmalonyl-CoA",c,False
+M_hxan_e,"Hypoxanthine",e,False
+M_thm_c,"Thiamin",c,False
+M_dtdp4d6dm_c,"DTDP-4-dehydro-6-deoxy-L-mannose",c,False
+M_pro__L_c,"L-Proline",c,False
+M_asn__L_e,"L-Asparagine",e,False
+M_aicar_c,"5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide",c,False
+M_altrn_c,"D-Altronate",c,False
+M_gam6p_c,"D-Glucosamine 6-phosphate",c,False
+M_ugmd_c,"UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate",c,False
+M_glyc_e,"Glycerol",e,False
+M_cytd_e,"Cytidine",e,False
+M_k_b,"Potassium",b,True
+M_orot5p_c,"Orotidine 5'-phosphate",c,False
+M_cbl1_c,"Cob(I)alamin",c,False
+M_actp_c,"Acetyl phosphate",c,False
+M_dcyt_b,"Deoxycytidine",b,True
+M_ara5p_c,"D-Arabinose 5-phosphate",c,False
+M_glcur_c,"D-Glucuronate",c,False
+M_ipdp_c,"Isopentenyl diphosphate",c,False
+M_acnam_b,"N-Acetylneuraminate",b,True
+M_acglu_c,"N-Acetyl-L-glutamate",c,False
+M_paps_c,"3'-Phosphoadenylyl sulfate",c,False
+M_enter_c,"Enterochelin",c,False
+M_ichor_c,"Isochorismate",c,False
+M_thymd_c,"Thymidine C10H14N2O5",c,False
+M_malt6p_c,"Maltose 6'-phosphate",c,False
+M_prbamp_c,"1-(5-Phosphoribosyl)-AMP",c,False
+M_grdp_c,"Geranyl diphosphate",c,False
+M_octeACP_c,"Cis-octadec-11-enoyl-[acyl-carrier protein] (n-C18:1)",c,False
+M_pydxn_c,"Pyridoxine",c,False
+M_gcald_c,"Glycolaldehyde",c,False
+M_u3hga_c,"UDP-3-O-(3-hydroxytetradecanoyl)-D-glucosamine",c,False
+M_6hmhptpp_c,"6-hydroxymethyl-dihydropterin pyrophosphate",c,False
+M_2ddglcn_c,"2-Dehydro-3-deoxy-D-gluconate",c,False
+M_3mob_c,"3-Methyl-2-oxobutanoate",c,False
+M_etoh_c,"Ethanol",c,False
+M_dtdp4addg_c,"DTDP-4-amino-4,6-dideoxy-D-galactose",c,False
+M_spmd_b,"Spermidine",b,True
+M_alaala_c,"D-Alanyl-D-alanine",c,False
+M_duri_b,"Deoxyuridine",b,True
+M_met__L_b,"L-Methionine",b,True
+M_2dhguln_c,"2-Dehydro-L-gulonate",c,False
+M_5prdmbz_c,"N1-(5-Phospho-alpha-D-ribosyl)-5,6-dimethylbenzimidazole",c,False
+M_amet_c,"S-Adenosyl-L-methionine",c,False
+M_3hcinnm_e,"3-hydroxycinnamic acid",e,False
+M_so4_b,"Sulfate",b,True
+M_ser__D_e,"D-Serine",e,False
+M_gbbtn_c,"Gamma-butyrobetaine",c,False
+M_nadp_c,"Nicotinamide adenine dinucleotide phosphate",c,False
+M_h_e,"H+",e,False
+M_h2mb4p_c,"1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate",c,False
+M_co2_b,"CO2 CO2",b,True
+M_orn_e,"Ornithine",e,False
+M_mnl_e,"D-Mannitol",e,False
+M_4ppan_c,"D-4'-Phosphopantothenate",c,False
+M_3dhgulnp_c,"3-keto-L-gulonate-6-phosphate",c,False
+M_23dhmb_c,"(R)-2,3-Dihydroxy-3-methylbutanoate",c,False
+M_ttdcea_c,"Tetradecenoate (n-C14:1)",c,False
+M_xtsn_b,"Xanthosine",b,True
+M_mi1p__D_c,"1D-myo-Inositol 1-phosphate",c,False
+M_ura_b,"Uracil",b,True
+M_cechddd_c,"Cis-3-(3-carboxyethyl)-3,5-cyclohexadiene-1,2-diol",c,False
+M_tdeACP_c,"Cis-tetradec-7-enoyl-[acyl-carrier protein] (n-C14:1)",c,False
+M_melib_c,"Melibiose C12H22O11",c,False
+M_seln_c,"Selenide",c,False
+M_phthr_c,"O-Phospho-4-hydroxy-L-threonine",c,False
+M_asn__L_c,"L-Asparagine",c,False
+M_2mecdp_c,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate",c,False
+M_pppn_c,"Phenylpropanoate",c,False
+M_man6p_e,"D-Mannose 6-phosphate",e,False
+M_13dpg_c,"3-Phospho-D-glyceroyl phosphate",c,False
+M_rib__D_c,"D-Ribose",c,False
+M_cenchddd_c,"Cis-3-(3-carboxyethenyl)-3,5-cyclohexadiene-1,2-diol",c,False
+M_5mthf_c,"5-Methyltetrahydrofolate",c,False
+M_tre_e,"Trehalose",e,False
+M_succ_e,"Succinate",e,False
+M_mql8_c,"Menaquinol 8",c,False
+M_pi_e,"Phosphate",e,False
+M_gmhep7p_c,"D-Glycero-D-manno-heptose 7-phosphate",c,False
+M_acorn_c,"N2-Acetyl-L-ornithine",c,False
+M_ins_b,"Inosine",b,True
+M_no2_e,"Nitrite",e,False
+M_prbatp_c,"1-(5-Phosphoribosyl)-ATP",c,False
+M_pgp_EC_c,"Phosphatidylglycerophosphate (Ecoli)",c,False
+M_man_b,"D-Mannose",b,True
+M_glc__D_c,"D-Glucose",c,False
+M_nh4_c,"Ammonium",c,False
+M_aps_c,"Adenosine 5'-phosphosulfate",c,False
+M_udpglcur_c,"UDP-D-glucuronate",c,False
+M_gua_e,"Guanine",e,False
+M_arab__L_b,"L-Arabinose",b,True
+M_pyr_e,"Pyruvate",e,False
+M_agpg_EC_c,"Acyl-glycerophosphoglycerol  (E.coli)",c,False
+M_pro__L_b,"L-Proline",b,True
+M_dms_b,"Dimethyl sulfide",b,True
+M_23doguln_c,"2,3-Dioxo-L-gulonate",c,False
+M_5caiz_c,"5-phosphoribosyl-5-carboxyaminoimidazole",c,False
+M_3c2hmp_c,"3-Carboxy-2-hydroxy-4-methylpentanoate",c,False
+M_4abut_c,"4-Aminobutanoate",c,False
+M_amp_e,"AMP C10H12N5O7P",e,False
+M_gal_b,"D-Galactose",b,True
+M_5aprbu_c,"5-Amino-6-(5'-phosphoribitylamino)uracil",c,False
+M_xyl__D_c,"D-Xylose",c,False
+M_so4_e,"Sulfate",e,False
+M_anth_c,"Anthranilate",c,False
+M_2ombzl_c,"2-Octaprenyl-6-methoxy-1,4-benzoquinol",c,False
+M_cbl1_e,"Cob(I)alamin",e,False
+M_5mdru1p_c,"5-Methylthio-5-deoxy-D-ribulose 1-phosphate",c,False
+M_gal_c,"D-Galactose",c,False
+M_ac_e,"Acetate",e,False
+M_15dap_c,"1,5-Diaminopentane",c,False
+M_ap5a_c,"P1,P5-Bis(5'-adenosyl) pentaphosphate",c,False
+M_g3p_c,"Glyceraldehyde 3-phosphate",c,False
+M_ptrc_e,"Putrescine",e,False
+M_ttdca_c,"Tetradecanoate (n-C14:0)",c,False
+M_uacmamu_c,"UDP-N-acetyl-D-mannosaminouronate",c,False
+M_arg__L_b,"L-Arginine",b,True
+M_ser__L_b,"L-Serine",b,True
+M_for_c,"Formate",c,False
+M_eig3p_c,"D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate",c,False
+M_4pasp_c,"4-Phospho-L-aspartate",c,False
+M_ttdca_b,"Tetradecanoate (n-C14:0)",b,True
+M_glu5sa_c,"L-Glutamate 5-semialdehyde",c,False
+M_pa_EC_c,"Phosphatidate  (E.coli)",c,False
+M_maltttr_c,"Maltotetraose",c,False
+M_tmao_e,"Trimethylamine N-oxide",e,False
+M_fum_c,"Fumarate",c,False
+M_amp_b,"AMP C10H12N5O7P",b,True
+M_nmn_c,"NMN C11H14N2O8P",c,False
+M_peamn_c,"Phenethylamine",c,False
+M_coa_c,"Coenzyme A",c,False
+M_melib_b,"Melibiose C12H22O11",b,True
+M_mnl_b,"D-Mannitol",b,True
+M_2dr1p_c,"2-Deoxy-D-ribose 1-phosphate",c,False
+M_2h3oppan_c,"2-Hydroxy-3-oxopropanoate",c,False
+M_asp__L_b,"L-Aspartate",b,True
+M_ile__L_e,"L-Isoleucine",e,False
+M_histd_c,"L-Histidinol",c,False
+M_tag6p__D_c,"D-Tagatose 6-phosphate",c,False
+M_gln__L_b,"L-Glutamine",b,True
+M_so4_c,"Sulfate",c,False
+M_pnto__R_c,"(R)-Pantothenate",c,False
+M_4per_c,"4-Phospho-D-erythronate",c,False
+M_cynt_e,"Cyanate",e,False
+M_nad_c,"Nicotinamide adenine dinucleotide",c,False
+M_pap_c,"Adenosine 3',5'-bisphosphate",c,False
+M_pro__L_e,"L-Proline",e,False
+M_mana_c,"D-Mannonate",c,False
+M_h2o_c,"H2O H2O",c,False
+M_chol_e,"Choline C5H14NO",e,False
+M_malACP_c,"Malonyl-[acyl-carrier protein]",c,False
+M_met__D_b,"D-Methionine",b,True
+M_nmn_e,"NMN C11H14N2O8P",e,False
+M_myrsACP_c,"Myristoyl-ACP (n-C14:0ACP)",c,False
+M_cbi_c,"Cobinamide",c,False
+M_2dr5p_c,"2-Deoxy-D-ribose 5-phosphate",c,False
+M_gtspmd_c,"Glutathionylspermidine",c,False
+M_dhna_c,"1,4-Dihydroxy-2-naphthoate",c,False
+M_pphn_c,"Prephenate",c,False
+M_xu5p__L_c,"L-Xylulose 5-phosphate",c,False
+M_glyc_b,"Glycerol",b,True
+M_3c4mop_c,"3-Carboxy-4-methyl-2-oxopentanoate",c,False
+M_glcr_e,"D-Glucarate",e,False
+M_adphep_LD_c,"ADP-L-glycero-D-manno-heptose",c,False
+M_ocdca_e,"Octadecanoate (n-C18:0)",e,False
+M_thmpp_c,"Thiamine diphosphate",c,False
+M_acmanap_c,"N-Acetyl-D-mannosamine 6-phosphate",c,False
+M_malthx_c,"Maltohexaose",c,False
+M_uaccg_c,"UDP-N-acetyl-3-O-(1-carboxyvinyl)-D-glucosamine",c,False
+M_udpg_c,"UDPglucose",c,False
+M_fcl__L_c,"L-fuculose",c,False
+M_akg_e,"2-Oxoglutarate",e,False
+M_trnaglu_c,"TRNA (Glu)",c,False
+M_15dap_b,"1,5-Diaminopentane",b,True
+M_glc__D_e,"D-Glucose",e,False
+M_gal1p_c,"Alpha-D-Galactose 1-phosphate",c,False
+M_sl2a6o_c,"N-Succinyl-2-L-amino-6-oxoheptanedioate",c,False
+M_adp_c,"ADP C10H12N5O10P2",c,False
+M_uagmda_c,"Undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine",c,False
+M_no2_b,"Nitrite",b,True
+M_trp__L_b,"L-Tryptophan",b,True
+M_f1p_c,"D-Fructose 1-phosphate",c,False
+M_eca_EC_c,"Enterobacterial common antigen polysaccharide (Ecoli)",c,False
+M_gbbtn_b,"Gamma-butyrobetaine",b,True
+M_phaccoa_c,"Phenylacetyl-CoA",c,False
+M_glutrna_c,"L-Glutamyl-tRNA(Glu)",c,False
+M_adpglc_c,"ADPglucose C16H23N5O15P2",c,False
+M_ppi_c,"Diphosphate",c,False
+M_pser__L_c,"O-Phospho-L-serine",c,False
+M_thym_c,"Thymine C5H6N2O2",c,False
+M_citr__L_c,"L-Citrulline",c,False
+M_fpram_c,"2-(Formamido)-N1-(5-phospho-D-ribosyl)acetamidine",c,False
+M_duri_e,"Deoxyuridine",e,False
+M_3php_c,"3-Phosphohydroxypyruvate",c,False
+M_q8h2_c,"Ubiquinol-8",c,False
+M_icit_c,"Isocitrate",c,False
+M_btn_c,"Biotin",c,False
+M_nicrnt_c,"Nicotinate D-ribonucleotide",c,False
+M_rbl__L_c,"L-Ribulose",c,False
+M_2ommbl_c,"2-Octaprenyl-3-methyl-6-methoxy- 1,4-benzoquinol",c,False
+M_pnto__R_b,"(R)-Pantothenate",b,True
+M_glu__L_c,"L-Glutamate",c,False
+M_adn_e,"Adenosine",e,False
+M_nad_b,"Nicotinamide adenine dinucleotide",b,True
+M_5dh4dglc_c,"5-Dehydro-4-deoxy-D-glucarate",c,False
+M_fmn_c,"FMN C17H19N4O9P",c,False
+M_arg__L_e,"L-Arginine",e,False
+M_dhor__S_c,"(S)-Dihydroorotate",c,False
+M_h2o_b,"H2O H2O",b,True
+M_lac__D_b,"D-Lactate",b,True
+M_12ppd__S_e,"(S)-Propane-1,2-diol",e,False
+M_N1aspmd_c,"N1-Acetylspermidine",c,False
+M_3psme_c,"5-O-(1-Carboxyvinyl)-3-phosphoshikimate",c,False
+M_gly_e,"Glycine",e,False
+M_gsn_b,"Guanosine",b,True
+M_maltpt_e,"Maltopentaose",e,False
+M_3hcinnm_b,"3-hydroxycinnamic acid",b,True
+M_aspsa_c,"L-Aspartate 4-semialdehyde",c,False
+M_trp__L_c,"L-Tryptophan",c,False
+M_datp_c,"DATP C10H12N5O12P3",c,False
+M_pydx5p_c,"Pyridoxal 5'-phosphate",c,False
+M_glcr_c,"D-Glucarate",c,False
+M_cit_b,"Citrate",b,True
+M_4abut_b,"4-Aminobutanoate",b,True
+M_2p4c2me_c,"2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol",c,False
+M_cynt_b,"Cyanate",b,True
+M_dxyl_c,"1-deoxy-D-xylulose",c,False
+M_ala__L_b,"L-Alanine",b,True
+M_no2_c,"Nitrite",c,False
+M_tyr__L_b,"L-Tyrosine",b,True
+M_sucr_e,"Sucrose C12H22O11",e,False
+M_methf_c,"5,10-Methenyltetrahydrofolate",c,False
+M_galctn__D_b,"D-Galactonate",b,True
+M_frdp_c,"Farnesyl diphosphate",c,False
+M_lac__D_c,"D-Lactate",c,False
+M_dudp_c,"DUDP C9H11N2O11P2",c,False
+M_26dap__M_c,"Meso-2,6-Diaminoheptanedioate",c,False
+M_gdpfuc_c,"GDP-L-fucose",c,False
+M_iasp_c,"Iminoaspartate",c,False
+M_rmn_e,"L-Rhamnose",e,False
+M_dhnpt_c,"Dihydroneopterin",c,False
+M_itp_c,"ITP C10H11N4O14P3",c,False
+M_dha_b,"Dihydroxyacetone",b,True
+M_4ppcys_c,"N-((R)-4-Phosphopantothenoyl)-L-cysteine",c,False
+M_alltn_e,"Allantoin",e,False
+M_adn_b,"Adenosine",b,True
+M_r1p_c,"Alpha-D-Ribose 1-phosphate",c,False
+M_ahdt_c,"2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine triphosphate",c,False
+M_dttp_c,"DTTP C10H13N2O14P3",c,False
+M_udpgal_c,"UDPgalactose",c,False
+M_kdo_c,"3-Deoxy-D-manno-2-octulosonate",c,False
+M_acgam1p_c,"N-Acetyl-D-glucosamine 1-phosphate",c,False
+M_dscl_c,"Dihydrosirohydrochlorin",c,False
+M_fe2_c,"Fe2+ mitochondria",c,False
+M_udpgalfur_c,"UDP-D-galacto-1,4-furanose",c,False
+M_dadp_c,"DADP C10H12N5O9P2",c,False
+M_ru5p__L_c,"L-Ribulose 5-phosphate",c,False
+M_man1p_c,"D-Mannose 1-phosphate",c,False
+M_dgsn_e,"Deoxyguanosine",e,False
+M_dms_e,"Dimethyl sulfide",e,False
+M_h_c,"H+",c,False
+M_imp_c,"IMP C10H11N4O8P",c,False
+M_tcynt_c,"Thiocyanate",c,False
+M_uacgam_c,"UDP-N-acetyl-D-glucosamine",c,False
+M_phpyr_c,"Phenylpyruvate",c,False
+M_2pg_c,"D-Glycerate 2-phosphate",c,False
+M_indole_b,"Indole",b,True
+M_ribflv_c,"Riboflavin C17H20N4O6",c,False
+M_his__L_b,"L-Histidine",b,True
+M_glcn_e,"D-Gluconate",e,False
+M_crn_b,"L-Carnitine",b,True
+M_orn_b,"Ornithine",b,True
+M_aconm_c,"E-3-carboxy-2-pentenedioate 6-methyl ester",c,False
+M_unagamu_c,"Undecaprenyl-diphospho-N-acetylglucosamine-N-acetylmannosaminuronate",c,False
+M_ahcys_c,"S-Adenosyl-L-homocysteine",c,False
+M_fuc1p__L_c,"L-Fucose 1-phosphate",c,False
+M_maltpt_c,"Maltopentaose",c,False
+M_3hpppn_b,"3-(3-hydroxy-phenyl)propionate",b,True
+M_2dh3dgal_c,"2-Dehydro-3-deoxy-D-galactonate",c,False
+M_adocbip_c,"Adenosyl cobinamide phosphate",c,False
+M_4hba_c,"4-Hydroxy-benzyl alcohol",c,False
+M_23dhba_c,"(2,3-Dihydroxybenzoyl)adenylate",c,False
+M_sucorn_c,"N2-Succinyl-L-ornithine",c,False
+M_gdpmann_c,"GDP-D-mannose",c,False
+M_camp_c,"CAMP C10H11N5O6P",c,False
+M_4ahmmp_c,"4-Amino-5-hydroxymethyl-2-methylpyrimidine",c,False
+M_ugmda_c,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine",c,False
+M_fru_b,"D-Fructose",b,True
+M_cmp_c,"CMP C9H12N3O8P",c,False
+M_hdca_b,"Hexadecanoate (n-C16:0)",b,True
+M_akg_c,"2-Oxoglutarate",c,False
+M_ala__D_b,"D-Alanine",b,True
+M_dtdp4d6dg_c,"DTDP-4-dehydro-6-deoxy-D-glucose",c,False
+M_3c3hmp_c,"3-Carboxy-3-hydroxy-4-methylpentanoate",c,False
+M_cdp_c,"CDP C9H12N3O11P2",c,False
+M_r5p_c,"Alpha-D-Ribose 5-phosphate",c,False
+M_maltttr_b,"Maltotetraose",b,True
+M_maltpt_b,"Maltopentaose",b,True
+M_3hpppn_c,"3-(3-hydroxy-phenyl)propionate",c,False
+M_gmp_c,"GMP C10H12N5O8P",c,False
+M_hkntd_c,"2-hydroxy-6-ketononatrienedioate",c,False
+M_25dkglcn_c,"2,5-diketo-D-gluconate",c,False
+M_pmcoa_c,"Pimeloyl-CoA",c,False
+M_dcmp_c,"DCMP C9H12N3O7P",c,False
+M_dhpt_c,"Dihydropteroate",c,False
+M_dgdp_c,"DGDP C10H12N5O10P2",c,False
+M_sucsal_c,"Succinic semialdehyde",c,False
+M_tartr__L_c,"L-tartrate",c,False
+M_pe_EC_c,"Phosphatidylethanolamine (ecoli)",c,False
+M_na1_b,"Sodium",b,True
+M_rib__D_e,"D-Ribose",e,False
+M_udcpdp_c,"Undecaprenyl diphosphate",c,False
+M_dtdpglu_c,"DTDPglucose",c,False
+M_ppap_c,"Propanoyl phosphate",c,False
+M_acser_c,"O-Acetyl-L-serine",c,False
+M_rhcys_c,"S-Ribosyl-L-homocysteine",c,False
+M_fuc__L_e,"L-Fucose",e,False
+M_g6p_c,"D-Glucose 6-phosphate",c,False
+M_din_b,"Deoxyinosine",b,True
+M_leu__L_c,"L-Leucine",c,False
+M_pg_EC_c,"Phosphatidylglycerol (Ecoli)",c,False
+M_man6p_b,"D-Mannose 6-phosphate",b,True
+M_ade_e,"Adenine",e,False
+M_fru_e,"D-Fructose",e,False
+M_3pg_c,"3-Phospho-D-glycerate",c,False
+M_nadph_c,"Nicotinamide adenine dinucleotide phosphate - reduced",c,False
+M_tma_c,"Trimethylamine",c,False
+M_acgam_b,"N-Acetyl-D-glucosamine",b,True
+M_malt_b,"Maltose C12H22O11",b,True
+M_ser__D_b,"D-Serine",b,True
+M_2dhp_c,"2-Dehydropantoate",c,False
+M_kdo8p_c,"3-Deoxy-D-manno-octulosonate 8-phosphate",c,False
+M_23ddhb_c,"2,3-Dihydro-2,3-dihydroxybenzoate",c,False
+M_sucarg_c,"N2-Succinyl-L-arginine",c,False
+M_galur_b,"D-Galacturonate",b,True
+M_5mta_c,"5-Methylthioadenosine",c,False
+M_glyclt_b,"Glycolate C2H3O3",b,True
+M_pc_EC_c,"Phosphatidylcholine (E.coli)",c,False
+M_ump_c,"UMP C9H11N2O9P",c,False
+M_4r5au_c,"4-(1-D-Ribitylamino)-5-aminouracil",c,False
+M_alltt_c,"Allantoate",c,False
+M_3hcinnm_c,"3-hydroxycinnamic acid",c,False
+M_3hpppn_e,"3-(3-hydroxy-phenyl)propionate",e,False
+M_gly_b,"Glycine",b,True
+M_tma_b,"Trimethylamine",b,True
+M_26dap__M_b,"Meso-2,6-Diaminoheptanedioate",b,True
+M_q8_c,"Ubiquinone-8",c,False
+M_xyl__D_e,"D-Xylose",e,False
+M_glucys_c,"Gamma-L-Glutamyl-L-cysteine",c,False
+M_aacald_c,"Aminoacetaldehyde",c,False
+M_etha_c,"Ethanolamine",c,False
+M_phe__L_b,"L-Phenylalanine",b,True
+M_gbbtn_e,"Gamma-butyrobetaine",e,False
+M_gam_e,"D-Glucosamine",e,False
+M_dtdprmn_c,"DTDP-L-rhamnose",c,False
+M_ade_c,"Adenine",c,False
+M_cyst__L_c,"L-Cystathionine",c,False
+M_cyan_c,"Hydrogen cyanide",c,False
+M_thm_e,"Thiamin",e,False
+M_arg__L_c,"L-Arginine",c,False
+M_tre_c,"Trehalose",c,False
+M_but_b,"Butyrate (n-C4:0)",b,True
+M_cdpea_c,"CDPethanolamine C11H19N4O11P2",c,False
+M_pppg9_c,"Protoporphyrinogen IX",c,False
+M_3ophb_c,"3-Octaprenyl-4-hydroxybenzoate",c,False
+M_csn_c,"Cytosine",c,False
+M_air_c,"5-amino-1-(5-phospho-D-ribosyl)imidazole",c,False
+M_5mtr_c,"5-Methylthio-D-ribose",c,False
+M_dmso_e,"Dimethyl sulfoxide",e,False
+M_akg_b,"2-Oxoglutarate",b,True
+M_hcys__L_c,"L-Homocysteine",c,False
+M_glc__D_b,"D-Glucose",b,True
+M_ppa_c,"Propionate (n-C3:0)",c,False
+M_nh4_e,"Ammonium",e,False
+M_glu__L_b,"L-Glutamate",b,True
+M_xylu__D_c,"D-Xylulose",c,False
+M_dhpppn_c,"3-(2,3-Dihydroxyphenyl)propanoate",c,False
+M_dgtp_c,"DGTP C10H12N5O13P3",c,False
+M_26dap_LL_c,"LL-2,6-Diaminoheptanedioate",c,False
+M_lac__L_b,"L-Lactate",b,True
+M_26dap__M_e,"Meso-2,6-Diaminoheptanedioate",e,False
+M_tma_e,"Trimethylamine",e,False
+M_dutp_c,"DUTP C9H11N2O14P3",c,False
+M_ap4a_c,"P1,P4-Bis(5'-adenosyl) tetraphosphate",c,False
+M_ctp_c,"CTP C9H12N3O14P3",c,False
+M_12dgr_EC_c,"1,2-Diacylglycerol  (E.coli)",c,False
+M_db4p_c,"3,4-dihydroxy-2-butanone 4-phosphate",c,False
+M_gln__L_c,"L-Glutamine",c,False
+M_sl26da_c,"N-Succinyl-LL-2,6-diaminoheptanedioate",c,False
+M_mal__L_b,"L-Malate",b,True
+M_met__D_c,"D-Methionine",c,False
+M_quln_c,"Quinolinate",c,False
+M_ura_e,"Uracil",e,False
+M_fuc__L_b,"L-Fucose",b,True
+M_hemeO_c,"Heme O C49H56FeN4O5",c,False
+M_g3pi_c,"Sn-Glycero-3-phospho-1-inositol",c,False
+M_hmfurn_c,"4-hydroxy-5-methyl-3(2H)-furanone",c,False
+M_ACP_c,"Acyl carrier protein",c,False
+M_galur_e,"D-Galacturonate",e,False
+M_idon__L_c,"L-Idonate",c,False
+M_glyclt_c,"Glycolate C2H3O3",c,False
+M_h2s_c,"Hydrogen sulfide",c,False
+M_rml1p_c,"L-Rhamnulose 1-phosphate",c,False
+M_acg5sa_c,"N-Acetyl-L-glutamate 5-semialdehyde",c,False
+M_4hbz_c,"4-Hydroxybenzoate",c,False
+M_4mop_c,"4-Methyl-2-oxopentanoate",c,False
+M_mqn8_c,"Menaquinone 8",c,False
+M_dtmp_c,"DTMP C10H13N2O8P",c,False
+M_tyr__L_e,"L-Tyrosine",e,False
+M_s7p_c,"Sedoheptulose 7-phosphate",c,False
+M_malttr_b,"Maltotriose C18H32O16",b,True
+M_indole_c,"Indole",c,False
+M_lps_EC_c,"Lipopolysaccharide (Ecoli)",c,False
+M_no3_e,"Nitrate",e,False
+M_acmana_b,"N-Acetyl-D-mannosamine",b,True
+M_malttr_e,"Maltotriose C18H32O16",e,False
+M_indole_e,"Indole",e,False
+M_pep_c,"Phosphoenolpyruvate",c,False
+M_fe2_b,"Fe2+ mitochondria",b,True
+M_inost_c,"Myo-Inositol",c,False
+M_cinnm_c,"Trans-Cinnamate",c,False
+M_gthrd_c,"Reduced glutathione",c,False
+M_malt_e,"Maltose C12H22O11",e,False
+M_pacald_c,"Phenylacetaldehyde",c,False
+M_sucbz_c,"O-Succinylbenzoate",c,False
+M_cit_e,"Citrate",e,False
+M_malt_c,"Maltose C12H22O11",c,False
+M_gthox_c,"Oxidized glutathione",c,False
+M_2mahmp_c,"2-Methyl-4-amino-5-hydroxymethylpyrimidine diphosphate",c,False
+M_2dhglcn_c,"2-Dehydro-D-gluconate",c,False
+M_g3pe_c,"Sn-Glycero-3-phosphoethanolamine",c,False
+M_thmmp_c,"Thiamin monophosphate",c,False
+M_lcts_e,"Lactose C12H22O11",e,False
+M_4mpetz_c,"4-Methyl-5-(2-phosphoethyl)-thiazole",c,False
+M_lipa_cold_c,"Cold adapted KDO(2)-lipid (A)",c,False
+M_nac_c,"Nicotinate",c,False
+M_dmso_b,"Dimethyl sulfoxide",b,True
+M_2oph_c,"2-Octaprenylphenol",c,False
+M_glyald_b,"D-Glyceraldehyde",b,True
+M_fuc1p__L_e,"L-Fucose 1-phosphate",e,False
+M_but_c,"Butyrate (n-C4:0)",c,False
+M_pheme_c,"Protoheme C34H30FeN4O4",c,False
+M_met__L_c,"L-Methionine",c,False
+M_pran_c,"N-(5-Phospho-D-ribosyl)anthranilate",c,False
+M_hxan_c,"Hypoxanthine",c,False
+M_5dglcn_c,"5-Dehydro-D-gluconate",c,False
+M_nad_e,"Nicotinamide adenine dinucleotide",e,False
+M_3hmrsACP_c,"(R)-3-Hydroxytetradecanoyl-[acyl-carrier protein]",c,False
+M_gsn_c,"Guanosine",c,False
+M_thm_b,"Thiamin",b,True
+M_met__L_e,"L-Methionine",e,False
+M_sucr_b,"Sucrose C12H22O11",b,True
+M_15dap_e,"1,5-Diaminopentane",e,False
+M_taur_e,"Taurine C2H7NO3S",e,False
+M_tmao_b,"Trimethylamine N-oxide",b,True
+M_3dhq_c,"3-Dehydroquinate",c,False
+M_lcts_c,"Lactose C12H22O11",c,False
+M_g3pc_c,"Sn-Glycero-3-phosphocholine",c,False
+M_ins_e,"Inosine",e,False
+M_rmn_b,"L-Rhamnose",b,True
+M_apoACP_c,"Apoprotein [acyl carrier protein]",c,False
+M_ocdcea_c,"Octadecenoate (n-C18:1)",c,False

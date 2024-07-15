@@ -1,3 +1,4 @@
+ID,GeneAssociation,Fullname,Reaction
 ACEA, aceA, Isocitrate lyase, ICIT -> GLX + SUCC
 ACEB, aceB, Malate synthase A, ACCOA + GLX -> COA + MAL
 ACEE, aceEF lpdA, Pyruvate dehydrogenase, PYR + COA + NAD -> NADH + CO2 + ACCOA

@@ -1,61 +1,62 @@
-ArcA, Aerobic/Anaerobic response regulator, !O2xt_b
-Cra, Catabolite activator protein, !(SurplusFDP | SurplusF6P)
-Crp, Catabolite repressor protein, 1
-DcuR, Dicarboxylate response regulator, DcuS
-DcuS, Dicarboxylate response sensor, SUCCxt_b
-FadR, Fatty acid/Acetate response regulator, (GLCxt_b | !ACxt_b)
-Fnr, Aerobic/Anaerobic response regulator, !O2xt_b
-GalR, Galactose operon repressor, !LCTSxt_b
-GalS, Galactose operon repressor, !LCTSxt_b
-GlpR, Glycerol response regulator, !GLxt_b
-IclR, Fatty acid/Acetate response regulator, FadR
-Lacl, Lactose operon repressor, !LCTSxt_b
-Mlc, Glucose response regulator, !GLCxt_b
-PdhR, Pyruvate response regulator, !SurplusPYR
-RbsR, Ribose response regulator, !RIBxt_b
-RpiR, Ribose response regulator, !RIBxt_b
-aceA, Isocitrate lyase, !IclR
-aceB, Malate synthase A, !(ArcA | IclR)
-aceEF, Pyruvate dehydrogenase, !PdhR
-lpdA, Pyruvate dehydrogenase, !PdhR
-acnA, Aconitase A, (GLCxt_b | LCTSxt_b | RIBxt_b | GLxt_b | LACxt_b | PYRxt_b | SUCCxt_b | ETHxt_b | ACxt_b | FORxt_b)
-acnB, Aconitase B, (GLCxt_b | LCTSxt_b | RIBxt_b | GLxt_b | LACxt_b | PYRxt_b | SUCCxt_b | ETHxt_b | ACxt_b | FORxt_b)
-acs, Acetyl-CoA synthetase, (!(GLCxt_b | LCTSxt_b | RIBxt_b | GLxt_b | LACxt_b | PYRxt_b | SUCCxt_b | ETHxt_b) & !IclR)
-adhE, Acetaldehyde dehydrogenase, (!O2xt_b | !(O2xt_b & Cra))
-cydAB, Cytochrome oxidase bd, (!Fnr | ArcA)
-cyoABCD, Cytochrome oxidase bo3, !(ArcA | Fnr)
-fdnGHI, Formate dehydrogenase-N, Fnr
-frdABCD, Fumarate reductase, (Fnr | DcuR)
-fumA, Fumarase A, !(ArcA | Fnr)
-fumB, Fumarase B, Fnr
-galE, UDP-glucose 4-epimerase, (!GLCxt_b & !(GalR | GalS))
-galK, Galactokinase, (!GLCxt_b & !(GalR | GalS))
-galM, Aldose 1-epimerase (mutorotase), (!GLCxt_b & !(GalR | GalS))
-galT, Galactose-1-phosphate uridylyltransferase, (!GLCxt_b & !(GalR | GalS))
-glpABC, Glycerol-3-phosphate dehydrogenase (anaerobic), (!(GLCxt_b | LCTSxt_b | RIBxt_b) & Fnr & !GlpR)
-glpD, Glycerol-3-phosphate dehydrogenase (aerobic), (!(GLCxt_b | LCTSxt_b | RIBxt_b) & !(ArcA | GlpR))
-glpK, Glycerol kinase, (!(GLCxt_b | LCTSxt_b | RIBxt_b) & !GlpR)
-lacZ, Beta-galactosidase (LACTase), (!GLCxt_b & !Lacl)
-mdh, Malate dehydrogenase, !ArcA
-ndh, NADH dehydrogenase II, !Fnr
-pflAB, Pyruvate formate lyase 1, (ArcA | Fnr)
-pflCD, Pyruvate formate lyase 2, (ArcA | Fnr)
-pgk, Phosphoglycerate kinase, (GLCxt_b | LCTSxt_b | RIBxt_b | GLxt_b | LACxt_b | PYRxt_b | SUCCxt_b | ETHxt_b | ACxt_b | FORxt_b)
-ppsA, Phosphoenolpyruvate synthase, Cra
-pykF, Pyruvate Kinase I, !Cra
-rbsK, Ribokinase, (!(GLCxt_b | LCTSxt_b) & !RbsR)
-rpiB, Ribose-5-phosphate isomerase B, !RpiR
-sdhABCD, Succinate dehydrogenase, !(ArcA | Fnr)
-sucAB, 2-Ketoglutarate dehyrogenase, !PdhR
-focA, Formate transport, (ArcA | Fnr)
-ptsGHI, Glucose transport, (((GLCxt_b | LCTSxt_b | RIBxt_b | GLxt_b | LACxt_b | PYRxt_b | SUCCxt_b | ETHxt_b | ACxt_b | FORxt_b) & !Mlc) | ((GLCxt_b | LCTSxt_b | RIBxt_b | GLxt_b | LACxt_b | PYRxt_b | SUCCxt_b | ETHxt_b | ACxt_b | FORxt_b) & !Cra))
-galP, Glucose transport (low affinity), (GLCxt_b | LCTSxt_b | RIBxt_b | GLxt_b | LACxt_b | PYRxt_b | SUCCxt_b | ETHxt_b | ACxt_b | FORxt_b)
-glpF, Glycerol transporter, (!(GLCxt_b | LCTSxt_b | RIBxt_b) & !GlpR)
-rbsABCD, Ribose transport, (!(GLCxt_b | LCTSxt_b) & !RbsR)
-dctA, Succinate transport, (!(GLCxt_b | LCTSxt_b | RIBxt_b | GLxt_b | LACxt_b | PYRxt_b) & !ArcA & !DcuR)
-dcuB, Succinate transport, (!(GLCxt_b | LCTSxt_b | RIBxt_b | GLxt_b | LACxt_b | PYRxt_b) & Fnr & DcuR)
-dcuC, Succinate efflux, (Fnr | ArcA)
-LACUP, Lactate uptake, !(GLCxt_b | LCTSxt_b | RIBxt_b | GLxt_b)
-SurplusFDP, Surplus fructose 1-6-diphosphate, !([FBP > 0] & !([TKTA2R > 0] | [TKTB2R > 0] | [TALAR > 0] | [TALBR > 0] | [PGIR > 0]))
-SurplusF6P, Surplus fructose 6-phosphate, !([FBP > 0] & !([TKTA2R > 0] | [TKTB2R > 0] | [TALAR > 0] | [TALBR > 0] | [PGIR > 0]))
-SurplusPYR, Surplus pyruvate, !(([MAEB > 0] | [SFCA > 0]) & !([GLCPTS > 0] | [PYKF > 0] | [PYKA > 0] | [DLD1R > 0] | [DLD2 > 0] | [DCTAR > 0] | [DCUAR > 0] | [DCUBR > 0]))
+ID,Fullname,Rule
+ArcA,Aerobic/Anaerobic response regulator,!O2xt_b
+Cra,Catabolite activator protein,!(SurplusFDP | SurplusF6P)
+Crp,Catabolite repressor protein,1
+DcuR,Dicarboxylate response regulator,DcuS
+DcuS,Dicarboxylate response sensor,SUCCxt_b
+FadR,Fatty acid/Acetate response regulator,(GLCxt_b | !ACxt_b)
+Fnr,Aerobic/Anaerobic response regulator,!O2xt_b
+GalR,Galactose operon repressor,!LCTSxt_b
+GalS,Galactose operon repressor,!LCTSxt_b
+GlpR,Glycerol response regulator,!GLxt_b
+IclR,Fatty acid/Acetate response regulator,FadR
+Lacl,Lactose operon repressor,!LCTSxt_b
+Mlc,Glucose response regulator,!GLCxt_b
+PdhR,Pyruvate response regulator,!SurplusPYR
+RbsR,Ribose response regulator,!RIBxt_b
+RpiR,Ribose response regulator,!RIBxt_b
+aceA,Isocitrate lyase,!IclR
+aceB,Malate synthase A,!(ArcA | IclR)
+aceEF,Pyruvate dehydrogenase,!PdhR
+lpdA,Pyruvate dehydrogenase,!PdhR
+acnA,Aconitase A,(GLCxt_b | LCTSxt_b | RIBxt_b | GLxt_b | LACxt_b | PYRxt_b | SUCCxt_b | ETHxt_b | ACxt_b | FORxt_b)
+acnB,Aconitase B,(GLCxt_b | LCTSxt_b | RIBxt_b | GLxt_b | LACxt_b | PYRxt_b | SUCCxt_b | ETHxt_b | ACxt_b | FORxt_b)
+acs,Acetyl-CoA synthetase,(!(GLCxt_b | LCTSxt_b | RIBxt_b | GLxt_b | LACxt_b | PYRxt_b | SUCCxt_b | ETHxt_b) & !IclR)
+adhE,Acetaldehyde dehydrogenase,(!O2xt_b | !(O2xt_b & Cra))
+cydAB,Cytochrome oxidase bd,(!Fnr | ArcA)
+cyoABCD,Cytochrome oxidase bo3,!(ArcA | Fnr)
+fdnGHI,Formate dehydrogenase-N,Fnr
+frdABCD,Fumarate reductase,(Fnr | DcuR)
+fumA,Fumarase A,!(ArcA | Fnr)
+fumB,Fumarase B,Fnr
+galE,UDP-glucose 4-epimerase,(!GLCxt_b & !(GalR | GalS))
+galK,Galactokinase,(!GLCxt_b & !(GalR | GalS))
+galM,Aldose 1-epimerase (mutorotase),(!GLCxt_b & !(GalR | GalS))
+galT,Galactose-1-phosphate uridylyltransferase,(!GLCxt_b & !(GalR | GalS))
+glpABC,Glycerol-3-phosphate dehydrogenase (anaerobic),(!(GLCxt_b | LCTSxt_b | RIBxt_b) & Fnr & !GlpR)
+glpD,Glycerol-3-phosphate dehydrogenase (aerobic),(!(GLCxt_b | LCTSxt_b | RIBxt_b) & !(ArcA | GlpR))
+glpK,Glycerol kinase,(!(GLCxt_b | LCTSxt_b | RIBxt_b) & !GlpR)
+lacZ,Beta-galactosidase (LACTase),(!GLCxt_b & !Lacl)
+mdh,Malate dehydrogenase,!ArcA
+ndh,NADH dehydrogenase II,!Fnr
+pflAB,Pyruvate formate lyase 1,(ArcA | Fnr)
+pflCD,Pyruvate formate lyase 2,(ArcA | Fnr)
+pgk,Phosphoglycerate kinase,(GLCxt_b | LCTSxt_b | RIBxt_b | GLxt_b | LACxt_b | PYRxt_b | SUCCxt_b | ETHxt_b | ACxt_b | FORxt_b)
+ppsA,Phosphoenolpyruvate synthase,Cra
+pykF,Pyruvate Kinase I,!Cra
+rbsK,Ribokinase,(!(GLCxt_b | LCTSxt_b) & !RbsR)
+rpiB,Ribose-5-phosphate isomerase B,!RpiR
+sdhABCD,Succinate dehydrogenase,!(ArcA | Fnr)
+sucAB,2-Ketoglutarate dehyrogenase,!PdhR
+focA,Formate transport,(ArcA | Fnr)
+ptsGHI,Glucose transport,(((GLCxt_b | LCTSxt_b | RIBxt_b | GLxt_b | LACxt_b | PYRxt_b | SUCCxt_b | ETHxt_b | ACxt_b | FORxt_b) & !Mlc) | ((GLCxt_b | LCTSxt_b | RIBxt_b | GLxt_b | LACxt_b | PYRxt_b | SUCCxt_b | ETHxt_b | ACxt_b | FORxt_b) & !Cra))
+galP,Glucose transport (low affinity),(GLCxt_b | LCTSxt_b | RIBxt_b | GLxt_b | LACxt_b | PYRxt_b | SUCCxt_b | ETHxt_b | ACxt_b | FORxt_b)
+glpF,Glycerol transporter,(!(GLCxt_b | LCTSxt_b | RIBxt_b) & !GlpR)
+rbsABCD,Ribose transport,(!(GLCxt_b | LCTSxt_b) & !RbsR)
+dctA,Succinate transport,(!(GLCxt_b | LCTSxt_b | RIBxt_b | GLxt_b | LACxt_b | PYRxt_b) & !ArcA & !DcuR)
+dcuB,Succinate transport,(!(GLCxt_b | LCTSxt_b | RIBxt_b | GLxt_b | LACxt_b | PYRxt_b) & Fnr & DcuR)
+dcuC,Succinate efflux,(Fnr | ArcA)
+LACUP,Lactate uptake,!(GLCxt_b | LCTSxt_b | RIBxt_b | GLxt_b)
+SurplusFDP,Surplus fructose 1-6-diphosphate,!([FBP > 0] & !([TKTA2R > 0] | [TKTB2R > 0] | [TALAR > 0] | [TALBR > 0] | [PGIR > 0]))
+SurplusF6P,Surplus fructose 6-phosphate,!([FBP > 0] & !([TKTA2R > 0] | [TKTB2R > 0] | [TALAR > 0] | [TALBR > 0] | [PGIR > 0]))
+SurplusPYR,Surplus pyruvate,!(([MAEB > 0] | [SFCA > 0]) & !([GLCPTS > 0] | [PYKF > 0] | [PYKA > 0] | [DLD1R > 0] | [DLD2 > 0] | [DCTAR > 0] | [DCUAR > 0] | [DCUBR > 0]))
